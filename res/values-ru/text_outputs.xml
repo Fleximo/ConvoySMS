@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- OUTPUTS -->
+    <string name="cb_Outputs_OUT1">OUT1 (черный/белый)</string>
+    <string name="cb_Outputs_OUT2">OUT2 (зеленый/черный)</string>
+    <string name="cb_Outputs_OUT3">OUT3 (синий/черный)</string>
+    <string name="cb_Outputs_OUT4">OUT4 (белый)</string>
+    <string name="cb_Outputs_OUT5">OUT5 (черный/красный)</string>
+    <string name="cb_Outputs_OUT6">OUT6 (коричневый)</string>
+    
+    <!-- INPUT FUNCTIONS -->
+    <string name="tv_Outputs_OutputFunction">Функция выхода</string>
+    
+    <string name="output_functions_minus_NZ_lock">\"-\"НЗ блокировки (\"-\" на охране)</string>
+    <string name="output_functions_minus_univers_time_channel1">\"-\"универсального таймерного канала №1</string>
+    <string name="output_functions_minus_univers_time_channel2">\"-\"универсального таймерного канала №2</string>
+    <string name="output_functions_minus_light_indication">\"-\"световой индикации</string>
+    <string name="output_functions_minus_NR_lock">\"-\"НР блокировки (\"-\" при снятой охране)</string>
+    <string name="output_functions_minus_siren_klaxon">\"-\"сирены/клаксона</string>
+    <string name="output_functions_minus_startup_activation">\"-\"активации автозапуска (СТАРТ)</string>
+    <string name="output_functions_minus_startup_disactivation">\"-\"деактивации автозапуска (СТОП)/\"-\" стоп-сигналов в режиме тревоги</string>
+    <string name="output_functions_minus_turbotimer">\"-\"турботаймера</string>
+    <string name="output_functions_minus_pager">\"-\"пейджера (контроля уровня GSM-связи)</string>
+    <string name="output_functions_minus_start_stop">\"-\"СТАРТ/СТОП</string>
+    <string name="output_functions_minus_prog_imp_on_arm">\"-\"программируемого импульса при постановке на охрану</string>
+    <string name="output_functions_minus_prog_imp_arming">\"-\"импульса 1 сек при постановке на охрану (закрытие ЦЗ)</string>
+    <string name="output_functions_minus_prog_imp_disarm">\"-\"импульса 1 сек при снятии с охраны (открытие ЦЗ)</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_on">\"-\" импульса закрытия ЦЗ при постановке на охрану и  включении зажигания</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_off">\"-\" импульса открытия ЦЗ при снятии с охраны и  выключении зажигания</string>
+    
+    <string name="output_functions_plus_NZ_lock">\"+\"НЗ блокировки (\"+\" на охране)</string>
+    <string name="output_functions_plus_univers_time_channel1">\"+\"универсального таймерного канала №1</string>
+    <string name="output_functions_plus_univers_time_channel2">\"+\"универсального таймерного канала №2</string>
+    <string name="output_functions_plus_light_indication">\"+\"световой индикации</string>
+    <string name="output_functions_plus_NR_lock">\"+\"НР блокировки (\"+\" при снятой охране)</string>
+    <string name="output_functions_plus_siren_klaxon">\"+\"сирены/клаксона</string>
+    <string name="output_functions_plus_startup_activation">\"+\"активации автозапуска (СТАРТ)</string>
+    <string name="output_functions_plus_startup_disactivation">\"+\"деактивации автозапуска (СТОП)/\"+\" стоп-сигналов в режиме тревоги</string>
+    <string name="output_functions_plus_turbotimer">\"+\"турботаймера</string>
+    <string name="output_functions_plus_pager">\"+\"пейджера (контроля уровня GSM-связи)</string>
+    <string name="output_functions_plus_start_stop">\"+\"СТАРТ/СТОП</string>
+    <string name="output_functions_plus_prog_imp_on_arm">\"+\"программируемого импульса при постановке на охрану</string>
+    <string name="output_functions_plus_prog_imp_arming">\"+\"импульса 1 сек при постановке на охрану (закрытие ЦЗ)</string>
+    <string name="output_functions_plus_prog_imp_disarm">\"+\"импульса 1 сек при снятии с охраны (открытие ЦЗ)</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_on">\"+\" импульса закрытия ЦЗ при постановке на охрану и  включении зажигания</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_off">\"+\" импульса открытия ЦЗ при снятии с охраны и  выключении зажигания</string>
+    
+</resources>

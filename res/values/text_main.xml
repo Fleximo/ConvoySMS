@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="btn_Main_QueryConfigurations">Query Configurations</string>
+    <string  name="btn_Main_UserSettings">User Settings</string>
+    <string  name="btn_Main_Inputs">Inputs</string>
+    <string  name="btn_Main_Outputs">Outputs</string>
+    <string  name="btn_Main_Timer">Timers</string>
+    <string  name="btn_Main_Notifications">Notifications</string>
+    <string  name="btn_Main_CAN">CAN</string>
+    <string  name="btn_Main_TextSMS">Text SMS</string>
+</resources>

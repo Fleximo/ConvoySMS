@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "array_can_sys_arm_disarm">
+        <item>@string/str_CAN_SystArmDisarm_NotUsed</item>
+        <item>@string/str_CAN_SystArmDisarm_StaffSignals</item>
+        <item>@string/str_CAN_SystArmDisarm_StatusSignal</item>
+    </string-array>
+    
+    <string-array name = "array_can_ignition">
+        <item>@string/str_CAN_Ignition_NotUsed</item>
+        <item>@string/str_CAN_Ignition_Used</item>
+    </string-array>
+    
+    <string-array name = "array_can_drive_control">
+        <item>@string/str_CAN_DriveControl_NotUsed</item>
+        <item>@string/str_CAN_DriveControl_Used</item>
+    </string-array>
+    
+    <string-array name = "array_can_comfort_signal">
+        <item>@string/str_CAN_ComfortSignal_DisabledCANSignal</item>
+        <item>@string/str_CAN_ComfortSignal_EnabledCANSignal</item>
+    </string-array>
+    
+    <string-array name = "array_can_managing_staff_system">
+        <item>@string/str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Disabled</item>
+        <item>@string/str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Enabled</item>
+    </string-array>
+</resources>

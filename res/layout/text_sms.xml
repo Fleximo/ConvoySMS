@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_layout"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" >
+            <TextView
+                android:id="@+id/tv_TextSMS_PhoneForSMSSENDING"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tv_TextSMS_PhoneForSMSSENDING"
+                android:textColor="@color/header_text"
+                android:textSize="13sp"
+                android:layout_margin="2dp" />
+            <EditText
+                android:id="@+id/et_TextSMS_PhoneForSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/header_text_size"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="+380"
+                android:maxLength="13"
+                android:gravity="center_horizontal"
+                android:layout_gravity="bottom"
+                android:background="@drawable/edit_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_style"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/btn_TextSMS_Send"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_TextSMS_Send"
+                style="@style/btnStyleArsenicHorizontal" />
+            <Button
+                android:id="@+id/btn_TextSMS_Save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_TextSMS_Save"
+                style="@style/btnStyleArsenicHorizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/cb_TextSMS_ManualMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_TextSMS_ManualMode"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp" >
+            <EditText
+                android:id="@+id/et_TextSMS_TextSMS"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:background="@drawable/edit_text_style"
+                android:textColor="@drawable/edit_text_selector" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

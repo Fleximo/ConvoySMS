@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="cb_CAN_SystArmDisarm" > Сигнали для постановки/зняття системи з охорони із шини CAN</string>
+    <string  name="tv_CAN_SystArmDisarm">Сигнали</string>
+    <string  name="str_CAN_SystArmDisarm_StaffSignals">Сигнали штатного ЦЗ</string>
+    <string  name="str_CAN_SystArmDisarm_NotUsed">Не використовується</string>
+    <string  name="str_CAN_SystArmDisarm_StatusSignal">Сигнал статуса штатної охоронної системи</string>
+    
+    <string  name="cb_CAN_Ignition">Сигнал \"ЗАПАЛЮВАННЯ\" із шини CAN</string>
+    <string  name="tv_CAN_Ignition">Запалювання</string>
+    <string  name="str_CAN_Ignition_Used">Використовується</string>
+    <string  name="str_CAN_Ignition_NotUsed">Не використовується</string>
+    
+    <string  name="cb_CAN_DriveControl">Сигнал управління приводом замка багажника з шини CAN</string>
+    <string  name="tv_CAN_DriveControl">Сигнал управління</string>
+    <string  name="str_CAN_DriveControl_Used">Використовується</string>
+    <string  name="str_CAN_DriveControl_NotUsed">Не використовується</string>
+    
+    <string  name="cb_CAN_ComfortSignal">Сигнал \"КОМФОРТ\" в шину CAN</string>
+    <string  name="tv_CAN_ComfortSignal">Подача сигналу</string>
+    <string  name="str_CAN_ComfortSignal_EnabledCANSignal">Дозволена подача сигналу в шину CAN</string>
+    <string  name="str_CAN_ComfortSignal_DisabledCANSignal">Заборонена подача сигналу в шину CAN</string>
+    
+    <string  name="cb_CAN_ManagingStaffSecuritySystem">Управління штатною охоронною системою</string>
+    <string  name="tv_CAN_ManagingStaffSecuritySystem">Управління системою</string>
+    <string  name="str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Enabled">Дозволено управління штатною охоронною системою</string>
+    <string  name="str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Disabled">Заборонено управління штатною охоронною системою</string>
+</resources>

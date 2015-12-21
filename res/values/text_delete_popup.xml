@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_DeletePopup_Header">Delete settings</string>
+    <string name="tv_DeletePopup_SubHeader">Choose the settings for deletion:\nM - manually modified\nA-generated automatically</string>
+</resources>

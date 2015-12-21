@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_SavePopup_Header">Settings saving</string>
+    <string name="tv_SavePopup_SubHeader">Enter the name for new settings:\nM - manually modified\nA-generated automatically</string>
+    <string name="tv_SavePopup_SubHeaderHint">File name</string>
+</resources>

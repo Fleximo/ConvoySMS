@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "input_function_N1">
+        <item>@string/input_functions_arming</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "input_function_N2">
+        <item>@string/input_functions_ban_arming</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "input_function_N3">
+        <item>@string/input_functions_disarming</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "input_function_N4">
+        <item>@string/input_functions_protection_sign</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "input_function_N5">
+        <item>@string/input_functions_startup_control</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "input_function_N6">
+        <item>@string/input_functions_trunk_lock_actuator</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "input_function_N7">
+        <item>@string/input_functions_confirmation_button_disarm</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "input_function_N8">
+        <item>@string/input_functions_permit_arming</item>
+        <item>@string/input_functions_limit_door_switch</item>
+        <item>@string/input_functions_limit_driver_door_switch</item>
+        <item>@string/input_functions_limit_bonnet_switch</item>
+        <item>@string/input_functions_limit_trunk_switch</item>
+        <item>@string/input_functions_limit_bonnet_trunk_switch</item>
+        <item>@string/input_functions_limit_universal_switch</item>
+        <item>@string/input_functions_siren</item>
+        <item>@string/input_functions_sensor_external</item>
+        <item>@string/input_functions_sensor_shock</item>
+        <item>@string/input_functions_sensor_motion</item>
+        <item>@string/input_functions_sensor_tilt</item>
+        <item>@string/input_functions_sensor_glass_break</item>
+    </string-array>
+    
+    <string-array name = "polarity">
+        <item>@string/polarity_plus</item>
+        <item>@string/polarity_minus</item>
+    </string-array>
+    
+     <string-array name = "input_is_active">
+        <item>@string/input_is_active_by_closing</item>
+        <item>@string/input_is_active_by_opening</item>
+    </string-array>
+</resources>

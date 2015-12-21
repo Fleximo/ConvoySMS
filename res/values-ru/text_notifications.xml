@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="cb_Notifications_User">Пользователь активирован</string>
+    <string  name="cb_Notifications_SMS">SMS</string>
+    <string  name="cb_Notifications_TEL">ТЛФ</string>
+    
+    <string  name="MenuItem_Notifications_USER1">1</string>
+    <string  name="MenuItem_Notifications_USER2">2</string>
+    <string  name="MenuItem_Notifications_USER3">3</string>
+    <string  name="MenuItem_Notifications_USER4">4</string>
+    <string  name="MenuItem_Notifications_USER5">5</string>
+    
+    <string  name="tv_Notifications_NotificationReason"                    >Причина тревожного/сервисного уведомления                                             </string>
+    
+    <string  name="tv_Notifications_PhoneNumber"                    >Номер телефона                                                                               </string>
+    <string  name="tv_Notifications_AllowChangeNotification"        >Разрешить изменения уведомлений                                                              </string>
+    <string  name="tv_Notifications_ReasonAlarmServiceNotifications">Причина тревожного/сервисного уведомления                                                    </string>
+    <string  name="tv_Notifications_CallButtonPressed"              >Нажата кнопка \"Вызов\"                                                                      </string>
+    <string  name="tv_Notifications_IngineActive"                   >Активен вход зажигания, аккумулятор отключен, попытка подбора PIN-кода, пропадало питание 12В</string>
+    <string  name="tv_Notifications_LoadLimitSwitch"                >Сработал концевой выключатель двери/капота/багажника, активен вход сирены                    </string>
+    <string  name="tv_Notifications_LoadShockSensor"                >Сработал датчик удара/движения/наклона/разбития стекла/дополнительный датчик                 </string>
+    <string  name="tv_Notifications_WarningZone"                    >Сработала зона предупреждения датчика (датчиков)                                           </string>
+    <string  name="tv_Notifications_LoadUniversalLimitSwitch"       >Сработал универсальный концевой выключатель, дистанционный запуск двигателя не удался        </string>
+    <string  name="tv_Notifications_LowBattery"                     >Аккумулятор разряжен, баланс счета ниже критического                                         </string>
+    <string  name="tv_Notifications_GSM"                            >Пропадание/появление сигнала GSM-сети                                                         </string>
+    <string  name="tv_Notifications_SystemDisarm"                   >Снятие системы с охраны                                                                      </string>
+    <string  name="tv_Notifications_SystemArming"                   >Постановка системы на охрану                                                                 </string>
+</resources>

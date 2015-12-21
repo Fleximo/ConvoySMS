@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- INPUTS -->
+    <string name="cb_Inputs_IN1">IN1 (зеленый)</string>
+    <string name="cb_Inputs_IN2">IN2 (зеленый/красный)</string>
+    <string name="cb_Inputs_IN3">IN3 (синий)</string>
+    <string name="cb_Inputs_IN4">IN4 (белый/черный)</string>
+    <string name="cb_Inputs_IN5">IN5 (желтый/красный)</string>
+    <string name="cb_Inputs_IN6">IN6 (белый/красный)</string>
+    <string name="cb_Inputs_IN7">IN7 (желтый/черный)</string>
+    <string name="cb_Inputs_IN8">IN8 (синий/красный)</string>
+    <!-- INPUT FUNCTIONS -->
+    <string name="tv_Inputs_InputFunction">Функция входа</string>
+    
+    <string name="input_functions_arming">Постановка на охрану</string>
+    <string name="input_functions_ban_arming">Запрет постановки на охрану</string>
+    <string name="input_functions_disarming">Снятие с охраны</string>
+    <string name="input_functions_protection_sign">Признак охраны</string>
+    <string name="input_functions_startup_control">Контроль автозапуска</string>
+    <string name="input_functions_trunk_lock_actuator">Привод замка багажника</string>
+    <string name="input_functions_confirmation_button_disarm">Кнопка подтверждения снятия с охраны</string>
+    <string name="input_functions_permit_arming">Разрешение постановки/снятия с охраны</string>
+    
+    <string name="input_functions_limit_door_switch">Концевой выключатель двери</string>
+    <string name="input_functions_limit_driver_door_switch">Концевой выключатель двери водителя</string>
+    <string name="input_functions_limit_bonnet_switch">Концевой выключатель капота</string>
+    <string name="input_functions_limit_trunk_switch">Концевой выключатель багажника</string>
+    <string name="input_functions_limit_bonnet_trunk_switch">Концевой выключатель капота/багажника</string>
+    <string name="input_functions_limit_universal_switch">Универсальный концевой выключатель</string>
+    <string name="input_functions_siren">Сирена дополнительной охранной системы</string>
+    <string name="input_functions_sensor_external">Внешний датчик</string>
+    <string name="input_functions_sensor_shock">Датчик удара</string>
+    <string name="input_functions_sensor_motion">Датчик движения</string>
+    <string name="input_functions_sensor_tilt">Датчик наклона</string>
+    <string name="input_functions_sensor_glass_break">Датчик разбития стекла</string>
+    <!-- POLARITY -->
+    <string name="tv_Inputs_Polarity">Полярность</string>
+    <string name="polarity_plus">\"+\"</string>
+    <string name="polarity_minus">\"-\"</string>
+    <!-- INPUT IS ACTIVE -->
+    <string name="tv_Inputs_InputIsActive"   >Вход активен </string>
+    <string name="input_is_active_by_closing">По замыканию </string>
+    <string name="input_is_active_by_opening">По размыканию </string>
+    <!-- MIN CLOSING TIME -->
+    <string name="tv_Inputs_MinClosingTime"  >Мин.время замыкания</string>
+    <!-- MIN OPENING TIME -->
+    <string name="tv_Inputs_MinOpeningTime"  >Мин.время размыкания</string>
+    <!-- SECONDS -->
+    <string name="tv_Inputs_Seconds"  >секунд</string>
+</resources>

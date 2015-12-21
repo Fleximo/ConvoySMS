@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="cb_UTC_UniversalChannel1"   >Універсальный таймерний канал №1</string>
+    <string  name="cb_UTC_UniversalChannel2"   >Універсальный таймерний канал №2</string>
+    <string  name="cb_UserSettings_InputTimerOnArming"   >Таймер виходу при постановці на охорону (функція 12)</string>
+    <string name="cb_UserSettings_DisarmingSystem">Двухетапне зняття системи з охорони\n(пасивне блокування двигуна)</string>
+    <string  name="cb_UTC_RearmingSystem"   >Автоматичне повернення системи на охорону</string>
+    <string  name="cb_UTC_TurboTimerSettings"  >Режим \"Турботаймер\"</string>
+    <string  name="tv_UTC_ActivationConditions">  Умови активації </string>
+    <string  name="tv_UTC_OnDelay"             > Затримка ввімкнення(секунди) </string>
+    <string  name="tv_UTC_OperationTime"       >Час роботи (секунди)</string>
+    
+    <string  name="cb_UTC_Arming"           >Постановка системи на охорону</string>
+    <string  name="cb_UTC_SysDisarm"        >Зняття системи з охорони     </string>
+    <string  name="cb_UTC_IgnitionSwitchOn" >Ввімкненя запалювання         </string>
+    <string  name="cb_UTC_IgnitionSwitchOff">Вимикання запалювання        </string>
+    <string  name="cb_UTC_CommandFromPhone" >Команда з телефону          </string>
+    
+    <string  name="string_UTC_TwoStageDisarming_Enabled" >Ввімкнено</string>
+    <string  name="string_UTC_TwoStageDisarming_Disabled" >Вимкнено</string>
+    <string  name="string_UTC_Rearming_Enabled" >Ввімкнений</string>
+    <string  name="string_UTC_Rearming_Disabled" >Вимкнений</string>
+    
+    <string  name="tv_UTC_Time">Час: </string>
+    <string  name="tv_UTC_Seconds">секунд</string>
+    <string  name="tv_UTC_Minutes">хвилин</string>
+    
+    <string  name="tv_UTC_TurbotimerWorkingTime">Час роботи турботаймера</string>
+    <string  name="tv_UTC_IngnTimeLockedEngine">Час вимкнення блокування при ввімкненні запалення(обхід помилок борт компьютера)</string>
+    
+    <string  name="cb_UTC_DelayTimeEngineStart" >Час перевірки запуску двигуна</string>
+    <string  name="cb_UTC_DelayTimeLimitSwitchesSurvey" >Час затримки опитування кінцевих вимикачів</string>
+
+    <!-- Central Lock Timer 13 -->
+    <string  name="cb_UTC_CentralLockTimer13" >Таймер закриття (функція 13)</string>
+
+    <string  name="tv_UTC_LockImpulsCloseCL13" >Імпульс закриття ЦЗ</string>
+    <string  name="str_UTC_LockImpuls13CL0" >Відсутній імпульс закриття ЦЗ</string>
+    <string  name="str_UTC_LockImpuls13CL1" >Імпульс при постановкі на охорону</string>
+    <string  name="str_UTC_LockImpuls13CL2" >Імпульс після включенню заралення</string>
+    <string  name="str_UTC_LockImpuls13CL3" >Імпульс під час постановки на охорону і включення запалення</string>
+
+    <string  name="tv_UTC_FirstImpulsLongtime13" >Продовжуваність першого імпульса</string>
+    <string  name="tv_UTC_PauseTimeBetwImpulses13" >Час паузи між імпульсами</string>
+    <string  name="tv_UTC_SecondImpulsLongtime13" >Продовжуваність другого імпульса</string>
+    <string  name="tv_UTC_PauseTimeAfterIngAndImpStart13" >Час паузи після включення запалювання і початком імпульса</string>
+
+    <!-- Central Lock Timer 14 -->
+    <string  name="cb_UTC_CentralLockTimer14" >Таймер відкриття ЦЗ (функція 14)</string>
+
+    <string  name="tv_UTC_LockImpulsCloseCL14" >Імпульс відкриття ЦЗ</string>
+    <string  name="str_UTC_LockImpuls14CL0" >Відсутній імпульс відкриття ЦЗ</string>
+    <string  name="str_UTC_LockImpuls14CL1" >Імпульс при знятті з охорони</string>
+    <string  name="str_UTC_LockImpuls14CL2" >Імпульс під час вимкнення запалення</string>
+    <string  name="str_UTC_LockImpuls14CL3" >Імпульс при знятті з охорони і після вимкнення запалювання</string>
+
+    <string  name="tv_UTC_FirstImpulsLongtime14" >Продовжуваність першого імпульса</string>
+    <string  name="tv_UTC_PauseTimeBetwImpulses14" >Час паузи між імпульсами</string>
+    <string  name="tv_UTC_SecondImpulsLongtime14" >Продовжуваність другого імпульса</string>
+</resources>

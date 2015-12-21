@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- OUTPUTS -->
+    <string name="cb_Outputs_OUT1">OUT1 (black/white)</string>
+    <string name="cb_Outputs_OUT2">OUT2 (green/black)</string>
+    <string name="cb_Outputs_OUT3">OUT3 (blue/black)</string>
+    <string name="cb_Outputs_OUT4">OUT4 (white)</string>
+    <string name="cb_Outputs_OUT5">OUT5 (black/red)</string>
+    <string name="cb_Outputs_OUT6">OUT6 (brown)</string>
+    
+    <!-- INPUT FUNCTIONS -->
+    <string name="tv_Outputs_OutputFunction">Output function</string>
+    
+    <string name="output_functions_minus_NZ_lock">\"-\" NC blocking(\"-\"during arm mode)</string>
+    <string name="output_functions_minus_univers_time_channel1">\"-\" of universal time channel 1</string>
+    <string name="output_functions_minus_univers_time_channel2">\"-\" of universal time channel 2</string>
+    <string name="output_functions_minus_light_indication">\"-\" of light indication</string>
+    <string name="output_functions_minus_NR_lock">\"-\" of NO blocking(\"-\" during disarm mode)</string>
+    <string name="output_functions_minus_siren_klaxon">\"-\" of siren</string>
+    <string name="output_functions_minus_startup_activation">\"-\" of activation of remote start(START)</string>
+    <string name="output_functions_minus_startup_disactivation">\"-\" of disactivation of remote(STOP)/(\"-\")of brake lights in alarm mode</string>
+    <string name="output_functions_minus_turbotimer">\"-\" of turbotimer</string>
+    <string name="output_functions_minus_pager">\"-\" of pager</string>
+    <string name="output_functions_minus_start_stop">\"-\" START/STOP</string>
+    <string name="output_functions_minus_prog_imp_on_arm">\"-\" of programming pulse at arming</string>
+    <string name="output_functions_minus_prog_imp_arming">\"-\" of pulse 1 sec at arming(lock CL)</string>
+    <string name="output_functions_minus_prog_imp_disarm">\"-\" of pulse 1 sec on disarming(unlock CL)</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_on">\"-\" of pulse central locking system when arming and ignition is switched on</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_off">\"-\" of pulse at the opening CH disarmed and ignition is switched off</string>
+    
+    <string name="output_functions_plus_NZ_lock"> \"+\" NC blocking(\"+\"during arm mode)</string>
+    <string name="output_functions_plus_univers_time_channel1">\"+\" of universal time channel 1</string>
+    <string name="output_functions_plus_univers_time_channel2">\"+\" of universal time channel 1</string>
+    <string name="output_functions_plus_light_indication">\"+\" of light indication</string>
+    <string name="output_functions_plus_NR_lock">\"+\" of NO blocking(\"+\" during disarm mode)</string>
+    <string name="output_functions_plus_siren_klaxon">\"+\" of siren</string>
+    <string name="output_functions_plus_startup_activation">\"+\" of activation of remote start(START)</string>
+    <string name="output_functions_plus_startup_disactivation">\"+\" of disactivation of remote(STOP)/(\"+\")of brake lights in alarm mode</string>
+    <string name="output_functions_plus_turbotimer">\"+\" of turbotimer</string>
+    <string name="output_functions_plus_pager">\"+\" of pager</string>
+    <string name="output_functions_plus_start_stop">\"+\" START/STOP</string>
+    <string name="output_functions_plus_prog_imp_on_arm">\"+\" of programming pulse at arming</string>
+    <string name="output_functions_plus_prog_imp_arming">\"+\" of pulse 1 sec at arming(lock CL)g</string>
+    <string name="output_functions_plus_prog_imp_disarm">\"+\" of pulse 1 sec on disarming(unlock CL)</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_on">\"+\" of pulse central locking system when arming and ignition is switched on</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_off">\"+\" of pulse at the opening CH disarmed and ignition is switched off</string>
+    
+</resources>

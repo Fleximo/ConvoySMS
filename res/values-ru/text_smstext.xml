@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="tv_TextSMS_PhoneForSMSSENDING">Номер SIM-карты системы</string>
+    
+    <string  name="btn_TextSMS_Generate">Генерация</string>
+    <string  name="btn_TextSMS_Send">Отправить</string>
+    <string  name="btn_TextSMS_Clear">Очистить</string>
+    <string  name="btn_TextSMS_Save">Сохранить</string>
+    
+    <string  name="cb_TextSMS_ManualMode">Режим редактирования</string>
+</resources>

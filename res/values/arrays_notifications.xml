@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "array_users">
+        <item>@string/MenuItem_Notifications_USER1</item>
+        <item>@string/MenuItem_Notifications_USER2</item>
+        <item>@string/MenuItem_Notifications_USER3</item>
+        <item>@string/MenuItem_Notifications_USER4</item>
+        <item>@string/MenuItem_Notifications_USER5</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_CreateUser_Header">REGISTRATION to the Convoy application: \n Enter your phone number and PIN</string>
+    <string name="et_CreateUser_PINConfirm">Confirm PIN</string>
+</resources>

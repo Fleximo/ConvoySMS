@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.olegbrovko.smsgeneratorconvoy.MainActivity"
+       >
+
+    <item android:id="@+id/menu_title"
+          android:icon="@drawable/ic_action_settings"
+          android:title="@string/menu_title"
+          android:showAsAction="always" >
+        <!-- "file" submenu -->
+        <!-- <menu>
+            <item android:id="@+id/menu_item_factory_reset"
+                  android:title="@string/menu_item_factory_reset" />
+           <item android:id="@+id/menu_item_fun1"
+                  android:title="@string/menu_item_fun1" />
+           <item android:id="@+id/menu_item_fun2"
+                  android:title="@string/menu_item_fun2" />
+           <item android:id="@+id/menu_item_fun3"
+                  android:title="@string/menu_item_fun3" />
+           <item android:id="@+id/menu_item_fun4"
+                  android:title="@string/menu_item_fun4" />
+           <item android:id="@+id/menu_item_fun5"
+                  android:title="@string/menu_item_fun5" />
+           <item android:id="@+id/menu_item_fun6"
+                  android:title="@string/menu_item_fun6" />
+            <item android:id="@+id/menu_item_stand_usr_stn"
+                  android:title="@string/menu_item_stand_usr_stn" />
+            <item android:id="@+id/menu_item_save_file"
+                  android:title="@string/menu_item_save_file" />
+            <item android:id="@+id/menu_item_load_file"
+                  android:title="@string/menu_item_load_file" />
+            <item android:id="@+id/menu_item_delete_file"
+                  android:title="@string/menu_item_delete_file" />
+        </menu>  -->
+    </item>
+    
+    <item android:id="@+id/menu_item_change_language"
+          android:icon="@drawable/ic_action_keyboard"
+          android:title="@string/menu_item_change_language"
+          android:showAsAction="always" />
+
+</menu>
+<!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/menu/main.xml -->

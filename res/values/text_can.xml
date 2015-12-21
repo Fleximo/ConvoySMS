@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="cb_CAN_SystArmDisarm" > Signals to arm/disarm the system from the CAN bus</string>
+    <string  name="tv_CAN_SystArmDisarm">Signals</string>
+    <string  name="str_CAN_SystArmDisarm_StaffSignals">Staff signals CZ</string>
+    <string  name="str_CAN_SystArmDisarm_NotUsed">Not used</string>
+    <string  name="str_CAN_SystArmDisarm_StatusSignal">Status signal standard security system</string>
+    
+    <string  name="cb_CAN_Ignition">\"Ignition\" signal from the CAN bus</string>
+    <string  name="tv_CAN_Ignition">Ignition</string>
+    <string  name="str_CAN_Ignition_Used">Used</string>
+    <string  name="str_CAN_Ignition_NotUsed">Not used</string>
+    
+    <string  name="cb_CAN_DriveControl">Drive control signal from the trunk lock CAN bus</string>
+    <string  name="tv_CAN_DriveControl">Drive control</string>
+    <string  name="str_CAN_DriveControl_Used">Used</string>
+    <string  name="str_CAN_DriveControl_NotUsed">Not used</string>
+    
+    <string  name="cb_CAN_ComfortSignal">Signal \"comfort\" in the CAN bus</string>
+    <string  name="tv_CAN_ComfortSignal">Signal supply</string>
+    <string  name="str_CAN_ComfortSignal_EnabledCANSignal">Enabled supply CAN bus signal</string>
+    <string  name="str_CAN_ComfortSignal_DisabledCANSignal">Disabled supply CAN bus signal</string>
+    
+    <string  name="cb_CAN_ManagingStaffSecuritySystem">Managing staff security system</string>
+    <string  name="tv_CAN_ManagingStaffSecuritySystem">System managing</string>
+    <string  name="str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Enabled">Enabled</string>
+    <string  name="str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Disabled">Disabled</string>
+</resources>

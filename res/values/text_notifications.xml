@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="cb_Notifications_User">User enabled</string>
+    <string  name="cb_Notifications_SMS">SMS</string>
+    <string  name="cb_Notifications_TEL">TEL</string>
+    
+    <string  name="MenuItem_Notifications_USER1">1</string>
+    <string  name="MenuItem_Notifications_USER2">2</string>
+    <string  name="MenuItem_Notifications_USER3">3</string>
+    <string  name="MenuItem_Notifications_USER4">4</string>
+    <string  name="MenuItem_Notifications_USER5">5</string>
+    
+    <string  name="tv_Notifications_NotificationReason"                    >Reason of notification                                                                 </string>
+    
+    <string  name="tv_Notifications_PhoneNumber"                    >Phone number                                                                                  </string>
+    <string  name="tv_Notifications_AllowChangeNotification"        >Allow change notification                                                                     </string>
+    <string  name="tv_Notifications_ReasonAlarmServiceNotifications">Reason of alarm/service notification                                                          </string>
+    <string  name="tv_Notifications_CallButtonPressed"              >\"Call\" button is pressed                                                                           </string>
+    <string  name="tv_Notifications_IngineActive"                   >Ignition input is active, the battery is disconnected, PIN-code selection, power 12 volt shut off</string>
+    <string  name="tv_Notifications_LoadLimitSwitch"                >Door/hood/trunk is opened, input siren is active                                    </string>
+    <string  name="tv_Notifications_LoadShockSensor"                >Additional sensor/ shock sensor/motion sensor/tilt sensor/glass break sensor is triggered                                           </string>
+    <string  name="tv_Notifications_WarningZone"                    >Warning sensor zone in action                                           </string>
+    <string  name="tv_Notifications_LoadUniversalLimitSwitch"       >Universal switch is triggered, remote start is failed                                       </string>
+    <string  name="tv_Notifications_LowBattery"                     >Battery is low, minimum account balance                                               </string>
+    <string  name="tv_Notifications_GSM"                            >Signal of GSM-network is disappears/appears                                                                  </string>
+    <string  name="tv_Notifications_SystemDisarm"                   >System disarm                                                                            </string>
+    <string  name="tv_Notifications_SystemArming"                   >System arm                                                                     </string>
+</resources>

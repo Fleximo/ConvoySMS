@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<!-- SCROLL AREA -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:orientation="vertical">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	
+    <!-- OUT1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/border" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <CheckBox
+                android:id="@+id/cb_Outputs_OUT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_Outputs_OUT1"
+                android:textSize="@dimen/header_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <TextView
+                android:id="@+id/tv_Outputs_InputFunctionsOUT1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tv_Outputs_OutputFunction"
+                android:textSize="@dimen/text_size" />
+            <Spinner
+                android:id="@+id/spin_Outputs_OutputFunctionsOUT1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- OUT2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/border" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <CheckBox
+                android:id="@+id/cb_Outputs_OUT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_Outputs_OUT2"
+                android:textSize="@dimen/header_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <TextView
+                android:id="@+id/tv_Outputs_InputFunctionsOUT2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tv_Outputs_OutputFunction"
+                android:textSize="@dimen/text_size" />
+            <Spinner
+                android:id="@+id/spin_Outputs_OutputFunctionsOUT2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- OUT3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/border" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <CheckBox
+                android:id="@+id/cb_Outputs_OUT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_Outputs_OUT3"
+                android:textSize="@dimen/header_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <TextView
+                android:id="@+id/tv_Outputs_InputFunctionsOUT3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tv_Outputs_OutputFunction"
+                android:textSize="@dimen/text_size" />
+            <Spinner
+                android:id="@+id/spin_Outputs_OutputFunctionsOUT3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- OUT4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/border" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <CheckBox
+                android:id="@+id/cb_Outputs_OUT4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_Outputs_OUT4"
+                android:textSize="@dimen/header_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <TextView
+                android:id="@+id/tv_Outputs_InputFunctionsOUT4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tv_Outputs_OutputFunction"
+                android:textSize="@dimen/text_size" />
+            <Spinner
+                android:id="@+id/spin_Outputs_OutputFunctionsOUT4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- OUT5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/border" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <CheckBox
+                android:id="@+id/cb_Outputs_OUT5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_Outputs_OUT5"
+                android:textSize="@dimen/header_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <TextView
+                android:id="@+id/tv_Outputs_InputFunctionsOUT5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tv_Outputs_OutputFunction"
+                android:textSize="@dimen/text_size" />
+            <Spinner
+                android:id="@+id/spin_Outputs_OutputFunctionsOUT5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- OUT6 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/border" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <CheckBox
+                android:id="@+id/cb_Outputs_OUT6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_Outputs_OUT6"
+                android:textSize="@dimen/header_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp" >
+            <TextView
+                android:id="@+id/tv_Outputs_InputFunctionsOUT6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tv_Outputs_OutputFunction"
+                android:textSize="@dimen/text_size" />
+            <Spinner
+                android:id="@+id/spin_Outputs_OutputFunctionsOUT6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+    </LinearLayout>
+    
+
+</LinearLayout>
+</ScrollView>

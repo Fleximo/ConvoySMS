@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- INPUTS -->
+    <string name="cb_Inputs_IN1">IN1 (green)</string>
+    <string name="cb_Inputs_IN2">IN2 (green/red)</string>
+    <string name="cb_Inputs_IN3">IN3 (blue)</string>
+    <string name="cb_Inputs_IN4">IN4 (white/black)</string>
+    <string name="cb_Inputs_IN5">IN5 (yellow/red)</string>
+    <string name="cb_Inputs_IN6">IN6 (white/red)</string>
+    <string name="cb_Inputs_IN7">IN7 (yellow/black)</string>
+    <string name="cb_Inputs_IN8">IN8 (blue/red)</string>
+    <!-- INPUT FUNCTIONS -->
+    <string name="tv_Inputs_InputFunction">Input function</string>
+    
+    <string name="input_functions_arming">Arm</string>
+    <string name="input_functions_ban_arming">Ban arming</string>
+    <string name="input_functions_disarming">Disarm</string>
+    <string name="input_functions_protection_sign">Sign of arm mode</string>
+    <string name="input_functions_startup_control">Remote Start Control</string>
+    <string name="input_functions_trunk_lock_actuator">Trunk lock actuator</string>
+    <string name="input_functions_confirmation_button_disarm">Disarm confirmation button</string>
+    <string name="input_functions_permit_arming">Permit of arm/disarm mode</string>
+    
+    <string name="input_functions_limit_door_switch">Door switch</string>
+    <string name="input_functions_limit_driver_door_switch">Driver door switch</string>
+    <string name="input_functions_limit_bonnet_switch">Hood switch</string>
+    <string name="input_functions_limit_trunk_switch">Trunk switch</string>
+    <string name="input_functions_limit_bonnet_trunk_switch">Hood/trunk switch</string>
+    <string name="input_functions_limit_universal_switch">Universal switch</string>
+    <string name="input_functions_siren">Siren of additional alarm system</string>
+    <string name="input_functions_sensor_external">External sensor</string>
+    <string name="input_functions_sensor_shock">Shock sensor</string>
+    <string name="input_functions_sensor_motion">Motion sensor</string>
+    <string name="input_functions_sensor_tilt">Tilt sensor</string>
+    <string name="input_functions_sensor_glass_break">Glass break sensor</string>
+
+    <!-- POLARITY -->
+    <string name="tv_Inputs_Polarity">Polarity</string>
+    <string name="polarity_plus">\"+\"</string>
+    <string name="polarity_minus">\"-\"</string>
+    <!-- INPUT IS ACTIVE -->
+    <string name="tv_Inputs_InputIsActive"   >Input is active </string>
+    <string name="input_is_active_by_closing">After closing      </string>
+    <string name="input_is_active_by_opening">After opening      </string>
+    <!-- MIN CLOSING TIME -->
+    <string name="tv_Inputs_MinClosingTime"  >Min closure time</string>
+    <!-- MIN OPENING TIME -->
+    <string name="tv_Inputs_MinOpeningTime"  >Min opening time</string>
+    <!-- SECONDS -->
+    <string name="tv_Inputs_Seconds"  >seconds</string>
+</resources>

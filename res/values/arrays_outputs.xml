@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "output_function_OUT1">
+        <item>@string/output_functions_minus_NZ_lock</item>
+        <item>@string/output_functions_minus_univers_time_channel1</item>
+        <item>@string/output_functions_minus_univers_time_channel2</item>
+        <item>@string/output_functions_minus_light_indication</item>
+        <item>@string/output_functions_minus_NR_lock</item>
+        <item>@string/output_functions_minus_siren_klaxon</item>
+        <item>@string/output_functions_minus_startup_activation</item>
+        <item>@string/output_functions_minus_startup_disactivation</item>
+        <item>@string/output_functions_minus_turbotimer</item>
+        <item>@string/output_functions_minus_pager</item>
+        <item>@string/output_functions_minus_start_stop</item>
+        <item>@string/output_functions_minus_prog_imp_on_arm</item>
+        <!-- <item>@string/output_functions_minus_prog_imp_arming</item> -->
+        <!-- <item>@string/output_functions_minus_prog_imp_disarm</item> -->
+        <item>@string/output_functions_minus_prog_imp_ign_switch_on</item>
+        <item>@string/output_functions_minus_prog_imp_ign_switch_off</item>
+    </string-array>
+    
+    <string-array name = "output_function_OUT2">
+        <item>@string/output_functions_minus_NZ_lock</item>
+        <item>@string/output_functions_minus_univers_time_channel1</item>
+        <item>@string/output_functions_minus_univers_time_channel2</item>
+        <item>@string/output_functions_minus_light_indication</item>
+        <item>@string/output_functions_minus_NR_lock</item>
+        <item>@string/output_functions_minus_siren_klaxon</item>
+        <item>@string/output_functions_minus_startup_activation</item>
+        <item>@string/output_functions_minus_startup_disactivation</item>
+        <item>@string/output_functions_minus_turbotimer</item>
+        <item>@string/output_functions_minus_pager</item>
+        <item>@string/output_functions_minus_start_stop</item>
+        <item>@string/output_functions_minus_prog_imp_on_arm</item>
+        <!--<item>@string/output_functions_minus_prog_imp_arming</item>
+        <item>@string/output_functions_minus_prog_imp_disarm</item> -->
+        <item>@string/output_functions_minus_prog_imp_ign_switch_on</item>
+        <item>@string/output_functions_minus_prog_imp_ign_switch_off</item>
+    </string-array>
+    
+    <string-array name = "output_function_OUT3">
+        <item>@string/output_functions_minus_NZ_lock</item>
+        <item>@string/output_functions_minus_univers_time_channel1</item>
+        <item>@string/output_functions_minus_univers_time_channel2</item>
+        <item>@string/output_functions_minus_light_indication</item>
+        <item>@string/output_functions_minus_NR_lock</item>
+        <item>@string/output_functions_minus_siren_klaxon</item>
+        <item>@string/output_functions_minus_startup_activation</item>
+        <item>@string/output_functions_minus_startup_disactivation</item>
+        <item>@string/output_functions_minus_turbotimer</item>
+        <item>@string/output_functions_minus_pager</item>
+        <item>@string/output_functions_minus_start_stop</item>
+        <item>@string/output_functions_minus_prog_imp_on_arm</item>
+        <!-- <item>@string/output_functions_minus_prog_imp_arming</item>
+        <item>@string/output_functions_minus_prog_imp_disarm</item>  -->
+        <item>@string/output_functions_minus_prog_imp_ign_switch_on</item>
+        <item>@string/output_functions_minus_prog_imp_ign_switch_off</item>
+    </string-array>
+    
+    <string-array name = "output_function_OUT4">
+        <item>@string/output_functions_plus_NZ_lock</item>
+        <item>@string/output_functions_plus_univers_time_channel1</item>
+        <item>@string/output_functions_plus_univers_time_channel2</item>
+        <item>@string/output_functions_plus_light_indication</item>
+        <item>@string/output_functions_plus_NR_lock</item>
+        <item>@string/output_functions_plus_siren_klaxon</item>
+        <item>@string/output_functions_plus_startup_activation</item>
+        <item>@string/output_functions_plus_startup_disactivation</item>
+        <item>@string/output_functions_plus_turbotimer</item>
+        <item>@string/output_functions_plus_pager</item>
+        <item>@string/output_functions_plus_start_stop</item>
+        <item>@string/output_functions_plus_prog_imp_on_arm</item>
+        <!--<item>@string/output_functions_plus_prog_imp_arming</item>
+        <item>@string/output_functions_plus_prog_imp_disarm</item> -->
+        <item>@string/output_functions_plus_prog_imp_ign_switch_on</item>
+        <item>@string/output_functions_plus_prog_imp_ign_switch_off</item>
+    </string-array>
+    
+    <string-array name = "output_function_OUT5">
+        <item>@string/output_functions_minus_NZ_lock</item>
+        <item>@string/output_functions_minus_univers_time_channel1</item>
+        <item>@string/output_functions_minus_univers_time_channel2</item>
+        <item>@string/output_functions_minus_light_indication</item>
+        <item>@string/output_functions_minus_NR_lock</item>
+        <item>@string/output_functions_minus_siren_klaxon</item>
+        <item>@string/output_functions_minus_startup_activation</item>
+        <item>@string/output_functions_minus_startup_disactivation</item>
+        <item>@string/output_functions_minus_turbotimer</item>
+        <item>@string/output_functions_minus_pager</item>
+        <item>@string/output_functions_minus_start_stop</item>
+        <item>@string/output_functions_minus_prog_imp_on_arm</item>
+        <!-- <item>@string/output_functions_minus_prog_imp_arming</item>
+        <item>@string/output_functions_minus_prog_imp_disarm</item> -->
+        <item>@string/output_functions_minus_prog_imp_ign_switch_on</item>
+        <item>@string/output_functions_minus_prog_imp_ign_switch_off</item>
+    </string-array>
+    
+    <string-array name = "output_function_OUT6">
+        <item>@string/output_functions_plus_NZ_lock</item>
+        <item>@string/output_functions_plus_univers_time_channel1</item>
+        <item>@string/output_functions_plus_univers_time_channel2</item>
+        <item>@string/output_functions_plus_light_indication</item>
+        <item>@string/output_functions_plus_NR_lock</item>
+        <item>@string/output_functions_plus_siren_klaxon</item>
+        <item>@string/output_functions_plus_startup_activation</item>
+        <item>@string/output_functions_plus_startup_disactivation</item>
+        <item>@string/output_functions_plus_turbotimer</item>
+        <item>@string/output_functions_plus_pager</item>
+        <item>@string/output_functions_plus_start_stop</item>
+        <item>@string/output_functions_plus_prog_imp_on_arm</item>
+        <!-- <item>@string/output_functions_plus_prog_imp_arming</item>
+        <item>@string/output_functions_plus_prog_imp_disarm</item> -->
+        <item>@string/output_functions_plus_prog_imp_ign_switch_on</item>
+        <item>@string/output_functions_plus_prog_imp_ign_switch_off</item>
+    </string-array>
+</resources>

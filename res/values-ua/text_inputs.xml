@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- INPUTS -->
+    <string name="cb_Inputs_IN1">IN1 (зелений)</string>
+    <string name="cb_Inputs_IN2">IN2 (зелений/червоний)</string>
+    <string name="cb_Inputs_IN3">IN3 (синій)</string>
+    <string name="cb_Inputs_IN4">IN4 (білий/чорний)</string>
+    <string name="cb_Inputs_IN5">IN5 (жовтий/червоний)</string>
+    <string name="cb_Inputs_IN6">IN6 (білий/червоний)</string>
+    <string name="cb_Inputs_IN7">IN7 (жовтий/чорний)</string>
+    <string name="cb_Inputs_IN8">IN8 (синій/червоний)</string>
+    <!-- INPUT FUNCTIONS -->
+    <string name="tv_Inputs_InputFunction">Функція входу</string>
+    
+    <string name="input_functions_arming">Постановка на охорону</string>
+    <string name="input_functions_ban_arming">Заборона постановки на охорону</string>
+    <string name="input_functions_disarming">Зняття з охорони</string>
+    <string name="input_functions_protection_sign">Ознака охорони</string>
+    <string name="input_functions_startup_control">Контроль автозапуску</string>
+    <string name="input_functions_trunk_lock_actuator">Привід замка багажника</string>
+    <string name="input_functions_confirmation_button_disarm">Кнопка підтвердження зняття з охорони</string>
+    <string name="input_functions_permit_arming">Дозвіл постановки/зняття з охорони</string>
+    
+    <string name="input_functions_limit_door_switch">Кінцевий вимикач двері</string>
+    <string name="input_functions_limit_driver_door_switch">Кінцевий вимикач двері водія</string>
+    <string name="input_functions_limit_bonnet_switch">Кінцевий вимикач капота</string>
+    <string name="input_functions_limit_trunk_switch">Кінцевий вимикач багажника</string>
+    <string name="input_functions_limit_bonnet_trunk_switch">Кінцевий вимикач капота/багажника</string>
+    <string name="input_functions_limit_universal_switch">Універсальний кінцевий вимикач</string>
+    <string name="input_functions_siren">Сирена додаткової охоронної системи</string>
+    <string name="input_functions_sensor_external">Зовнішній датчик</string>
+    <string name="input_functions_sensor_shock">Датчик удару</string>
+    <string name="input_functions_sensor_motion">Датчик руху</string>
+    <string name="input_functions_sensor_tilt">Датчик нахилу</string>
+    <string name="input_functions_sensor_glass_break">Датчик розбиття скла</string>
+    <!-- POLARITY -->
+    <string name="tv_Inputs_Polarity">Полярність</string>
+    <string name="polarity_plus">\"+\"</string>
+    <string name="polarity_minus">\"-\"</string>
+    <!-- INPUT IS ACTIVE -->
+    <string name="tv_Inputs_InputIsActive"   >Вхід активний </string>
+    <string name="input_is_active_by_closing">По замиканню </string>
+    <string name="input_is_active_by_opening">По розмиканню </string>
+    <!-- MIN CLOSING TIME -->
+    <string name="tv_Inputs_MinClosingTime"  >Мін.час замикання</string>
+    <!-- MIN OPENING TIME -->
+    <string name="tv_Inputs_MinOpeningTime"  >Мін.час розмикання</string>
+    <!-- SECONDS -->
+    <string name="tv_Inputs_Seconds"  >секунд</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="cb_UTC_UniversalChannel1"   >Universal channel 1</string>
+    <string  name="cb_UTC_UniversalChannel2"   >Universal channel 2</string>
+    <string  name="cb_UserSettings_InputTimerOnArming"   >Output timer after arming</string>
+    <string  name="cb_UTC_RearmingSystem"   >Automatic system rearming</string>
+    <string  name="cb_UTC_TurboTimerSettings"  >Turbotimer mode</string>
+    <string  name="tv_UTC_ActivationConditions">  Activation conditions </string>
+    <string  name="tv_UTC_OnDelay"             >    Delay time (seconds)</string>
+    <string  name="tv_UTC_OperationTime"       >Operation time (seconds)</string>
+    
+    <string  name="cb_UTC_Arming"           >Arm                    </string>
+    <string  name="cb_UTC_SysDisarm"        >Disarm                 </string>
+    <string  name="cb_UTC_IgnitionSwitchOn" >Ignition on            </string>
+    <string  name="cb_UTC_IgnitionSwitchOff">Ignition off           </string>
+    <string  name="cb_UTC_CommandFromPhone" >Command from the phone </string>
+    
+    <string  name="string_UTC_TwoStageDisarming_Enabled" >Enabled</string>
+    <string  name="string_UTC_TwoStageDisarming_Disabled" >Disabled</string>
+    <string  name="string_UTC_Rearming_Enabled" >Enabled</string>
+    <string  name="string_UTC_Rearming_Disabled" >Disabled</string>
+    
+    <string  name="tv_UTC_Time">Time: </string>
+    <string  name="tv_UTC_Seconds">seconds</string>
+    <string  name="tv_UTC_Minutes">minutes</string>
+    
+    <string  name="tv_UTC_TurbotimerWorkingTime">Operation time</string>
+    <string  name="tv_UTC_IngnTimeLockedEngine">Time of ignition blocked engine(ignoring the error board computer)</string>
+    
+    <string  name="cb_UTC_DelayTimeEngineStart" >Delay time of engine start checks</string>
+    <string  name="cb_UTC_DelayTimeLimitSwitchesSurvey" >Delay time of pool door triggers</string>
+
+    <!-- Central Lock Timer 13 -->
+    <string  name="cb_UTC_CentralLockTimer13" >Lock Timer of CL (function 13)</string>
+
+    <string  name="tv_UTC_LockImpulsCloseCL13" >CL close impuls</string>
+    <string  name="str_UTC_LockImpuls13CL0" >Impuls on sequrity lock</string>
+    <string  name="str_UTC_LockImpuls13CL1" >No impuls on CL close</string>
+    <string  name="str_UTC_LockImpuls13CL2" >Impuls when ignition turned on</string>
+    <string  name="str_UTC_LockImpuls13CL3" >Impuls on sequrity lock and when ignition turned on</string>
+
+    <string  name="tv_UTC_FirstImpulsLongtime13" >First impuls longtime</string>
+    <string  name="tv_UTC_PauseTimeBetwImpulses13" >Pause time between impulses</string>
+    <string  name="tv_UTC_SecondImpulsLongtime13" >Second impuls longtime</string>
+    <string  name="tv_UTC_PauseTimeAfterIngAndImpStart13" >Pause time after ignition on and impulse start</string>
+
+    <!-- Central Lock Timer 14 -->
+    <string  name="cb_UTC_CentralLockTimer14" >Open Timer of CL (function 14)</string>
+
+    <string  name="tv_UTC_LockImpulsCloseCL14" >CL open impuls</string>
+    <string  name="str_UTC_LockImpuls14CL0" >Impuls on sequrity lock off</string>
+    <string  name="str_UTC_LockImpuls14CL1" >No impuls on CL open</string>
+    <string  name="str_UTC_LockImpuls14CL2" >Impuls when ignition turned off</string>
+    <string  name="str_UTC_LockImpuls14CL3" >Impuls on sequrity lock off and when ignition turned off</string>
+
+    <string  name="tv_UTC_FirstImpulsLongtime14" >First impuls longtime</string>
+    <string  name="tv_UTC_PauseTimeBetwImpulses14" >Pause time between impulses</string>
+    <string  name="tv_UTC_SecondImpulsLongtime14" >Second impuls longtime</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "utc_function_13">
+        <item>@string/str_UTC_LockImpuls13CL0</item>
+        <item>@string/str_UTC_LockImpuls13CL1</item>
+        <item>@string/str_UTC_LockImpuls13CL2</item>
+        <item>@string/str_UTC_LockImpuls13CL3</item>
+    </string-array>
+    <string-array name = "utc_function_14">
+        <item>@string/str_UTC_LockImpuls14CL0</item>
+        <item>@string/str_UTC_LockImpuls14CL1</item>
+        <item>@string/str_UTC_LockImpuls14CL2</item>
+        <item>@string/str_UTC_LockImpuls14CL3</item>
+    </string-array>
+</resources>

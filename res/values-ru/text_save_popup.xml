@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_SavePopup_Header">Сохранение настроек</string>
+    <string name="tv_SavePopup_SubHeader">Веедите имя для новых настроек:\nM - модифицированные вручную\nA-сгенерированные автоматически</string>
+    <string name="tv_SavePopup_SubHeaderHint">Имя файла</string>
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_ChangeLanguage_Header">Оберіть мову:</string>
+    <string name="rbtn_ChangeLanguage_English">English</string>
+    <string name="rbtn_ChangeLanguage_Russian">Русский</string>
+    <string name="rbtn_ChangeLanguage_Espanian">Українська</string>
+    
+    <string name="btn_ChangeLanguage_OK">OK</string>
+    <string name="btn_ChangeLanguage_Cancel">Cancel</string>
+</resources>

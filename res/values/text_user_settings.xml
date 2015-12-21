@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 0. CURRENT PIN -->
+    <string name="cb_UserSettings_CurrentPIN">Current PIN</string>
+    <string name="str_UserSettings_CurrentPIN">0000</string>
+    <!-- 1. NEW PIN -->
+    <string name="cb_UserSettings_PIN">New PIN-code</string>
+    <string name="str_UserSettings_HintNewPIN">0000</string>
+    <!-- 2. NUMBER OF BALANCE CHECKING -->
+    <string name="cb_UserSettings_BalanceChecking">Number checking account balance</string>
+    <string name="tv_UserSettings_BalanceCheckingAnother">Another number for balance checking</string>
+    <!-- 3. ACCOUNT BALANCE -->
+    <string name="cb_UserSettings_AccBalance">Account balance autocheck parameters</string>
+    <string name="tv_UserSettings_NumSumPosition">Number sum position in operator SMS</string>
+    <string name="et_UserSettings_NumSumPosition">1</string>
+    <string name="tv_UserSettings_CriticalBalance">Critical (min) balance</string>
+    <string name="et_UserSettings_CriticalBalance">10</string>
+    <string name="et_UserSettings_CriticalBalanceDimen">hrn</string>
+    <string name="tv_UserSettings_BalanceCheckinngFrequency">The frequency of checking balance</string>
+    <string name="et_UserSettings_BalanceCheckinngFrequency">24</string>
+    <string name="tv_UserSettings_BalanceCheckinngFrequencyDimen">hours</string>
+    <!-- 4. NUMBER OF CALL ATTEMPTS -->
+    <string name="cb_UserSettings_NumberCallAttempts">Number of Call Attempts</string>
+    <string name="et_UserSettings_NumberCallAttempts">1</string>
+    <!-- 4. Rearm -->
+    <string name="cb_UserSettings_Rearm">Function of automatic return to the sequrity</string>
+
+    <string name="str_UserSettings_Enabled">Enabled</string>
+    <string name="str_UserSettings_Disabled">Disabled</string>
+    <!-- 5. SIREN -->
+    <string name="cb_UserSettings_Siren">Siren</string>
+    <string name="tv_UserSettings_SystemSetUnset">Signals in arm/disarm mode</string>
+    <string name="tv_UserSettings_AlarmMode">Signals in alarm mode</string>
+    <!-- 6. TWO STAGE DISARMING SYSTEM -->
+    <string name="cb_UserSettings_DisarmingSystem">Two-stage disarming the system (passive blocking of the engine)</string>
+    <!-- 7. ALL SENSORS DISABLED -->
+    <string name="cb_UserSettings_TiltSens_AllSensEnabled">All sensors</string>
+    <!-- 8. SHOCK SENSOR SETTINGS -->
+    <!-- Warning threshold -->
+    <string name="cb_UserSettings_ShockSensSettings">Shock sensor settings</string>
+    <string name="tv_UserSettings_WarningThreshold">Sensativity settings of warning zone of shock sensor:</string>
+    <string name="cb_UserSettings_WarningTrasholdDisabled">Sensor warning zone disabled</string>
+    <string name="tv_UserSettings_WarningTrashold_Heavy">Low \n strong heat</string>
+    <string name="tv_UserSettings_WarningTrashold_Weak">Hight \n weak heat</string>
+    <string name="tv_UserSettings_WarningTrashold_Value">Value: </string>
+    <string name="et_UserSettings_WarningTrashold">18</string>
+    <!-- Alarm threshold -->
+    <string name="tv_UserSettings_AlarmThresholdShockSensor">Sensativity settings of alarm zone of shock sensor:</string>
+    <string name="cb_UserSettings_AlarmTrasholdDisabled">Sensor alarm zone disabled</string>
+    <string name="tv_UserSettings_AlarmThresholdHeavy">Low \n strong heat</string>
+    <string name="tv_UserSettings_AlarmThresholdWeak">Hight \n weak heat</string>
+    <string name="tv_UserSettings_AlarmThresholdValue">Value: </string>
+    <string name="et_UserSettings_AlarmTrashold">32</string>
+    <!-- 9. TILT SENSOR SETTINGS -->
+    <string name="cb_UserSettings_TiltSensor">Tilt sensor</string>
+    <string name="tv_UserSettings_TiltSensorThreshold">Angle sensor sensitivity settings:</string>
+    <string name="cb_UserSettings_TiltSensorDisabled">Tilt sensor disabled</string>
+    <string name="tv_UserSettings_TiltSensorHight">Hight \n Small angle</string>
+    <string name="tv_UserSettings_TiltSensorLow">Low \n Big angle</string>
+    <string name="tv_UserSettings_TiltSensorValue">Value: </string>
+    <string name="et_UserSettings_TiltSensor">1</string>
+    <!-- 10. PHONE SENSATIVITY -->
+    <string name="cb_UserSettings_PhoneSensitivity">Microphone</string>
+    <string name="tv_UserSettings_MicrophoneSensativiti">Microphone sensativity setting:</string>
+    <string name="tv_UserSettings_PhoneSensetivHight">Hight</string>
+    <string name="tv_UserSettings_PhoneSensetivLow">Low</string>
+    <string name="tv_UserSettings_PhoneSensetivValue">Value: </string>
+    <string name="et_UserSettings_PhoneSensitivity">5</string>
+    <string name="cb_UserSettings_PhoneSensitivityDisabled">Microphone disabled</string>
+    <!-- 11. SPEAKER VOLUME -->
+    <string name="cb_UserSettings_SpeakerVolume">Speaker</string>
+    <string name="tv_UserSettings_DinamicVolumeSettings">Speaker volume setting:</string>
+    <string name="tv_UserSettings_SpeakerVolumeHight">Hight</string>
+    <string name="tv_UserSettings_SpeakerVolumeLow">Low</string>
+    <string name="tv_UserSettings_SpeakerVolumeValue">Value: </string>
+    <string name="et_UserSettings_SpeakerVolume">50</string>
+    <string name="cb_UserSettings_SpeakerVolumeDisabled">Speaker disabled</string>
+    <!-- 12. MONITORING SETTINGS -->
+    <string name="cb_UserSettings_MonitoringSettings">Monitoring mode</string>
+    <!-- 13.NAME OF ACCESS POINT OF MOBILE OPERATOR -->
+    <string name="cb_UserSettings_AccessPointNameMobOper">Access point of mobile operator</string>
+    <string name="tv_UserSettings_AccessPointNameMobOperAnother">Another point name of mobile operator</string>
+    
+    <!-- HELP STRINGS 1 -->
+    <string name="str_enabled">Enabled</string>
+    <string name="str_disabled">Disabled</string>
+    <string name="str_enabled_onset">Enabled at arm mode</string>
+    <string name="str_siren">Siren</string>
+    <string name="str_klaxon1">Klaxon 1</string>
+    <string name="str_klaxon2">Klaxon 2</string>
+    <!-- HELP STRINGS 2 -->
+    <string name="str_mobile_oper_kyivstar">*111#</string>
+    <string name="str_mobile_oper_mtc">*101#</string>
+    <string name="str_mobile_oper_ukrtelekom">*100#</string>
+    <string name="str_mobile_oper_another">Another</string>
+    <!-- HELP STRINGS 3 -->
+    <string name="str_MonitoringSettingsDisabled">Disabled</string>
+    <string name="str_MonitoringSettingsEnabled">Enabled</string>
+    <!-- HELP STRINGS 4 -->
+    <string name="tv_UserSettings_TiltSens_AllSensEnabled">All sensors</string>
+    <string name="str_UserSettings_TiltSens_AllSensEnabled1">Enabled</string>
+    <string name="str_UserSettings_TiltSens_AllSensEnabled2">Disabled</string>
+    <!-- HELP STRINGS 5 -->
+    <string name="spinValue_AccessPointNameMobOper1">Internet</string>
+    <string name="spinValue_AccessPointNameMobOper2">www.ab.kyivstar.net</string>
+    <string name="spinValue_AccessPointNameMobOper3">www.djuice.com.ua</string>
+    <string name="spinValue_AccessPointNameMobOper4">Another</string>
+    <!-- HELP STRINGS 6 -->
+    <string name="header_text_CurrentPIN">Current PIN</string>
+    <string name="header_text_defaultPIN">0000</string>
+    
+</resources>

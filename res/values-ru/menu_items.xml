@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title">Типовые настройки</string>
+    <string name="menu_item_factory_reset">Установить заводские настройки</string>
+    <string name="menu_item_fun1">Управление штатным ЦЗ (функция 301)</string>
+    <string name="menu_item_fun2">Управление штатным ЦЗ совместно с модулем автозапуска ARS-300 (функция 302)</string>
+    <string name="menu_item_fun3">Управление доп.охранной системой (функция 303)</string>
+    <string name="menu_item_fun4">Управление доп.охранной системой совместно с модулем автозапуска ARS-300 (функция 304)</string>
+    <string name="menu_item_fun5">Управление только с телефона (автономная работа) (функция 305)</string>
+    <string name="menu_item_fun6">Управление только с телефона (автономная работа) совместно с модулем автозапуска ARS-300 (функция 306)</string>
+    <string name="menu_item_stand_usr_stn">Стандартные настройки пользователя </string>
+    <string name="menu_item_save_file">Сохранить в файл</string>
+    <string name="menu_item_load_file">Загрузить из файла</string>
+    <string name="menu_item_delete_file">Удалить файл</string>
+    <string name="menu_item_change_language">Изменить язык</string>
+</resources>

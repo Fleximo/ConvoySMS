@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "array_timer_sys_disarm">
+        <item>@string/string_UTC_TwoStageDisarming_Disabled</item>
+        <item>@string/string_UTC_TwoStageDisarming_Enabled</item>
+    </string-array>
+    <string-array name = "array_timer_sys_rearming">
+        <item>@string/string_UTC_Rearming_Disabled</item>
+        <item>@string/string_UTC_Rearming_Enabled</item>
+    </string-array>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 0. CURRENT PIN -->
+    <string name="cb_UserSettings_CurrentPIN">Текущий PIN</string>
+    <string name="str_UserSettings_CurrentPIN">0000</string>
+    
+    <!-- 1. NEW PIN -->
+    <string name="cb_UserSettings_PIN">Новый PIN</string>
+    <string name="str_UserSettings_HintNewPIN">0000</string>
+    
+    <!-- 2. BALANCE CHECKING NUMBER -->
+    <string name="cb_UserSettings_BalanceChecking">Номер проверки баланса счета</string>
+    <string name="str_mobile_oper_kyivstar">*111#</string>
+    <string name="str_mobile_oper_mtc">*101#</string>
+    <string name="str_mobile_oper_ukrtelekom">*100#</string>
+    <string name="str_mobile_oper_another">Другой</string>
+    
+    <string name="tv_UserSettings_BalanceCheckingAnother">Другой номер для проверки баланса</string>
+    
+    <string name="str_enabled">Включены</string>
+    <string name="str_disabled">Выключены</string>
+    <string name="str_enabled_onset">Только при постановке</string>
+    <string name="str_siren">Сирена (непрерывный)</string>
+    <string name="str_klaxon1">Клаксон 1 (длинные импульсы)</string>
+    <string name="str_klaxon2">Клаксон 2 (короткие импульсы)</string>
+    
+    <!-- Monitoring settings -->
+    <string name="str_MonitoringSettingsDisabled">Выключен</string>
+    <string name="str_MonitoringSettingsEnabled">Включен</string>
+    
+    <!-- 7. ALL SYSTEM SENSORS -->
+    <string name="cb_UserSettings_TiltSens_AllSensEnabled">Все датчики системы</string>
+    <string name="tv_UserSettings_TiltSens_AllSensEnabled">Все датчики системы</string>
+    <string name="str_UserSettings_TiltSens_AllSensEnabled1">Включены</string>
+    <string name="str_UserSettings_TiltSens_AllSensEnabled2">Выключены</string>
+    
+    <!-- Tilt Sensor -->
+    <string name="cb_UserSettings_TiltSensor">Датчик наклона</string>
+    <string name="cb_UserSettings_TiltSensorDisabled">Датчик наклона  выключен</string>
+    <string name="tv_UserSettings_TiltSensorThreshold">Настройка чувствительности датчика наклона:</string>
+    <string name="tv_UserSettings_TiltSensorLow">Большая \n Малый угол</string>
+    <string name="tv_UserSettings_TiltSensorHight">Низкая \n Большой угол</string>
+    <string name="tv_UserSettings_TiltSensorValue">Значение: </string>
+    <string name="et_UserSettings_TiltSensor">1</string>
+   
+   	<!-- MICROPHONE -->
+    <string name="tv_UserSettings_MicrophoneSensativiti">Настройка чувствительности микрофона:</string>
+    <string name="cb_UserSettings_PhoneSensitivity">Микрофон</string>
+    <string name="cb_UserSettings_PhoneSensitivityDisabled">Микрофон выключен</string>
+    <string name="tv_UserSettings_PhoneSensetivLow">Низкая \nтише</string>
+    <string name="tv_UserSettings_PhoneSensetivHight">Высокая \nгромче</string>
+    <string name="tv_UserSettings_PhoneSensetivValue">Значение: </string>
+    <string name="et_UserSettings_PhoneSensitivity">5</string>
+    
+    <!-- SPEAKER -->
+    <string name="tv_UserSettings_DinamicVolumeSettings">Настройка громкости динамика:</string>
+    <string name="cb_UserSettings_SpeakerVolume">Динамик</string>
+    <string name="cb_UserSettings_SpeakerVolumeDisabled">Динамик отключен</string>
+    <string name="tv_UserSettings_SpeakerVolumeLow">Низкая \nтише</string>
+    <string name="tv_UserSettings_SpeakerVolumeHight">Высокая \nгромче</string>
+    <string name="tv_UserSettings_SpeakerVolumeValue">Значение: </string>
+    <string name="et_UserSettings_SpeakerVolume">50</string>
+    
+    <!-- Warning treshold -->
+    <string name="cb_UserSettings_WarningTrasholdDisabled">Зона предупреждения датчика отключена</string>
+    <string name="cb_UserSettings_AlarmTrasholdDisabled">Зона тревоги датчика отключена</string>
+    
+    <!-- Layout Elements Strings -->
+    <string name="cb_UserSettings_NumberCallAttempts">Число попыток дозвона</string>
+    <string name="et_UserSettings_NumberCallAttempts">1</string>
+    <string name="cb_UserSettings_ShockSensSettings">Датчик удара</string>
+    <string name="tv_UserSettings_WarningThreshold">Настройка чувствительности зоны предупреждения датчика удара:</string>
+    <string name="tv_UserSettings_WarningTrashold_Weak">Высокая \n слабый удар</string>
+    <string name="tv_UserSettings_WarningTrashold_Heavy">Низкая \n сильный удар</string>
+    <string name="tv_UserSettings_WarningTrashold_Value">Значение: </string>
+    <string name="et_UserSettings_WarningTrashold">18</string>
+    <string name="tv_UserSettings_AlarmThresholdShockSensor">Настройки чувствительности зоны тревоги датчика удара:</string>
+    <string name="tv_UserSettings_AlarmThresholdWeak">Высокая \n слабый удар</string>
+    <string name="tv_UserSettings_AlarmThresholdHeavy">Низкая \n сильный удар</string>
+    <string name="tv_UserSettings_AlarmThresholdValue">Значение: </string>
+    <string name="et_UserSettings_AlarmTrashold">32</string>
+    <string name="cb_UserSettings_MonitoringSettings">Режим мониторинга</string>
+    
+    
+    <string name="cb_UserSettings_AccBalance">Автопроверка баланса счета</string>
+    <string name="tv_UserSettings_NumSumPosition">Номер позиции суммы баланса в SMS оператора</string>
+    <string name="et_UserSettings_NumSumPosition">1</string>
+    <string name="tv_UserSettings_CriticalBalance">Критичный (минимальный) баланс</string>
+    <string name="et_UserSettings_CriticalBalance">10</string>
+    <string name="et_UserSettings_CriticalBalanceDimen">грн</string>
+    <string name="tv_UserSettings_BalanceCheckinngFrequency">Периодичность проверки баланса</string>
+    <string name="et_UserSettings_BalanceCheckinngFrequency">24</string>
+    <string name="tv_UserSettings_BalanceCheckinngFrequencyDimen">часы</string>
+    <string name="cb_UserSettings_Siren">Сирена</string>
+    <string name="tv_UserSettings_SystemSetUnset">Сигналы при постановке/снятии системы с охраны</string>
+    <string name="tv_UserSettings_AlarmMode">Сигналы в режиме тревоги</string>
+    
+    <!-- 12. ACCESS POINT NAME OF MOBILE OPERATOR -->
+    <string name="cb_UserSettings_AccessPointNameMobOper">Имя точки доступа мобильного оператора</string>
+    <string name="spinValue_AccessPointNameMobOper1">Internet</string>
+    <string name="spinValue_AccessPointNameMobOper2">www.ab.kyivstar.net</string>
+    <string name="spinValue_AccessPointNameMobOper3">www.djuice.com.ua</string>
+    <string name="spinValue_AccessPointNameMobOper4">Другое</string>
+    <string name="tv_UserSettings_AccessPointNameMobOperAnother">Имя другой точки доступа</string>
+
+    <!-- HELP STRINGS 6 -->
+    <string name="header_text_CurrentPIN">Current PIN</string>
+    <string name="header_text_defaultPIN">0000</string>
+
+    <!-- 4. Rearm -->
+    <string name="cb_UserSettings_Rearm">Функция автоматического возврата на охрану</string>
+    <string name="str_UserSettings_Enabled">Включена</string>
+    <string name="str_UserSettings_Disabled">Выключена</string>
+</resources>

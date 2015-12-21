@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="btn_Main_QueryConfigurations">Запит налаштувань</string>
+    <string  name="btn_Main_UserSettings">Налаштування користувача</string>
+    <string  name="btn_Main_Inputs">Входи</string>
+    <string  name="btn_Main_Outputs">Виходи</string>
+    <string  name="btn_Main_Timer">Таймери</string>
+    <string  name="btn_Main_Notifications">Повідомлення</string>
+    <string  name="btn_Main_CAN">CAN</string>
+    <string  name="btn_Main_TextSMS">Текст SMS</string>
+</resources>

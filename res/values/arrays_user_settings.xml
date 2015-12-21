@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "balance_checking">
+        <item>@string/str_mobile_oper_kyivstar</item>
+        <item>@string/str_mobile_oper_mtc</item>
+        <item>@string/str_mobile_oper_ukrtelekom</item>
+        <item>@string/str_mobile_oper_another</item>
+    </string-array>
+    <string-array name = "UserSettings_PointNameMobOper">
+        <item>@string/spinValue_AccessPointNameMobOper1</item>
+        <item>@string/spinValue_AccessPointNameMobOper2</item>
+        <item>@string/spinValue_AccessPointNameMobOper3</item>
+        <item>@string/spinValue_AccessPointNameMobOper4</item>
+    </string-array>
+    <string-array name = "sensors_security_mode">
+        <item>@string/str_disabled</item>
+        <item>@string/str_enabled</item>
+    </string-array>
+    <string-array name = "UserSettings_Monitoring">
+        <item>@string/str_MonitoringSettingsDisabled</item>
+        <item>@string/str_MonitoringSettingsEnabled</item>
+    </string-array>
+     <string-array name = "UserSettings_TiltSensor">
+        <item>@string/str_UserSettings_TiltSens_AllSensEnabled2</item>
+        <item>@string/str_UserSettings_TiltSens_AllSensEnabled1</item>
+    </string-array>
+     <string-array name = "disarming_mode">
+        <item>@string/str_disabled</item>
+        <item>@string/str_enabled</item>
+    </string-array>
+     <string-array name = "siren_set_unset">
+        <item>@string/str_disabled</item>
+        <item>@string/str_enabled</item>
+        <item>@string/str_enabled_onset</item>
+    </string-array>
+    <string-array name = "siren_alarm_mode">
+         <item>@string/str_disabled</item>
+         <item>@string/str_siren</item>
+         <item>@string/str_klaxon1</item>
+         <item>@string/str_klaxon2</item>
+    </string-array>
+    <string-array name = "rearm">
+        <item>@string/str_disabled</item>
+        <item>@string/str_enabled</item>
+    </string-array>
+</resources>

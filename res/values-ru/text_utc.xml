@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="cb_UTC_UniversalChannel1"   >Универсальный таймерный канал №1</string>
+    <string  name="cb_UTC_UniversalChannel2"   >Универсальный таймерный канал №2</string>
+    <string  name="cb_UserSettings_InputTimerOnArming"   >Таймер выхода при постановке на охрану (функция 12)</string>
+    <string name="cb_UserSettings_DisarmingSystem">Двухэтапное снятие системы с охраны\n(пассивная блокировка двигателя)</string>
+    <string  name="cb_UTC_RearmingSystem"   >Автоматический возврат системы на охрану</string>
+    <string  name="cb_UTC_TurboTimerSettings"  >Режим \"Турботаймер\"</string>
+    <string  name="tv_UTC_ActivationConditions">  Условия активации </string>
+    <string  name="tv_UTC_OnDelay"             > Задержка включения(секунды) </string>
+    <string  name="tv_UTC_OperationTime"       >Время работы (секунды)</string>
+    
+    <string  name="cb_UTC_Arming"           >Постановка системы на охрану</string>
+    <string  name="cb_UTC_SysDisarm"        >Снятие системы с охраны     </string>
+    <string  name="cb_UTC_IgnitionSwitchOn" >Включение зажигания         </string>
+    <string  name="cb_UTC_IgnitionSwitchOff">Выключение зажигания        </string>
+    <string  name="cb_UTC_CommandFromPhone" >Команда с телефона          </string>
+    
+    <string  name="string_UTC_TwoStageDisarming_Enabled" >Включено</string>
+    <string  name="string_UTC_TwoStageDisarming_Disabled" >Выключено</string>
+    <string  name="string_UTC_Rearming_Enabled" >Включен</string>
+    <string  name="string_UTC_Rearming_Disabled" >Выключен</string>
+    
+    <string  name="tv_UTC_Time">Время: </string>
+    <string  name="tv_UTC_Seconds">секунд</string>
+    <string  name="tv_UTC_Minutes">минут</string>
+    
+    <string  name="tv_UTC_TurbotimerWorkingTime">Время работы турботаймера</string>
+    <string  name="tv_UTC_IngnTimeLockedEngine">Время отключения блокировки при включении зажигания(обход ошибок борт. компютера)</string>
+    
+    <string  name="cb_UTC_DelayTimeEngineStart" >Время проверки запуска двигателя</string>
+    <string  name="cb_UTC_DelayTimeLimitSwitchesSurvey" >Время задержки опроса концевых выключателей</string>
+
+    <!-- Central Lock Timer 13 -->
+    <string  name="cb_UTC_CentralLockTimer13" >Таймер закрытия ЦЗ (функция 13)</string>
+
+    <string  name="tv_UTC_LockImpulsCloseCL13" >Импульс закрытия ЦЗ</string>
+    <string  name="str_UTC_LockImpuls13CL0" >Нет импулься закрытия ЦЗ</string>
+    <string  name="str_UTC_LockImpuls13CL1" >Импульс при постановке на охрану</string>
+    <string  name="str_UTC_LockImpuls13CL2" >Импульс по включению зажигания </string>
+    <string  name="str_UTC_LockImpuls13CL3" >Импульс при постановке на охрану и по включению зажигания</string>
+
+    <string  name="tv_UTC_FirstImpulsLongtime13" >Длительность первого импульса</string>
+    <string  name="tv_UTC_PauseTimeBetwImpulses13" >Время паузы между импульсами</string>
+    <string  name="tv_UTC_SecondImpulsLongtime13" >Длительность второго импульса</string>
+    <string  name="tv_UTC_PauseTimeAfterIngAndImpStart13" >Время паузы после включения зажигания и началом импульса</string>
+
+    <!-- Central Lock Timer 14 -->
+    <string  name="cb_UTC_CentralLockTimer14" >Таймер открытия ЦЗ (функция 14)</string>
+
+    <string  name="tv_UTC_LockImpulsCloseCL14" >Импульс открытия ЦЗ</string>
+    <string  name="str_UTC_LockImpuls14CL0" >Нет импулься открытия ЦЗ</string>
+    <string  name="str_UTC_LockImpuls14CL1" >Импульс при снятии с охраны</string>
+    <string  name="str_UTC_LockImpuls14CL2" >Импульс по выключению зажигания </string>
+    <string  name="str_UTC_LockImpuls14CL3" >Импульс при снятии с охраны и по выключению зажигания</string>
+
+    <string  name="tv_UTC_FirstImpulsLongtime14" >Длительность первого импульса</string>
+    <string  name="tv_UTC_PauseTimeBetwImpulses14" >Время паузы между импульсами</string>
+    <string  name="tv_UTC_SecondImpulsLongtime14" >Длительность второго импульса</string>
+</resources>

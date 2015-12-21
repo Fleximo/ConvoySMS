@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/fleximo/Projects/Android/ConvoySMSGenerator/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="/home/fleximo/Projects/Android/ConvoySMSGenerator/build/intermediates/pre-dexed/release/android-support-v4-c7b860be70aebaee8b68d4ee5ab936c06d26fb90.jar" />
+    </item>
+
+</items>

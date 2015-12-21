@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_DeletePopup_Header">Удаление настроек</string>
+    <string name="tv_DeletePopup_SubHeader">Выберите настройки для удаления:\nM - модифицированные вручную\nA-сгенерированные автоматически</string>
+</resources>

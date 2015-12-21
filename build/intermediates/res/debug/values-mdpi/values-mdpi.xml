@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-mdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="header_text_size">12sp</dimen>
+    <dimen name="text_size">10sp</dimen>
+</resources>

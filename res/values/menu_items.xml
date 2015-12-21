@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title">Typical settings</string>
+    <string name="menu_item_factory_reset">Factory reset</string>
+   	<string name="menu_item_fun1">Staff control CL (function 301)</string>
+    <string name="menu_item_fun2">Staff control CL with autostart module ARS-300 (function 302)</string>
+    <string name="menu_item_fun3">Control sequrity system (function 303)</string>
+    <string name="menu_item_fun4">Control sequrity system with autostart moduleа ARS-300 (function 304)</string>
+    <string name="menu_item_fun5">Control only from phone (auto-mode) (function 305)</string>
+    <string name="menu_item_fun6">Control only from phone(auto-mode) with autostart moduleа ARS-300 (function 306)</string>
+    <string name="menu_item_stand_usr_stn">Standart user settings</string>
+    <string name="menu_item_save_file">Save to the file</string>
+    <string name="menu_item_load_file">Load from file</string>
+    <string name="menu_item_delete_file">Delete file</string>
+    <string name="menu_item_change_language">Change language</string>
+</resources>

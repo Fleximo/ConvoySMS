@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_notifications.xml -->
+    <eat-comment/>
+    <string name="MenuItem_Notifications_USER1">1</string>
+    <string name="MenuItem_Notifications_USER2">2</string>
+    <string name="MenuItem_Notifications_USER3">3</string>
+    <string name="MenuItem_Notifications_USER4">4</string>
+    <string name="MenuItem_Notifications_USER5">5</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SMS-generator CONVOY</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_change_language.xml -->
+    <eat-comment/>
+    <string name="btn_ChangeLanguage_Cancel">Cancel</string>
+    <string name="btn_ChangeLanguage_OK">OK</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_main.xml -->
+    <eat-comment/>
+    <string name="btn_Main_CAN">CAN</string>
+    <string name="btn_Main_Inputs">Входы</string>
+    <string name="btn_Main_Notifications">Уведомления</string>
+    <string name="btn_Main_Outputs">Выходы</string>
+    <string name="btn_Main_QueryConfigurations">Запрос настроек</string>
+    <string name="btn_Main_TextSMS">Текст SMS</string>
+    <string name="btn_Main_Timer">Таймеры</string>
+    <string name="btn_Main_UserSettings">Настройки пользователя</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_smstext.xml -->
+    <eat-comment/>
+    <string name="btn_TextSMS_Clear">Очистить</string>
+    <string name="btn_TextSMS_Generate">Генерация</string>
+    <string name="btn_TextSMS_Save">Сохранить</string>
+    <string name="btn_TextSMS_Send">Отправить</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_can.xml -->
+    <eat-comment/>
+    <string name="cb_CAN_ComfortSignal">Сигнал \"КОМФОРТ\" в шину CAN</string>
+    <string name="cb_CAN_DriveControl">Сигнал управления приводом замка багажника из шины CAN</string>
+    <string name="cb_CAN_Ignition">Сигнал \"ЗАЖИГАНИЕ\" из шины CAN</string>
+    <string name="cb_CAN_ManagingStaffSecuritySystem">Управление штатной охранной системой</string>
+    <string name="cb_CAN_SystArmDisarm"> Сигналы для постановки/снятия системы с охраны из шины CAN</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_inputs.xml -->
+    <eat-comment/>
+    <string name="cb_Inputs_IN1">IN1 (зеленый)</string>
+    <string name="cb_Inputs_IN2">IN2 (зеленый/красный)</string>
+    <string name="cb_Inputs_IN3">IN3 (синий)</string>
+    <string name="cb_Inputs_IN4">IN4 (белый/черный)</string>
+    <string name="cb_Inputs_IN5">IN5 (желтый/красный)</string>
+    <string name="cb_Inputs_IN6">IN6 (белый/красный)</string>
+    <string name="cb_Inputs_IN7">IN7 (желтый/черный)</string>
+    <string name="cb_Inputs_IN8">IN8 (синий/красный)</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_notifications.xml -->
+    <eat-comment/>
+    <string name="cb_Notifications_SMS">SMS</string>
+    <string name="cb_Notifications_TEL">ТЛФ</string>
+    <string name="cb_Notifications_User">Пользователь активирован</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_outputs.xml -->
+    <eat-comment/>
+    <string name="cb_Outputs_OUT1">OUT1 (черный/белый)</string>
+    <string name="cb_Outputs_OUT2">OUT2 (зеленый/черный)</string>
+    <string name="cb_Outputs_OUT3">OUT3 (синий/черный)</string>
+    <string name="cb_Outputs_OUT4">OUT4 (белый)</string>
+    <string name="cb_Outputs_OUT5">OUT5 (черный/красный)</string>
+    <string name="cb_Outputs_OUT6">OUT6 (коричневый)</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_query_configurations.xml -->
+    <eat-comment/>
+    <string name="cb_QueryConfigurations_HardwareConfigSystem">Аппаратные настройки системы</string>
+    <string name="cb_QueryConfigurations_UserSystemSettings">Пользовательские настройки системы</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_smstext.xml -->
+    <eat-comment/>
+    <string name="cb_TextSMS_ManualMode">Режим редактирования</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_utc.xml -->
+    <eat-comment/>
+    <string name="cb_UTC_Arming">Постановка системы на охрану</string>
+    <string name="cb_UTC_CentralLockTimer13">Таймер закрытия ЦЗ (функция 13)</string>
+    <string name="cb_UTC_CentralLockTimer14">Таймер открытия ЦЗ (функция 14)</string>
+    <string name="cb_UTC_CommandFromPhone">Команда с телефона          </string>
+    <string name="cb_UTC_DelayTimeEngineStart">Время проверки запуска двигателя</string>
+    <string name="cb_UTC_DelayTimeLimitSwitchesSurvey">Время задержки опроса концевых выключателей</string>
+    <string name="cb_UTC_IgnitionSwitchOff">Выключение зажигания        </string>
+    <string name="cb_UTC_IgnitionSwitchOn">Включение зажигания         </string>
+    <string name="cb_UTC_RearmingSystem">Автоматический возврат системы на охрану</string>
+    <string name="cb_UTC_SysDisarm">Снятие системы с охраны     </string>
+    <string name="cb_UTC_TurboTimerSettings">Режим \"Турботаймер\"</string>
+    <string name="cb_UTC_UniversalChannel1">Универсальный таймерный канал №1</string>
+    <string name="cb_UTC_UniversalChannel2">Универсальный таймерный канал №2</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="cb_UserSettings_AccBalance">Автопроверка баланса счета</string>
+    <string name="cb_UserSettings_AccessPointNameMobOper">Имя точки доступа мобильного оператора</string>
+    <string name="cb_UserSettings_AlarmTrasholdDisabled">Зона тревоги датчика отключена</string>
+    <string name="cb_UserSettings_BalanceChecking">Номер проверки баланса счета</string>
+    <string name="cb_UserSettings_CurrentPIN">Текущий PIN</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_utc.xml -->
+    <eat-comment/>
+    <string name="cb_UserSettings_DisarmingSystem">Двухэтапное снятие системы с охраны\n(пассивная блокировка двигателя)</string>
+    <string name="cb_UserSettings_InputTimerOnArming">Таймер выхода при постановке на охрану (функция 12)</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="cb_UserSettings_MonitoringSettings">Режим мониторинга</string>
+    <string name="cb_UserSettings_NumberCallAttempts">Число попыток дозвона</string>
+    <string name="cb_UserSettings_PIN">Новый PIN</string>
+    <string name="cb_UserSettings_PhoneSensitivity">Микрофон</string>
+    <string name="cb_UserSettings_PhoneSensitivityDisabled">Микрофон выключен</string>
+    <string name="cb_UserSettings_Rearm">Функция автоматического возврата на охрану</string>
+    <string name="cb_UserSettings_ShockSensSettings">Датчик удара</string>
+    <string name="cb_UserSettings_Siren">Сирена</string>
+    <string name="cb_UserSettings_SpeakerVolume">Динамик</string>
+    <string name="cb_UserSettings_SpeakerVolumeDisabled">Динамик отключен</string>
+    <string name="cb_UserSettings_TiltSens_AllSensEnabled">Все датчики системы</string>
+    <string name="cb_UserSettings_TiltSensor">Датчик наклона</string>
+    <string name="cb_UserSettings_TiltSensorDisabled">Датчик наклона  выключен</string>
+    <string name="cb_UserSettings_WarningTrasholdDisabled">Зона предупреждения датчика отключена</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_info.xml -->
+    <eat-comment/>
+    <string name="description_Info_text">Это программное приложение позволяет настроить и запрограммировать пользовательские и аппаратные настройки охранных GSM-систем CONVOY</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_create_user.xml -->
+    <eat-comment/>
+    <string name="et_CreateUser_PINConfirm">Подтверждение PIN</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_login.xml -->
+    <eat-comment/>
+    <string name="et_Login_DefaultHintPhone">Номер телефона</string>
+    <string name="et_Login_DefaultTextPIN">PIN</string>
+    <string name="et_Login_DefaultTextPhone">+380</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="et_UserSettings_AlarmTrashold">32</string>
+    <string name="et_UserSettings_BalanceCheckinngFrequency">24</string>
+    <string name="et_UserSettings_CriticalBalance">10</string>
+    <string name="et_UserSettings_CriticalBalanceDimen">грн</string>
+    <string name="et_UserSettings_NumSumPosition">1</string>
+    <string name="et_UserSettings_NumberCallAttempts">1</string>
+    <string name="et_UserSettings_PhoneSensitivity">5</string>
+    <string name="et_UserSettings_SpeakerVolume">50</string>
+    <string name="et_UserSettings_TiltSensor">1</string>
+    <string name="et_UserSettings_WarningTrashold">18</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_info.xml -->
+    <eat-comment/>
+    <string name="header_Info_text">Convoy SMS-генератор v.1.16</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="header_text_CurrentPIN">Current PIN</string>
+    <string name="header_text_defaultPIN">0000</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <string name="image_button_desc">No description</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_inputs.xml -->
+    <eat-comment/>
+    <string name="input_functions_arming">Постановка на охрану</string>
+    <string name="input_functions_ban_arming">Запрет постановки на охрану</string>
+    <string name="input_functions_confirmation_button_disarm">Кнопка подтверждения снятия с охраны</string>
+    <string name="input_functions_disarming">Снятие с охраны</string>
+    <string name="input_functions_limit_bonnet_switch">Концевой выключатель капота</string>
+    <string name="input_functions_limit_bonnet_trunk_switch">Концевой выключатель капота/багажника</string>
+    <string name="input_functions_limit_door_switch">Концевой выключатель двери</string>
+    <string name="input_functions_limit_driver_door_switch">Концевой выключатель двери водителя</string>
+    <string name="input_functions_limit_trunk_switch">Концевой выключатель багажника</string>
+    <string name="input_functions_limit_universal_switch">Универсальный концевой выключатель</string>
+    <string name="input_functions_permit_arming">Разрешение постановки/снятия с охраны</string>
+    <string name="input_functions_protection_sign">Признак охраны</string>
+    <string name="input_functions_sensor_external">Внешний датчик</string>
+    <string name="input_functions_sensor_glass_break">Датчик разбития стекла</string>
+    <string name="input_functions_sensor_motion">Датчик движения</string>
+    <string name="input_functions_sensor_shock">Датчик удара</string>
+    <string name="input_functions_sensor_tilt">Датчик наклона</string>
+    <string name="input_functions_siren">Сирена дополнительной охранной системы</string>
+    <string name="input_functions_startup_control">Контроль автозапуска</string>
+    <string name="input_functions_trunk_lock_actuator">Привод замка багажника</string>
+    <string name="input_is_active_by_closing">По замыканию </string>
+    <string name="input_is_active_by_opening">По размыканию </string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/menu_items.xml -->
+    <eat-comment/>
+    <string name="menu_item_change_language">Изменить язык</string>
+    <string name="menu_item_delete_file">Удалить файл</string>
+    <string name="menu_item_factory_reset">Установить заводские настройки</string>
+    <string name="menu_item_fun1">Управление штатным ЦЗ (функция 301)</string>
+    <string name="menu_item_fun2">Управление штатным ЦЗ совместно с модулем автозапуска ARS-300 (функция 302)</string>
+    <string name="menu_item_fun3">Управление доп.охранной системой (функция 303)</string>
+    <string name="menu_item_fun4">Управление доп.охранной системой совместно с модулем автозапуска ARS-300 (функция 304)</string>
+    <string name="menu_item_fun5">Управление только с телефона (автономная работа) (функция 305)</string>
+    <string name="menu_item_fun6">Управление только с телефона (автономная работа) совместно с модулем автозапуска ARS-300 (функция 306)</string>
+    <string name="menu_item_load_file">Загрузить из файла</string>
+    <string name="menu_item_save_file">Сохранить в файл</string>
+    <string name="menu_item_stand_usr_stn">Стандартные настройки пользователя </string>
+    <string name="menu_title">Типовые настройки</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_outputs.xml -->
+    <eat-comment/>
+    <string name="output_functions_minus_NR_lock">\"-\"НР блокировки (\"-\" при снятой охране)</string>
+    <string name="output_functions_minus_NZ_lock">\"-\"НЗ блокировки (\"-\" на охране)</string>
+    <string name="output_functions_minus_light_indication">\"-\"световой индикации</string>
+    <string name="output_functions_minus_pager">\"-\"пейджера (контроля уровня GSM-связи)</string>
+    <string name="output_functions_minus_prog_imp_arming">\"-\"импульса 1 сек при постановке на охрану (закрытие ЦЗ)</string>
+    <string name="output_functions_minus_prog_imp_disarm">\"-\"импульса 1 сек при снятии с охраны (открытие ЦЗ)</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_off">\"-\" импульса открытия ЦЗ при снятии с охраны и  выключении зажигания</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_on">\"-\" импульса закрытия ЦЗ при постановке на охрану и  включении зажигания</string>
+    <string name="output_functions_minus_prog_imp_on_arm">\"-\"программируемого импульса при постановке на охрану</string>
+    <string name="output_functions_minus_siren_klaxon">\"-\"сирены/клаксона</string>
+    <string name="output_functions_minus_start_stop">\"-\"СТАРТ/СТОП</string>
+    <string name="output_functions_minus_startup_activation">\"-\"активации автозапуска (СТАРТ)</string>
+    <string name="output_functions_minus_startup_disactivation">\"-\"деактивации автозапуска (СТОП)/\"-\" стоп-сигналов в режиме тревоги</string>
+    <string name="output_functions_minus_turbotimer">\"-\"турботаймера</string>
+    <string name="output_functions_minus_univers_time_channel1">\"-\"универсального таймерного канала №1</string>
+    <string name="output_functions_minus_univers_time_channel2">\"-\"универсального таймерного канала №2</string>
+    <string name="output_functions_plus_NR_lock">\"+\"НР блокировки (\"+\" при снятой охране)</string>
+    <string name="output_functions_plus_NZ_lock">\"+\"НЗ блокировки (\"+\" на охране)</string>
+    <string name="output_functions_plus_light_indication">\"+\"световой индикации</string>
+    <string name="output_functions_plus_pager">\"+\"пейджера (контроля уровня GSM-связи)</string>
+    <string name="output_functions_plus_prog_imp_arming">\"+\"импульса 1 сек при постановке на охрану (закрытие ЦЗ)</string>
+    <string name="output_functions_plus_prog_imp_disarm">\"+\"импульса 1 сек при снятии с охраны (открытие ЦЗ)</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_off">\"+\" импульса открытия ЦЗ при снятии с охраны и  выключении зажигания</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_on">\"+\" импульса закрытия ЦЗ при постановке на охрану и  включении зажигания</string>
+    <string name="output_functions_plus_prog_imp_on_arm">\"+\"программируемого импульса при постановке на охрану</string>
+    <string name="output_functions_plus_siren_klaxon">\"+\"сирены/клаксона</string>
+    <string name="output_functions_plus_start_stop">\"+\"СТАРТ/СТОП</string>
+    <string name="output_functions_plus_startup_activation">\"+\"активации автозапуска (СТАРТ)</string>
+    <string name="output_functions_plus_startup_disactivation">\"+\"деактивации автозапуска (СТОП)/\"+\" стоп-сигналов в режиме тревоги</string>
+    <string name="output_functions_plus_turbotimer">\"+\"турботаймера</string>
+    <string name="output_functions_plus_univers_time_channel1">\"+\"универсального таймерного канала №1</string>
+    <string name="output_functions_plus_univers_time_channel2">\"+\"универсального таймерного канала №2</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_inputs.xml -->
+    <eat-comment/>
+    <string name="polarity_minus">\"-\"</string>
+    <string name="polarity_plus">\"+\"</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_change_language.xml -->
+    <eat-comment/>
+    <string name="rbtn_ChangeLanguage_English">English</string>
+    <string name="rbtn_ChangeLanguage_Espanian">Українська</string>
+    <string name="rbtn_ChangeLanguage_Russian">Русский</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="spinValue_AccessPointNameMobOper1">Internet</string>
+    <string name="spinValue_AccessPointNameMobOper2">www.ab.kyivstar.net</string>
+    <string name="spinValue_AccessPointNameMobOper3">www.djuice.com.ua</string>
+    <string name="spinValue_AccessPointNameMobOper4">Другое</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_can.xml -->
+    <eat-comment/>
+    <string name="str_CAN_ComfortSignal_DisabledCANSignal">Запрещена подача сигнала шину CAN</string>
+    <string name="str_CAN_ComfortSignal_EnabledCANSignal">Разрешена подача сигнала шину CAN</string>
+    <string name="str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Disabled">Запрещено управление штатной охранной системой</string>
+    <string name="str_CAN_ComfortSignal_ManagingStaffSecuritySystem_Enabled">Разрешено управление штатной охранной системой</string>
+    <string name="str_CAN_DriveControl_NotUsed">Не используется</string>
+    <string name="str_CAN_DriveControl_Used">Используется</string>
+    <string name="str_CAN_Ignition_NotUsed">Не используется</string>
+    <string name="str_CAN_Ignition_Used">Используется</string>
+    <string name="str_CAN_SystArmDisarm_NotUsed">Не используются</string>
+    <string name="str_CAN_SystArmDisarm_StaffSignals">Сигналы штатного ЦЗ</string>
+    <string name="str_CAN_SystArmDisarm_StatusSignal">Сигнал статуса штатной охранной системы</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="str_MonitoringSettingsDisabled">Выключен</string>
+    <string name="str_MonitoringSettingsEnabled">Включен</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_utc.xml -->
+    <eat-comment/>
+    <string name="str_UTC_LockImpuls13CL0">Нет импулься закрытия ЦЗ</string>
+    <string name="str_UTC_LockImpuls13CL1">Импульс при постановке на охрану</string>
+    <string name="str_UTC_LockImpuls13CL2">Импульс по включению зажигания </string>
+    <string name="str_UTC_LockImpuls13CL3">Импульс при постановке на охрану и по включению зажигания</string>
+    <string name="str_UTC_LockImpuls14CL0">Нет импулься открытия ЦЗ</string>
+    <string name="str_UTC_LockImpuls14CL1">Импульс при снятии с охраны</string>
+    <string name="str_UTC_LockImpuls14CL2">Импульс по выключению зажигания </string>
+    <string name="str_UTC_LockImpuls14CL3">Импульс при снятии с охраны и по выключению зажигания</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="str_UserSettings_CurrentPIN">0000</string>
+    <string name="str_UserSettings_Disabled">Выключена</string>
+    <string name="str_UserSettings_Enabled">Включена</string>
+    <string name="str_UserSettings_HintNewPIN">0000</string>
+    <string name="str_UserSettings_TiltSens_AllSensEnabled1">Включены</string>
+    <string name="str_UserSettings_TiltSens_AllSensEnabled2">Выключены</string>
+    <string name="str_disabled">Выключены</string>
+    <string name="str_enabled">Включены</string>
+    <string name="str_enabled_onset">Только при постановке</string>
+    <string name="str_klaxon1">Клаксон 1 (длинные импульсы)</string>
+    <string name="str_klaxon2">Клаксон 2 (короткие импульсы)</string>
+    <string name="str_mobile_oper_another">Другой</string>
+    <string name="str_mobile_oper_kyivstar">*111#</string>
+    <string name="str_mobile_oper_mtc">*101#</string>
+    <string name="str_mobile_oper_ukrtelekom">*100#</string>
+    <string name="str_siren">Сирена (непрерывный)</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_query_configurations.xml -->
+    <eat-comment/>
+    <string name="string_QueryConfigurations_HintPhone">+380</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_utc.xml -->
+    <eat-comment/>
+    <string name="string_UTC_Rearming_Disabled">Выключен</string>
+    <string name="string_UTC_Rearming_Enabled">Включен</string>
+    <string name="string_UTC_TwoStageDisarming_Disabled">Выключено</string>
+    <string name="string_UTC_TwoStageDisarming_Enabled">Включено</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_can.xml -->
+    <eat-comment/>
+    <string name="tv_CAN_ComfortSignal">Подача сигнала</string>
+    <string name="tv_CAN_DriveControl">Сигнал управления</string>
+    <string name="tv_CAN_Ignition">Зажигание</string>
+    <string name="tv_CAN_ManagingStaffSecuritySystem">Управление системой</string>
+    <string name="tv_CAN_SystArmDisarm">Сигналы</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_change_language.xml -->
+    <eat-comment/>
+    <string name="tv_ChangeLanguage_Header">Выберите язык:</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_create_user.xml -->
+    <eat-comment/>
+    <string name="tv_CreateUser_Header">РЕГИСТРАЦИЯ в приложение Convoy: \n Введите номер телефона и PIN</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_delete_popup.xml -->
+    <eat-comment/>
+    <string name="tv_DeletePopup_Header">Удаление настроек</string>
+    <string name="tv_DeletePopup_SubHeader">Выберите настройки для удаления:\nM - модифицированные вручную\nA-сгенерированные автоматически</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_inputs.xml -->
+    <eat-comment/>
+    <string name="tv_Inputs_InputFunction">Функция входа</string>
+    <string name="tv_Inputs_InputIsActive">Вход активен </string>
+    <string name="tv_Inputs_MinClosingTime">Мин.время замыкания</string>
+    <string name="tv_Inputs_MinOpeningTime">Мин.время размыкания</string>
+    <string name="tv_Inputs_Polarity">Полярность</string>
+    <string name="tv_Inputs_Seconds">секунд</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_load_popup.xml -->
+    <eat-comment/>
+    <string name="tv_LoadPopup_Header">Загрузка настроек</string>
+    <string name="tv_LoadPopup_SubHeader">Выберите файл для загрузки настроек:\nM - модифицированные вручную\nA-сгенерированные автоматически</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_login.xml -->
+    <eat-comment/>
+    <string name="tv_Login_LoginText">ВХОД в приложение Convoy: \n Введите номер телефона и PIN</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_notifications.xml -->
+    <eat-comment/>
+    <string name="tv_Notifications_AllowChangeNotification">Разрешить изменения уведомлений                                                              </string>
+    <string name="tv_Notifications_CallButtonPressed">Нажата кнопка \"Вызов\"                                                                      </string>
+    <string name="tv_Notifications_GSM">Пропадание/появление сигнала GSM-сети                                                         </string>
+    <string name="tv_Notifications_IngineActive">Активен вход зажигания, аккумулятор отключен, попытка подбора PIN-кода, пропадало питание 12В</string>
+    <string name="tv_Notifications_LoadLimitSwitch">Сработал концевой выключатель двери/капота/багажника, активен вход сирены                    </string>
+    <string name="tv_Notifications_LoadShockSensor">Сработал датчик удара/движения/наклона/разбития стекла/дополнительный датчик                 </string>
+    <string name="tv_Notifications_LoadUniversalLimitSwitch">Сработал универсальный концевой выключатель, дистанционный запуск двигателя не удался        </string>
+    <string name="tv_Notifications_LowBattery">Аккумулятор разряжен, баланс счета ниже критического                                         </string>
+    <string name="tv_Notifications_NotificationReason">Причина тревожного/сервисного уведомления                                             </string>
+    <string name="tv_Notifications_PhoneNumber">Номер телефона                                                                               </string>
+    <string name="tv_Notifications_ReasonAlarmServiceNotifications">Причина тревожного/сервисного уведомления                                                    </string>
+    <string name="tv_Notifications_SystemArming">Постановка системы на охрану                                                                 </string>
+    <string name="tv_Notifications_SystemDisarm">Снятие системы с охраны                                                                      </string>
+    <string name="tv_Notifications_WarningZone">Сработала зона предупреждения датчика (датчиков)                                           </string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_outputs.xml -->
+    <eat-comment/>
+    <string name="tv_Outputs_OutputFunction">Функция выхода</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_query_configurations.xml -->
+    <eat-comment/>
+    <string name="tv_QueryConfigurations_Phone">Номер для ответной SMS </string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_save_popup.xml -->
+    <eat-comment/>
+    <string name="tv_SavePopup_Header">Сохранение настроек</string>
+    <string name="tv_SavePopup_SubHeader">Веедите имя для новых настроек:\nM - модифицированные вручную\nA-сгенерированные автоматически</string>
+    <string name="tv_SavePopup_SubHeaderHint">Имя файла</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_smstext.xml -->
+    <eat-comment/>
+    <string name="tv_TextSMS_PhoneForSMSSENDING">Номер SIM-карты системы</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_utc.xml -->
+    <eat-comment/>
+    <string name="tv_UTC_ActivationConditions">  Условия активации </string>
+    <string name="tv_UTC_FirstImpulsLongtime13">Длительность первого импульса</string>
+    <string name="tv_UTC_FirstImpulsLongtime14">Длительность первого импульса</string>
+    <string name="tv_UTC_IngnTimeLockedEngine">Время отключения блокировки при включении зажигания(обход ошибок борт. компютера)</string>
+    <string name="tv_UTC_LockImpulsCloseCL13">Импульс закрытия ЦЗ</string>
+    <string name="tv_UTC_LockImpulsCloseCL14">Импульс открытия ЦЗ</string>
+    <string name="tv_UTC_Minutes">минут</string>
+    <string name="tv_UTC_OnDelay"> Задержка включения(секунды) </string>
+    <string name="tv_UTC_OperationTime">Время работы (секунды)</string>
+    <string name="tv_UTC_PauseTimeAfterIngAndImpStart13">Время паузы после включения зажигания и началом импульса</string>
+    <string name="tv_UTC_PauseTimeBetwImpulses13">Время паузы между импульсами</string>
+    <string name="tv_UTC_PauseTimeBetwImpulses14">Время паузы между импульсами</string>
+    <string name="tv_UTC_SecondImpulsLongtime13">Длительность второго импульса</string>
+    <string name="tv_UTC_SecondImpulsLongtime14">Длительность второго импульса</string>
+    <string name="tv_UTC_Seconds">секунд</string>
+    <string name="tv_UTC_Time">Время: </string>
+    <string name="tv_UTC_TurbotimerWorkingTime">Время работы турботаймера</string>
+    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-ru/text_user_settings.xml -->
+    <eat-comment/>
+    <string name="tv_UserSettings_AccessPointNameMobOperAnother">Имя другой точки доступа</string>
+    <string name="tv_UserSettings_AlarmMode">Сигналы в режиме тревоги</string>
+    <string name="tv_UserSettings_AlarmThresholdHeavy">Низкая \n сильный удар</string>
+    <string name="tv_UserSettings_AlarmThresholdShockSensor">Настройки чувствительности зоны тревоги датчика удара:</string>
+    <string name="tv_UserSettings_AlarmThresholdValue">Значение: </string>
+    <string name="tv_UserSettings_AlarmThresholdWeak">Высокая \n слабый удар</string>
+    <string name="tv_UserSettings_BalanceCheckingAnother">Другой номер для проверки баланса</string>
+    <string name="tv_UserSettings_BalanceCheckinngFrequency">Периодичность проверки баланса</string>
+    <string name="tv_UserSettings_BalanceCheckinngFrequencyDimen">часы</string>
+    <string name="tv_UserSettings_CriticalBalance">Критичный (минимальный) баланс</string>
+    <string name="tv_UserSettings_DinamicVolumeSettings">Настройка громкости динамика:</string>
+    <string name="tv_UserSettings_MicrophoneSensativiti">Настройка чувствительности микрофона:</string>
+    <string name="tv_UserSettings_NumSumPosition">Номер позиции суммы баланса в SMS оператора</string>
+    <string name="tv_UserSettings_PhoneSensetivHight">Высокая \nгромче</string>
+    <string name="tv_UserSettings_PhoneSensetivLow">Низкая \nтише</string>
+    <string name="tv_UserSettings_PhoneSensetivValue">Значение: </string>
+    <string name="tv_UserSettings_SpeakerVolumeHight">Высокая \nгромче</string>
+    <string name="tv_UserSettings_SpeakerVolumeLow">Низкая \nтише</string>
+    <string name="tv_UserSettings_SpeakerVolumeValue">Значение: </string>
+    <string name="tv_UserSettings_SystemSetUnset">Сигналы при постановке/снятии системы с охраны</string>
+    <string name="tv_UserSettings_TiltSens_AllSensEnabled">Все датчики системы</string>
+    <string name="tv_UserSettings_TiltSensorHight">Низкая \n Большой угол</string>
+    <string name="tv_UserSettings_TiltSensorLow">Большая \n Малый угол</string>
+    <string name="tv_UserSettings_TiltSensorThreshold">Настройка чувствительности датчика наклона:</string>
+    <string name="tv_UserSettings_TiltSensorValue">Значение: </string>
+    <string name="tv_UserSettings_WarningThreshold">Настройка чувствительности зоны предупреждения датчика удара:</string>
+    <string name="tv_UserSettings_WarningTrashold_Heavy">Низкая \n сильный удар</string>
+    <string name="tv_UserSettings_WarningTrashold_Value">Значение: </string>
+    <string name="tv_UserSettings_WarningTrashold_Weak">Высокая \n слабый удар</string>
+</resources>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- OUTPUTS -->
+    <string name="cb_Outputs_OUT1">OUT1 (чорний/білий)</string>
+    <string name="cb_Outputs_OUT2">OUT2 (зелений/чорний)</string>
+    <string name="cb_Outputs_OUT3">OUT3 (синій/чорний)</string>
+    <string name="cb_Outputs_OUT4">OUT4 (білий)</string>
+    <string name="cb_Outputs_OUT5">OUT5 (чорний/червоний)</string>
+    <string name="cb_Outputs_OUT6">OUT6 (коричневий)</string>
+    
+    <!-- INPUT FUNCTIONS -->
+    <string name="tv_Outputs_OutputFunction">Функція виходу</string>
+    
+    <string name="output_functions_minus_NZ_lock">\"-\"НЗ блокування (\"-\" на охороні)</string>
+    <string name="output_functions_minus_univers_time_channel1">\"-\"універсального таймерного каналу №1</string>
+    <string name="output_functions_minus_univers_time_channel2">\"-\"універсального таймерного каналу №2</string>
+    <string name="output_functions_minus_light_indication">\"-\"світлової індикації</string>
+    <string name="output_functions_minus_NR_lock">\"-\"НР блокування (\"-\" при знятті з охорони)</string>
+    <string name="output_functions_minus_siren_klaxon">\"-\"сирени/клаксону</string>
+    <string name="output_functions_minus_startup_activation">\"-\"активациї автозапуску (СТАРТ)</string>
+    <string name="output_functions_minus_startup_disactivation">\"-\"деактивації автозапуску (СТОП)/\"-\" стоп-сигналів в режимі тревоги</string>
+    <string name="output_functions_minus_turbotimer">\"-\"турботаймера</string>
+    <string name="output_functions_minus_pager">\"-\" пейджера (контроля рівня GSM-зв\'язку)</string>
+    <string name="output_functions_minus_start_stop">\"-\" СТАРТ/СТОП</string>
+    <string name="output_functions_minus_prog_imp_on_arm">\"-\"програмованого імпульсу при постановці на охорону</string>
+    <string name="output_functions_minus_prog_imp_arming">\"-\"імпульсу 1 сек при постановці на охорону (закриття ЦЗ)</string>
+    <string name="output_functions_minus_prog_imp_disarm">\"-\"імпульсу 1 сек при знятті з охорони (відкриття ЦЗ)</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_on">\"-\" імпултса закриття ЦЗ при встановленні на охорону і ввімкнення запалювання</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_off">\"-\" імпултса відкриття ЦЗ при знятті з охорони і вимкненні запалювання</string>
+    
+    <string name="output_functions_plus_NZ_lock">\"+\"НЗ блокування (\"+\" на охороні)</string>
+    <string name="output_functions_plus_univers_time_channel1">\"+\"універсального таймерного каналу №1</string>
+    <string name="output_functions_plus_univers_time_channel2">\"+\"універсального таймерного каналу №2</string>
+    <string name="output_functions_plus_light_indication">\"+\"світлової індикації</string>
+    <string name="output_functions_plus_NR_lock">\"+\"НР блокування (\"+\" при знятті з охорони)</string>
+    <string name="output_functions_plus_siren_klaxon">\"+\"сирени/клаксону</string>
+    <string name="output_functions_plus_startup_activation">\"+\"активації автозапуску (СТАРТ)</string>
+    <string name="output_functions_plus_startup_disactivation">\"+\"деактивації автозапуску (СТОП)/\"+\" стоп-сигналів в режимі тревоги</string>
+    <string name="output_functions_plus_turbotimer">\"+\"турботаймера</string>
+    <string name="output_functions_plus_pager">\"+\"пейджера (контролю рівня GSM-зв\'язку)</string>
+    <string name="output_functions_plus_start_stop">\"+\"СТАРТ/СТОП</string>
+    <string name="output_functions_plus_prog_imp_on_arm">\"+\"програмованого імпульсу при постановці на охорону</string>
+    <string name="output_functions_plus_prog_imp_arming">\"+\"імпульсу 1 сек при постановці на охорону (закриття ЦЗ)</string>
+    <string name="output_functions_plus_prog_imp_disarm">\"+\"імпульсу 1 сек при знятті з охорони (відкриття ЦЗ)</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_on">\"+\" імпултса закриття ЦЗ при встановленні на охорону і ввімкнення запалювання</string>
+    <string name="output_functions_plus_prog_imp_ign_switch_off">\"+\" імпултса відкриття ЦЗ при знятті з охорони і вимкненні запалювання</string>
+    
+</resources>

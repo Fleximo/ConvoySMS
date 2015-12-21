@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_CreateUser_Header">РЕЄСТРАЦІЯ в додатку Convoy: \n Введіть номер телефона та PIN</string>
+    <string name="et_CreateUser_PINConfirm">Підтвердіть PIN</string>
+</resources>

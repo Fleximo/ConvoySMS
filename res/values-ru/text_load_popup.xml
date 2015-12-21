@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_LoadPopup_Header">Загрузка настроек</string>
+    <string name="tv_LoadPopup_SubHeader">Выберите файл для загрузки настроек:\nM - модифицированные вручную\nA-сгенерированные автоматически</string>
+</resources>

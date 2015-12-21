@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="btn_Main_QueryConfigurations">Запрос настроек</string>
+    <string  name="btn_Main_UserSettings">Настройки пользователя</string>
+    <string  name="btn_Main_Inputs">Входы</string>
+    <string  name="btn_Main_Outputs">Выходы</string>
+    <string  name="btn_Main_Timer">Таймеры</string>
+    <string  name="btn_Main_Notifications">Уведомления</string>
+    <string  name="btn_Main_CAN">CAN</string>
+    <string  name="btn_Main_TextSMS">Текст SMS</string>
+</resources>

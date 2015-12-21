@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_Login_LoginText">LOGIN to the Convoy application: \n Enter your phone number and PIN</string>
+    <string name="et_Login_DefaultHintPhone">Phone Number</string>
+    <string name="et_Login_DefaultTextPhone">+380</string>
+    <string name="et_Login_DefaultTextPIN">PIN</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="tv_TextSMS_PhoneForSMSSENDING">Number of systems SIM-card</string>
+    
+    <string  name="btn_TextSMS_Generate">Generate</string>
+    <string  name="btn_TextSMS_Send">Send</string>
+    <string  name="btn_TextSMS_Clear">Clear</string>
+    <string  name="btn_TextSMS_Save">Save</string>
+    
+    <string  name="cb_TextSMS_ManualMode">Edit mode</string>
+</resources>
