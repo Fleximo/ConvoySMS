@@ -1243,33 +1243,6 @@ public class SaveSettingPopup extends Activity implements OnClickListener
 		settings += "<"+ key286 +">" + MainActivity.stateholderTimer.getOutputTimerOnArmOperationTimeValue() + "</"+ key286 +">\n";
 		settings += "<"+ key287 +">" + MainActivity.stateholderTimer.getOutputTimerOnArmDelayEnabled() + "</"+ key287 +">\n";
 		settings += "<"+ key288 +">" + MainActivity.stateholderTimer.getOutputTimerOnArmDelayValue() + "</"+ key288 +">\n";
-		//Two stage disarming system
-		settings += "<"+ key289 +">" + MainActivity.stateholderTimer.getCbDisarmingSystemEnabled() + "</"+ key289 +">\n";
-		settings += "<"+ key290 +">" + MainActivity.stateholderTimer.getCbDisarmingSystemChecked() + "</"+ key290 +">\n";
-		settings += "<"+ key291 +">" + MainActivity.stateholderTimer.getSpinDisarmingSystemEnabled() + "</"+ key291 +">\n";
-		settings += "<"+ key292 +">" + MainActivity.stateholderTimer.getSpinDisarmingSystemValue() + "</"+ key292 +">\n";
-		//Rearming
-		settings += "<"+ key293 +">" + MainActivity.stateholderTimer.getCbRearmingSystemEnabled() + "</"+ key293 +">\n";
-		settings += "<"+ key294 +">" + MainActivity.stateholderTimer.getCbRearmingSystemChecked() + "</"+ key294 +">\n";
-		settings += "<"+ key295 +">" + MainActivity.stateholderTimer.getSpinRearmingSystemEnabled() + "</"+ key295 +">\n";
-		settings += "<"+ key296 +">" + MainActivity.stateholderTimer.getSpinRearmingSystemValue() + "</"+ key296 +">\n";
-		//Turbotimer
-		settings += "<"+ key297 +">" + MainActivity.stateholderTimer.getCbTurboTimerSettingsEnabled() + "</"+ key297 +">\n";
-		settings += "<"+ key298 +">" + MainActivity.stateholderTimer.getCbUTurboTimerSettingsChecked() + "</"+ key298 +">\n";
-		settings += "<"+ key299 +">" + MainActivity.stateholderTimer.getTurbotimerWorkingTimeEnabled() + "</"+ key299 +">\n";
-		settings += "<"+ key300 +">" + MainActivity.stateholderTimer.getTurbotimerWorkingTimeValue() + "</"+ key300 +">\n";
-		settings += "<"+ key301 +">" + MainActivity.stateholderTimer.getIngnTimeLockedEngineEnabled() + "</"+ key301 +">\n";
-		settings += "<"+ key302 +">" + MainActivity.stateholderTimer.getIngnTimeLockedEngineValue() + "</"+ key302 +">\n";
-		//Delay Time Engine Start
-		settings += "<"+ key303 +">" + MainActivity.stateholderTimer.getCbDelayTimeEngineStartEnabled() + "</"+ key303 +">\n";
-		settings += "<"+ key304 +">" + MainActivity.stateholderTimer.getCbDelayTimeEngineStartChecked() + "</"+ key304 +">\n";
-		settings += "<"+ key305 +">" + MainActivity.stateholderTimer.getDelayTimeEngineStartEnabled() + "</"+ key305 +">\n";
-		settings += "<"+ key306 +">" + MainActivity.stateholderTimer.getDelayTimeEngineStartValue() + "</"+ key306 +">\n";
-		//Delay Time Limit Switches Survey
-		settings += "<"+ key307 +">" + MainActivity.stateholderTimer.getCbDelayTimeLimitSwitchesSurveyEnabled() + "</"+ key307 +">\n";
-		settings += "<"+ key308 +">" + MainActivity.stateholderTimer.getCbDelayTimeLimitSwitchesSurveyChecked() + "</"+ key308 +">\n";
-		settings += "<"+ key309 +">" + MainActivity.stateholderTimer.getDelayTimeLimitSwitchesSurveyEnabled() + "</"+ key309 +">\n";
-		settings += "<"+ key310 +">" + MainActivity.stateholderTimer.getDelayTimeLimitSwitchesSurveyValue() + "</"+ key310 +">\n";
 		//Function13
 		settings += "<"+ key579 +">" + MainActivity.stateholderTimer.getCbCentralLockTimer13Enabled() + "</"+ key579 +">\n";
 		settings += "<"+ key580 +">" + MainActivity.stateholderTimer.getCbCentralLockTimer13Checked() + "</"+ key580 +">\n";

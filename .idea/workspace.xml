@@ -57,21 +57,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UniversalTimeChannels.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/UniversalTimeChannels.java">
+      <file leaf-file-name="TimerStateHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stateholders/TimerStateHolder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1863" column="67" selection-start-line="1863" selection-start-column="67" selection-end-line="1863" selection-end-column="67" />
+              <caret line="250" column="96" selection-start-line="250" selection-start-column="96" selection-end-line="250" selection-end-column="96" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadSettingPopup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoadSettingPopup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/LoadSettingPopup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51121074">
-              <caret line="515" column="141" selection-start-line="515" selection-start-column="141" selection-end-line="515" selection-end-column="141" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="611" column="0" selection-start-line="611" selection-start-column="0" selection-end-line="611" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,18 +80,18 @@
       <file leaf-file-name="GeneratorTimer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/GeneratorTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.69697">
-              <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaveSettingPopup.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SaveSettingPopup.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/SaveSettingPopup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1268" column="88" selection-start-line="1268" selection-start-column="88" selection-end-line="1268" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.27241963">
+              <caret line="1244" column="123" selection-start-line="1244" selection-start-column="123" selection-end-line="1244" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -943,10 +943,10 @@
         <option value="$PROJECT_DIR$/res/values-ru/text_utc.xml" />
         <option value="$PROJECT_DIR$/res/values-ua/text_utc.xml" />
         <option value="$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/UniversalTimeChannels.java" />
-        <option value="$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/SaveSettingPopup.java" />
-        <option value="$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/GeneratorTimer.java" />
         <option value="$PROJECT_DIR$/src/stateholders/TimerStateHolder.java" />
         <option value="$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/LoadSettingPopup.java" />
+        <option value="$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/GeneratorTimer.java" />
+        <option value="$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/SaveSettingPopup.java" />
       </list>
     </option>
   </component>
@@ -1345,15 +1345,15 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.4891967" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31823084" sideWeight="0.4498615" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20819849" sideWeight="0.632687" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20819849" sideWeight="0.632687" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38619202" sideWeight="0.47590026" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.50858724" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20819849" sideWeight="0.36731303" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279396" sideWeight="0.58947366" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20342731" sideWeight="0.22416303" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279396" sideWeight="0.42216066" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279396" sideWeight="0.4105263" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.4891967" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1388,13 +1388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/text_load_popup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08320493">
-          <caret line="3" column="124" selection-start-line="3" selection-start-column="124" selection-end-line="3" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values-ru/text_load_popup.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08320493">
@@ -1738,34 +1731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/SaveSettingPopup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1268" column="88" selection-start-line="1268" selection-start-column="88" selection-end-line="1268" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/GeneratorTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.69697">
-          <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/CAN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08737864">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stateholders/TimerStateHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.07767">
-          <caret line="324" column="19" selection-start-line="324" selection-start-column="19" selection-end-line="324" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1780,16 +1749,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/UniversalTimeChannels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.32763532">
           <caret line="1863" column="67" selection-start-line="1863" selection-start-column="67" selection-end-line="1863" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stateholders/TextSMSStateHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.102564104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stateholders/TimerStateHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="250" column="96" selection-start-line="250" selection-start-column="96" selection-end-line="250" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/LoadSettingPopup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51121074">
-          <caret line="515" column="141" selection-start-line="515" selection-start-column="141" selection-end-line="515" selection-end-column="141" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="611" column="0" selection-start-line="611" selection-start-column="0" selection-end-line="611" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/GeneratorTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegbrovko/smsgeneratorconvoy/SaveSettingPopup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27241963">
+          <caret line="1244" column="123" selection-start-line="1244" selection-start-column="123" selection-end-line="1244" selection-end-column="123" />
           <folding />
         </state>
       </provider>

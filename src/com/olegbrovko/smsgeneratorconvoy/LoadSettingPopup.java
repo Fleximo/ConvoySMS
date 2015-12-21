@@ -609,33 +609,7 @@ public class LoadSettingPopup extends Activity implements OnClickListener
 		MainActivity.stateholderTimer.setOutputTimerOnArmOperationTimeValue(getValue(sourceString, SaveSettingPopup.key286));
 		MainActivity.stateholderTimer.setOutputTimerOnArmDelayEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key287)));
 		MainActivity.stateholderTimer.setOutputTimerOnArmDelayValue(getValue(sourceString, SaveSettingPopup.key288));
-//		Two stage disarming system
-		MainActivity.stateholderTimer.setCbDisarmingSystemEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key289)));
-		MainActivity.stateholderTimer.setCbDisarmingSystemChecked(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key290)));
-		MainActivity.stateholderTimer.setSpinDisarmingSystemEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key291)));
-		MainActivity.stateholderTimer.setSpinDisarmingSystemValue(Integer.valueOf(getValue(sourceString, SaveSettingPopup.key292)));
-		//Rearming
-		MainActivity.stateholderTimer.setCbRearmingSystemEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key293)));
-		MainActivity.stateholderTimer.setCbRearmingSystemChecked(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key294)));
-		MainActivity.stateholderTimer.setSpinRearmingSystemEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key295)));
-		MainActivity.stateholderTimer.setSpinRearmingSystemValue(Integer.valueOf(getValue(sourceString, SaveSettingPopup.key296)));
-		//Turbotimer
-		MainActivity.stateholderTimer.setCbTurboTimerSettingsEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key297)));
-		MainActivity.stateholderTimer.setCbUTurboTimerSettingsChecked(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key298)));
-		MainActivity.stateholderTimer.setTurbotimerWorkingTimeEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key299)));
-		MainActivity.stateholderTimer.setTurbotimerWorkingTimeValue(getValue(sourceString, SaveSettingPopup.key300));
-		MainActivity.stateholderTimer.setIngnTimeLockedEngineEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key301)));
-		MainActivity.stateholderTimer.setIngnTimeLockedEngineValue(getValue(sourceString, SaveSettingPopup.key302));
-		//Delay Time Engine Start
-		MainActivity.stateholderTimer.setCbDelayTimeEngineStartEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key303)));
-		MainActivity.stateholderTimer.setCbDelayTimeEngineStartChecked(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key304)));
-		MainActivity.stateholderTimer.setDelayTimeEngineStartEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key305)));
-		MainActivity.stateholderTimer.setDelayTimeEngineStartValue(getValue(sourceString, SaveSettingPopup.key306));
-		//Delay Time Limit Switches Survey
-		MainActivity.stateholderTimer.setCbDelayTimeLimitSwitchesSurveyEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key307)));
-		MainActivity.stateholderTimer.setCbDelayTimeLimitSwitchesSurveyChecked(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key308)));
-		MainActivity.stateholderTimer.setDelayTimeLimitSwitchesSurveyEnabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key309)));
-		MainActivity.stateholderTimer.setDelayTimeLimitSwitchesSurveyValue(getValue(sourceString, SaveSettingPopup.key310));
+
 		//Function13
 		MainActivity.stateholderTimer.setCbCentralLockTimer13Enabled(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key579)));
 		MainActivity.stateholderTimer.setCbCentralLockTimer13Checked(Boolean.valueOf(getValue(sourceString, SaveSettingPopup.key580)));

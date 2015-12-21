@@ -22,10 +22,6 @@ public class GeneratorTimer
 		m_generatedMap.put(TextSMS.TIMER_TIMER1, getTimer1());
 		m_generatedMap.put(TextSMS.TIMER_TIMER2, getTimer2());
 		m_generatedMap.put(TextSMS.TIMER_OUTPUTTIMERONARMMODE, getOutputTimerOnArmDelay());
-		m_generatedMap.put(TextSMS.TIMER_REARMSYSTEM, getRearmingSystem());
-		m_generatedMap.put(TextSMS.TIMER_TURBOTIMER, getTurbotimer());
-		m_generatedMap.put(TextSMS.TIMER_DELAYTIMEENGINESTART, getDelayTimeEngineStart());
-		m_generatedMap.put(TextSMS.TIMER_DELAYTIMESWITCHSURVEY, getDelayTimeLimitSwitchesSurvey());
 		m_generatedMap.put(TextSMS.TIMER_FUNCTION13, getFunction13());
 		m_generatedMap.put(TextSMS.TIMER_FUNCTION14, getFunction14());
 		
@@ -153,68 +149,6 @@ public class GeneratorTimer
 		}
 		else
 		
-			return "";
-	}
-	
-//Rearming
-	private String getRearmingSystem()
-	{
-		if(m_stateholder.getSpinRearmingSystemEnabled())
-		{
-			String code = "REARM ";
-
-			code += (m_stateholder.getSpinRearmingSystemValue()) + " ";
-
-			return code;
-		}
-		else
-
-			return "";
-	}
-
-//Turbotimer
-	private String getTurbotimer()
-	{
-		if(m_stateholder.getCbUTurboTimerSettingsChecked())
-		{
-			String code = "TURBOTIMER ";
-
-			code += (m_stateholder.getTurbotimerWorkingTimeValue()) + " ";
-			code += (m_stateholder.getIngnTimeLockedEngineValue()) + " ";
-
-			return code;
-		}
-		else
-			return "";
-	}
-
-//Delay Time Engine Start
-	private String getDelayTimeEngineStart()
-	{
-		if(m_stateholder.getDelayTimeEngineStartEnabled())
-		{
-			String code = "STARTTIMER ";
-
-			code += Integer.parseInt(m_stateholder.getDelayTimeEngineStartValue())*4 + " ";
-
-			return code;
-		}
-		else
-			return "";
-	}
-
-//Delay Time Limit Switches Survey
-	private String getDelayTimeLimitSwitchesSurvey()
-	{
-		if(m_stateholder.getDelayTimeLimitSwitchesSurveyEnabled())
-		{
-			String code = "ARMTIMER ";
-
-			code += m_stateholder.getDelayTimeLimitSwitchesSurveyValue() + " ";
-
-			return code;
-		}
-		else
 			return "";
 	}
 
