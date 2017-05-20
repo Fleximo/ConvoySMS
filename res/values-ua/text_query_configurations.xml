@@ -2,6 +2,7 @@
 <resources>
     <string  name="cb_QueryConfigurations_HardwareConfigSystem">Апаратні налаштування системи</string>
     <string  name="cb_QueryConfigurations_UserSystemSettings">Користувальницькі налаштування системи</string>
+    <string  name="cb_QueryConfigurations_MonitoringModeSettigs">Налаштування режиму моніторінга</string>
     <string  name="tv_QueryConfigurations_Phone">Номер для відповідної SMS </string>
 
     <string  name="string_QueryConfigurations_HintPhone">+380</string>

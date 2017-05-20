@@ -39,8 +39,8 @@
     <string name="cb_UserSettings_TiltSensor">Датчик наклона</string>
     <string name="cb_UserSettings_TiltSensorDisabled">Датчик наклона  выключен</string>
     <string name="tv_UserSettings_TiltSensorThreshold">Настройка чувствительности датчика наклона:</string>
-    <string name="tv_UserSettings_TiltSensorLow">Большая \n Малый угол</string>
-    <string name="tv_UserSettings_TiltSensorHight">Низкая \n Большой угол</string>
+    <string name="tv_UserSettings_TiltSensorLow">Большая \n (малый угол)</string>
+    <string name="tv_UserSettings_TiltSensorHight">Низкая \n (большой угол)</string>
     <string name="tv_UserSettings_TiltSensorValue">Значение: </string>
     <string name="et_UserSettings_TiltSensor">1</string>
    
@@ -48,8 +48,8 @@
     <string name="tv_UserSettings_MicrophoneSensativiti">Настройка чувствительности микрофона:</string>
     <string name="cb_UserSettings_PhoneSensitivity">Микрофон</string>
     <string name="cb_UserSettings_PhoneSensitivityDisabled">Микрофон выключен</string>
-    <string name="tv_UserSettings_PhoneSensetivLow">Низкая \nтише</string>
-    <string name="tv_UserSettings_PhoneSensetivHight">Высокая \nгромче</string>
+    <string name="tv_UserSettings_PhoneSensetivLow">Низкая \n(тише)</string>
+    <string name="tv_UserSettings_PhoneSensetivHight">Высокая \n(громче)</string>
     <string name="tv_UserSettings_PhoneSensetivValue">Значение: </string>
     <string name="et_UserSettings_PhoneSensitivity">5</string>
     
@@ -57,8 +57,8 @@
     <string name="tv_UserSettings_DinamicVolumeSettings">Настройка громкости динамика:</string>
     <string name="cb_UserSettings_SpeakerVolume">Динамик</string>
     <string name="cb_UserSettings_SpeakerVolumeDisabled">Динамик отключен</string>
-    <string name="tv_UserSettings_SpeakerVolumeLow">Низкая \nтише</string>
-    <string name="tv_UserSettings_SpeakerVolumeHight">Высокая \nгромче</string>
+    <string name="tv_UserSettings_SpeakerVolumeLow">Низкая \n(тише)</string>
+    <string name="tv_UserSettings_SpeakerVolumeHight">Высокая \n(громче)</string>
     <string name="tv_UserSettings_SpeakerVolumeValue">Значение: </string>
     <string name="et_UserSettings_SpeakerVolume">50</string>
     
@@ -71,18 +71,18 @@
     <string name="et_UserSettings_NumberCallAttempts">1</string>
     <string name="cb_UserSettings_ShockSensSettings">Датчик удара</string>
     <string name="tv_UserSettings_WarningThreshold">Настройка чувствительности зоны предупреждения датчика удара:</string>
-    <string name="tv_UserSettings_WarningTrashold_Weak">Высокая \n слабый удар</string>
-    <string name="tv_UserSettings_WarningTrashold_Heavy">Низкая \n сильный удар</string>
+    <string name="tv_UserSettings_WarningTrashold_Weak">Высокая \n(слабый удар)</string>
+    <string name="tv_UserSettings_WarningTrashold_Heavy">Низкая \n(сильный удар)</string>
     <string name="tv_UserSettings_WarningTrashold_Value">Значение: </string>
     <string name="et_UserSettings_WarningTrashold">18</string>
     <string name="tv_UserSettings_AlarmThresholdShockSensor">Настройки чувствительности зоны тревоги датчика удара:</string>
-    <string name="tv_UserSettings_AlarmThresholdWeak">Высокая \n слабый удар</string>
-    <string name="tv_UserSettings_AlarmThresholdHeavy">Низкая \n сильный удар</string>
+    <string name="tv_UserSettings_AlarmThresholdWeak">Высокая \n(слабый удар)</string>
+    <string name="tv_UserSettings_AlarmThresholdHeavy">Низкая \n(сильный удар)</string>
     <string name="tv_UserSettings_AlarmThresholdValue">Значение: </string>
     <string name="et_UserSettings_AlarmTrashold">32</string>
     <string name="cb_UserSettings_MonitoringSettings">Режим мониторинга</string>
-    
-    
+
+    <!-- 5. SIREN -->
     <string name="cb_UserSettings_AccBalance">Автопроверка баланса счета</string>
     <string name="tv_UserSettings_NumSumPosition">Номер позиции суммы баланса в SMS оператора</string>
     <string name="et_UserSettings_NumSumPosition">1</string>
@@ -95,6 +95,18 @@
     <string name="cb_UserSettings_Siren">Сирена</string>
     <string name="tv_UserSettings_SystemSetUnset">Сигналы при постановке/снятии системы с охраны</string>
     <string name="tv_UserSettings_AlarmMode">Сигналы в режиме тревоги</string>
+    <string name="tv_UserSettings_SignalsNumberWarningZone">Сигналы по срабатыванию зоны предупреждения датчика удара</string>
+    <string name="tv_UserSettings_SignalsNumberWarningZoneNumber">шт</string>
+
+    <string name="str_SignalsNumbersWarning_1">1</string>
+    <string name="str_SignalsNumbersWarning_2">2</string>
+    <string name="str_SignalsNumbersWarning_3">3</string>
+    <string name="str_SignalsNumbersWarning_4">4</string>
+    <string name="str_SignalsNumbersWarning_5">5</string>
+    <string name="str_SignalsNumbersWarning_6">6</string>
+    <string name="str_SignalsNumbersWarning_7">7</string>
+    <string name="str_SignalsNumbersWarning_8">8</string>
+    <string name="str_SignalsNumbersWarning_9">9</string>
     
     <!-- 12. ACCESS POINT NAME OF MOBILE OPERATOR -->
     <string name="cb_UserSettings_AccessPointNameMobOper">Имя точки доступа мобильного оператора</string>
@@ -104,12 +116,37 @@
     <string name="spinValue_AccessPointNameMobOper4">Другое</string>
     <string name="tv_UserSettings_AccessPointNameMobOperAnother">Имя другой точки доступа</string>
 
+    <!-- 12. LABEL SETTINGS -->
+    <string name="cb_UserSettings_LabelSettings">Метка</string>
+    <string name="tv_UserSettings_LabelSettings">Настройка чувствительности метки (дальности обнаружения):</string>
+    <string name="tv_UserSettings_LabelSettingsLow">Низкая\n(малая\nдальность)</string>
+    <string name="tv_UserSettings_LabelSettingsHight">Высокая\n(большая\nдальность)</string>
+    <string name="tv_UserSettings_SensitivityLevel">Уровень чувствительности (дальность обнаружения)</string>
+    <string name="tv_UserSettings_LabelSettingsValue">Значение: </string>
+    <string name="et_UserSettings_LabelSettings">5</string>
+    <string name="cb_UserSettings_LabelSettingsDisabled">Метка отключена</string>
+
+    <string name="tv_UserSettings_LabelEnter">Режим входа в зону приема</string>
+    <string name="tv_UserSettings_LabelExit">Режим выхода из зоны приема</string>
+    <string name="tv_UserSettings_LabelConfirmFuncDisarming">Функция кнопки подтверждения снятия с охраны</string>
     <!-- HELP STRINGS 6 -->
     <string name="header_text_CurrentPIN">Current PIN</string>
     <string name="header_text_defaultPIN">0000</string>
+    <!-- HELP STRINGS 7 -->
+    <string name="str_LabelEnter_NoAction">Нет действий</string>
+    <string name="str_LabelEnter_DisarmingWithoutCL">Снятие с охраны без ЦЗ</string>
+    <string name="str_LabelEnter_DisarmingWithCL">Снятие с охраны с ЦЗ</string>
+
+    <string name="str_LabelExit_NoAction">Нет действий</string>
+    <string name="str_LabelExit_DisarmingWithoutCL">Постановка на охрану без ЦЗ</string>
+    <string name="str_LabelExit_DisarmingWithCL">Постановка на охрану с ЦЗ</string>
 
     <!-- 4. Rearm -->
     <string name="cb_UserSettings_Rearm">Функция автоматического возврата на охрану</string>
     <string name="str_UserSettings_Enabled">Включена</string>
     <string name="str_UserSettings_Disabled">Выключена</string>
+
+    <!-- 12. SMS REPORTING ARMING -->
+    <string name="cb_UserSettings_SMSReportingArming">SMS-отчеты о постановке/снятии с охраны</string>
+
 </resources>

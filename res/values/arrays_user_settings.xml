@@ -16,9 +16,27 @@
         <item>@string/str_disabled</item>
         <item>@string/str_enabled</item>
     </string-array>
+    <string-array name = "UserSettings_SMSReportingArming">
+        <item>@string/str_disabled</item>
+        <item>@string/str_enabled</item>
+    </string-array>
     <string-array name = "UserSettings_Monitoring">
         <item>@string/str_MonitoringSettingsDisabled</item>
         <item>@string/str_MonitoringSettingsEnabled</item>
+    </string-array>
+    <string-array name = "UserSettings_LabelEnter">
+        <item>@string/str_LabelEnter_NoAction</item>
+        <item>@string/str_LabelEnter_DisarmingWithoutCL</item>
+        <item>@string/str_LabelEnter_DisarmingWithCL</item>
+    </string-array>
+    <string-array name = "UserSettings_LabelExit">
+        <item>@string/str_LabelExit_NoAction</item>
+        <item>@string/str_LabelExit_DisarmingWithoutCL</item>
+        <item>@string/str_LabelExit_DisarmingWithCL</item>
+    </string-array>
+    <string-array name = "UserSettings_LabelConfirmFuncDisarming">
+        <item>@string/str_disabled</item>
+        <item>@string/str_enabled</item>
     </string-array>
      <string-array name = "UserSettings_TiltSensor">
         <item>@string/str_UserSettings_TiltSens_AllSensEnabled2</item>
@@ -39,8 +57,20 @@
          <item>@string/str_klaxon1</item>
          <item>@string/str_klaxon2</item>
     </string-array>
-    <string-array name = "rearm">
+    <string-array name = "siren_number_warning_zone">
         <item>@string/str_disabled</item>
-        <item>@string/str_enabled</item>
+        <item>@string/str_SignalsNumbersWarning_1</item>
+        <item>@string/str_SignalsNumbersWarning_2</item>
+        <item>@string/str_SignalsNumbersWarning_3</item>
+        <item>@string/str_SignalsNumbersWarning_4</item>
+        <item>@string/str_SignalsNumbersWarning_5</item>
+        <item>@string/str_SignalsNumbersWarning_6</item>
+        <item>@string/str_SignalsNumbersWarning_7</item>
+        <item>@string/str_SignalsNumbersWarning_8</item>
+        <item>@string/str_SignalsNumbersWarning_9</item>
+    </string-array>
+    <string-array name = "rearm">
+        <item>@string/str_UserSettings_Disabled</item>
+        <item>@string/str_UserSettings_Enabled</item>
     </string-array>
 </resources>

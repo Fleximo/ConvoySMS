@@ -32,6 +32,19 @@
     <string name="cb_UserSettings_Siren">Siren</string>
     <string name="tv_UserSettings_SystemSetUnset">Signals in arm/disarm mode</string>
     <string name="tv_UserSettings_AlarmMode">Signals in alarm mode</string>
+    <string name="tv_UserSettings_SignalsNumberWarningZone">Number of signals by the activation of the shock sensor warning zone</string>
+    <string name="tv_UserSettings_SignalsNumberWarningZoneNumber">num</string>
+
+    <string name="str_SignalsNumbersWarning_1">1</string>
+    <string name="str_SignalsNumbersWarning_2">2</string>
+    <string name="str_SignalsNumbersWarning_3">3</string>
+    <string name="str_SignalsNumbersWarning_4">4</string>
+    <string name="str_SignalsNumbersWarning_5">5</string>
+    <string name="str_SignalsNumbersWarning_6">6</string>
+    <string name="str_SignalsNumbersWarning_7">7</string>
+    <string name="str_SignalsNumbersWarning_8">8</string>
+    <string name="str_SignalsNumbersWarning_9">9</string>
+
     <!-- 6. TWO STAGE DISARMING SYSTEM -->
     <string name="cb_UserSettings_DisarmingSystem">Two-stage disarming the system (passive blocking of the engine)</string>
     <!-- 7. ALL SENSORS DISABLED -->
@@ -76,6 +89,21 @@
     <string name="tv_UserSettings_SpeakerVolumeValue">Value: </string>
     <string name="et_UserSettings_SpeakerVolume">50</string>
     <string name="cb_UserSettings_SpeakerVolumeDisabled">Speaker disabled</string>
+    <!-- 12. LABEL SETTINGS -->
+    <string name="cb_UserSettings_LabelSettings">Label settings</string>
+    <string name="tv_UserSettings_LabelSettings">Label setting:</string>
+    <string name="tv_UserSettings_LabelSettingsLow">Short range</string>
+    <string name="tv_UserSettings_LabelSettingsHight">Hight range</string>
+    <string name="tv_UserSettings_SensitivityLevel">Sensitivity level (detection range)</string>
+    <string name="tv_UserSettings_LabelSettingsValue">Value: </string>
+    <string name="et_UserSettings_LabelSettings">5</string>
+    <string name="cb_UserSettings_LabelSettingsDisabled">Label disabled</string>
+
+    <string name="tv_UserSettings_LabelEnter">Enter mode in the reception area</string>
+    <string name="tv_UserSettings_LabelExit">Exit mode in the reception area</string>
+    <string name="tv_UserSettings_LabelConfirmFuncDisarming">Function of the disarming confirmation button</string>
+    <!-- 12. SMS REPORTING ARMING -->
+    <string name="cb_UserSettings_SMSReportingArming">SMS reports on arming / disarming</string>
     <!-- 12. MONITORING SETTINGS -->
     <string name="cb_UserSettings_MonitoringSettings">Monitoring mode</string>
     <!-- 13.NAME OF ACCESS POINT OF MOBILE OPERATOR -->
@@ -109,5 +137,14 @@
     <!-- HELP STRINGS 6 -->
     <string name="header_text_CurrentPIN">Current PIN</string>
     <string name="header_text_defaultPIN">0000</string>
-    
+    <!-- HELP STRINGS 7 -->
+    <string name="str_LabelEnter_NoAction">No action</string>
+    <string name="str_LabelEnter_DisarmingWithoutCL">Disarming without CL</string>
+    <string name="str_LabelEnter_DisarmingWithCL">Disarming with CL</string>
+
+    <string name="str_LabelExit_NoAction">No action</string>
+    <string name="str_LabelExit_DisarmingWithoutCL">Arming without CL</string>
+    <string name="str_LabelExit_DisarmingWithCL">Arming with CL</string>
+
+
 </resources>

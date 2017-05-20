@@ -250,6 +250,58 @@ public class TimerStateHolder
 	public boolean getOutputTimerOnArmDelayEnabled() { return et_UTC_OutputTimerOnArmDelay_enabled; }
 	public String getOutputTimerOnArmDelayValue() { return et_UTC_OutputTimerOnArmDelay_value; }
 
+	//Turbotimer
+	private boolean cbTurboTimerSettings_enabled = true;
+	private boolean cbTurboTimerSettings_checked = false;
+	public void setCbTurboTimerSettingsEnabled(boolean enabled) { cbTurboTimerSettings_enabled = enabled; }
+	public void setCbTurboTimerSettingsChecked(boolean checked) { cbTurboTimerSettings_checked = checked; }
+	public boolean getCbTurboTimerSettingsEnabled() { return cbTurboTimerSettings_enabled; }
+	public boolean getCbTurboTimerSettingsChecked() { return cbTurboTimerSettings_checked; }
+
+	private boolean et_TurbotimerWorkingTime_enabled = false;
+	private String et_TurbotimerWorkingTime_value = "0";
+	public void setTurbotimerWorkingTimeEnabled(boolean enabled) { et_TurbotimerWorkingTime_enabled = enabled; }
+	public void setTurbotimerWorkingTimeValue(String value) { et_TurbotimerWorkingTime_value = value; }
+	public boolean getTurbotimerWorkingTimeEnabled() { return et_TurbotimerWorkingTime_enabled; }
+	public String getTurbotimerWorkingTimeValue() { return et_TurbotimerWorkingTime_value; }
+
+	private boolean et_IngnTimeLockedEngine_enabled = false;
+	private String et_IngnTimeLockedEngine_value = "0";
+	public void setIngnTimeLockedEngineEnabled(boolean enabled) { et_IngnTimeLockedEngine_enabled = enabled; }
+	public void setIngnTimeLockedEngineValue(String value) { et_IngnTimeLockedEngine_value = value; }
+	public boolean getIngnTimeLockedEngineEnabled() { return et_IngnTimeLockedEngine_enabled; }
+	public String getIngnTimeLockedEngineValue() { return et_IngnTimeLockedEngine_value; }
+
+	//Starttimer
+	private boolean cbStarttimer_enabled = true;
+	private boolean cbStarttimer_checked = false;
+	public void setCbStarttimerEnabled(boolean enabled) { cbStarttimer_enabled = enabled; }
+	public void setCbStarttimerChecked(boolean checked) { cbStarttimer_checked = checked; }
+	public boolean getCbStarttimerEnabled() { return cbStarttimer_enabled; }
+	public boolean getCbStarttimerChecked() { return cbStarttimer_checked; }
+
+	private boolean et_Starttimer_enabled = false;
+	private String et_Starttimer_value = "60";
+	public void setStarttimerEnabled(boolean enabled) { et_Starttimer_enabled = enabled; }
+	public void setStarttimerValue(String value) { et_Starttimer_value = value; }
+	public boolean getStarttimerEnabled() { return et_Starttimer_enabled; }
+	public String getStarttimerValue() { return et_Starttimer_value; }
+
+	//Armtimer
+	private boolean cbArmtimer_enabled = true;
+	private boolean cbArmtimer_checked = false;
+	public void setCbArmtimerEnabled(boolean enabled) { cbArmtimer_enabled = enabled; }
+	public void setCbArmtimerChecked(boolean checked) { cbArmtimer_checked = checked; }
+	public boolean getCbArmtimerEnabled() { return cbArmtimer_enabled; }
+	public boolean getCbArmtimerChecked() { return cbArmtimer_checked; }
+
+	private boolean et_Armtimer_enabled = false;
+	private String et_Armtimer_value = "15";
+	public void setArmtimerEnabled(boolean enabled) { et_Armtimer_enabled = enabled; }
+	public void setArmtimerValue(String value) { et_Armtimer_value = value; }
+	public boolean getArmtimerEnabled() { return et_Armtimer_enabled; }
+	public String getArmtimerValue() { return et_Armtimer_value; }
+
 	//Function 13
 	private boolean cb_UTC_CentralLockTimer13_enabled = true;
 	private boolean cb_UTC_CentralLockTimer13_checked = false;

@@ -26,7 +26,7 @@ public class OutputsStateHolder
 	public boolean getCbOutputsOUT2Checked() { return cb_Outputs_OUT2_checked; }
 		
 	private boolean spin_Outputs_OutputFunctionsOUT2_enabled = false;
-	private int spin_Outputs_OutputFunctionsOUT2_value = 1;
+	private int spin_Outputs_OutputFunctionsOUT2_value = 12;
 	public void setSpinOutputFunctionsOUT22Enabled(boolean enabled) { spin_Outputs_OutputFunctionsOUT2_enabled = enabled; }
 	public void setSpinOutputFunctionsOUT2Value(int value) { spin_Outputs_OutputFunctionsOUT2_value = value; }
 	public boolean getSpinOutputFunctionsOUT22Enabled() { return spin_Outputs_OutputFunctionsOUT2_enabled; }
@@ -41,7 +41,7 @@ public class OutputsStateHolder
 	public boolean getCbOutputsOUT3Checked() { return cb_Outputs_OUT3_checked; }
 			
 	private boolean spin_Outputs_OutputFunctionsOUT3_enabled = false;
-	private int spin_Outputs_OutputFunctionsOUT3_value = 2;
+	private int spin_Outputs_OutputFunctionsOUT3_value = 13;
 	public void setSpinOutputFunctionsOUT33Enabled(boolean enabled) { spin_Outputs_OutputFunctionsOUT3_enabled = enabled; }
 	public void setSpinOutputFunctionsOUT3Value(int value) { spin_Outputs_OutputFunctionsOUT3_value = value; }
 	public boolean getSpinOutputFunctionsOUT33Enabled() { return spin_Outputs_OutputFunctionsOUT3_enabled; }
@@ -71,7 +71,7 @@ public class OutputsStateHolder
 	public boolean getCbOutputsOUT5Checked() { return cb_Outputs_OUT5_checked; }
 					
 	private boolean spin_Outputs_OutputFunctionsOUT5_enabled = false;
-	private int spin_Outputs_OutputFunctionsOUT5_value = 0;
+	private int spin_Outputs_OutputFunctionsOUT5_value = 4;
 	public void setSpinOutputFunctionsOUT55Enabled(boolean enabled) { spin_Outputs_OutputFunctionsOUT5_enabled = enabled; }
 	public void setSpinOutputFunctionsOUT5Value(int value) { spin_Outputs_OutputFunctionsOUT5_value = value; }
 	public boolean getSpinOutputFunctionsOUT55Enabled() { return spin_Outputs_OutputFunctionsOUT5_enabled; }

@@ -1,10 +1,10 @@
 package utils;
 
-import com.olegbrovko.smsgeneratorconvoy.R;
-
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+
+import com.international.group.bat.R;
 
 public class GenericTextWatcher implements TextWatcher
 {

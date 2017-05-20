@@ -2,6 +2,7 @@
 <resources>
     <string  name="cb_QueryConfigurations_HardwareConfigSystem">Аппаратные настройки системы</string>
     <string  name="cb_QueryConfigurations_UserSystemSettings">Пользовательские настройки системы</string>
+    <string  name="cb_QueryConfigurations_MonitoringModeSettigs">Настройки режима мониторинга</string>
     <string  name="tv_QueryConfigurations_Phone">Номер для ответной SMS </string>
 
     <string  name="string_QueryConfigurations_HintPhone">+380</string>

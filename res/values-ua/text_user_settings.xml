@@ -81,7 +81,7 @@
     <string name="tv_UserSettings_AlarmThresholdValue">Значення: </string>
     <string name="et_UserSettings_AlarmTrashold">32</string>
     <string name="cb_UserSettings_MonitoringSettings">Режим моніторинга</string>
-    
+    <!-- 5. SIREN -->
     <string name="cb_UserSettings_AccBalance">Автоперевірка балансу рахунку</string>
     <string name="tv_UserSettings_NumSumPosition">Номер позиції суми балансу в SMS оператора</string>
     <string name="et_UserSettings_NumSumPosition">1</string>
@@ -94,6 +94,19 @@
     <string name="cb_UserSettings_Siren">Сирена</string>
     <string name="tv_UserSettings_SystemSetUnset">Сигнали при постановці/знятті системи з охорони</string>
     <string name="tv_UserSettings_AlarmMode">Сигнали в режимі тривоги</string>
+    <string name="tv_UserSettings_SignalsNumberWarningZone">Кількість сигналів по спрацьовуванню зони попередження датчика удару</string>
+    <string name="tv_UserSettings_SignalsNumberWarningZoneNumber">шт</string>
+
+    <string name="str_SignalsNumbersWarning_1">1</string>
+    <string name="str_SignalsNumbersWarning_2">2</string>
+    <string name="str_SignalsNumbersWarning_3">3</string>
+    <string name="str_SignalsNumbersWarning_4">4</string>
+    <string name="str_SignalsNumbersWarning_5">5</string>
+    <string name="str_SignalsNumbersWarning_6">6</string>
+    <string name="str_SignalsNumbersWarning_7">7</string>
+    <string name="str_SignalsNumbersWarning_8">8</string>
+    <string name="str_SignalsNumbersWarning_9">9</string>
+
     
     <!-- 12. ACCESS POINT NAME OF MOBILE OPERATOR -->
     <string name="cb_UserSettings_AccessPointNameMobOper">Ім\'я точки доступу мобільного оператора</string>
@@ -103,12 +116,38 @@
     <string name="spinValue_AccessPointNameMobOper4">Інше</string>
     <string name="tv_UserSettings_AccessPointNameMobOperAnother">Ім\'я іншої точки доступу</string>
 
+    <!-- 12. LABEL SETTINGS -->
+    <string name="cb_UserSettings_LabelSettings">Налаштування мітки</string>
+    <string name="tv_UserSettings_LabelSettings">Налаштування мітки:</string>
+    <string name="tv_UserSettings_LabelSettingsLow">мала дальність</string>
+    <string name="tv_UserSettings_LabelSettingsHight">велика дальність</string>
+    <string name="tv_UserSettings_SensitivityLevel">Рівень чутливості (дальність виявлення)</string>
+    <string name="tv_UserSettings_LabelSettingsValue">Значення: </string>
+    <string name="et_UserSettings_LabelSettings">5</string>
+    <string name="cb_UserSettings_LabelSettingsDisabled">Мітка відключена</string>
+
+    <string name="tv_UserSettings_LabelEnter">Режим входу в зону прийому</string>
+    <string name="tv_UserSettings_LabelExit">Режим виходу із зони прийому</string>
+    <string name="tv_UserSettings_LabelConfirmFuncDisarming">Функція кнопки підтвердження зняття з охорони</string>
     <!-- HELP STRINGS 6 -->
     <string name="header_text_CurrentPIN">Current PIN</string>
     <string name="header_text_defaultPIN">0000</string>
+    <!-- HELP STRINGS 7 -->
+    <string name="str_LabelEnter_NoAction">Немає дій</string>
+    <string name="str_LabelEnter_DisarmingWithoutCL">Зняття з охорони без ЦЗ</string>
+    <string name="str_LabelEnter_DisarmingWithCL">Зняття з охорони з ЦЗ</string>
+
+    <string name="str_LabelExit_NoAction">Немає дій</string>
+    <string name="str_LabelExit_DisarmingWithoutCL">Постановка на охорону без ЦЗ</string>
+    <string name="str_LabelExit_DisarmingWithCL">Постановка на охорону з ЦЗ</string>
 
     <!-- 4. Rearm -->
     <string name="cb_UserSettings_Rearm">Функція автоматичного повернення на охорону</string>
     <string name="str_UserSettings_Enabled">Виключена</string>
     <string name="str_UserSettings_Disabled">Включена</string>
+
+    <!-- 12. SMS REPORTING ARMING -->
+    <string name="cb_UserSettings_SMSReportingArming">SMS-звіти про постановку / зняття з охорони</string>
+
+
 </resources>

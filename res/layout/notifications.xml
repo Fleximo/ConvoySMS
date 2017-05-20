@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/btn_prev"
             android:contentDescription="@string/image_button_desc"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <TextView
             android:id="@+id/tv_Notifications_UserNumber"
             android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
             android:layout_toRightOf="@id/tv_Notifications_UserNumber"
             android:src="@drawable/btn_next"
             android:contentDescription="@string/image_button_desc"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </RelativeLayout>
     
     <View
@@ -213,7 +213,7 @@
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_tel_disabled"
             android:textSize="@dimen/text_size"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <widgets.CheckableImageButton
             android:id="@+id/btn_Notifications_CallBtnPressedSMS"
             android:layout_width="0dp"
@@ -222,7 +222,7 @@
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
             android:textSize="@dimen/text_size"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
     <View
@@ -252,7 +252,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_tel_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <widgets.CheckableImageButton
             android:id="@+id/btn_Notifications_IngineActiveSMS"
             android:layout_width="0dp"
@@ -260,7 +260,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
     <View
@@ -290,7 +290,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_tel_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <widgets.CheckableImageButton
             android:id="@+id/btn_Notifications_LoadLimitSwitchSMS"
             android:layout_width="0dp"
@@ -298,7 +298,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
     <View
@@ -328,7 +328,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_tel_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <widgets.CheckableImageButton
             android:id="@+id/btn_Notifications_LoadShockSensorSMS"
             android:layout_width="0dp"
@@ -336,7 +336,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
     <View
@@ -366,7 +366,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_tel_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <widgets.CheckableImageButton
             android:id="@+id/btn_Notifications_LoadUniversalLimitSwitchSMS"
             android:layout_width="0dp"
@@ -374,7 +374,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
     <View
@@ -419,7 +419,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
     <View
@@ -464,7 +464,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
     <View
@@ -494,7 +494,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_tel_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <widgets.CheckableImageButton
             android:id="@+id/btn_Notifications_SystemDisarmSMS"
             android:layout_width="0dp"
@@ -502,7 +502,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
     
      <View
@@ -532,7 +532,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_tel_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
         <widgets.CheckableImageButton
             android:id="@+id/btn_Notifications_SystemArmingSMS"
             android:layout_width="0dp"
@@ -540,7 +540,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/btn_sms_disabled"
-            style="@style/btnStyleArsenic"/>
+            style="@style/btnStyleArsenic2"/>
     </LinearLayout>
 
 </LinearLayout>

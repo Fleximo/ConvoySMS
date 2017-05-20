@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/home/fleximo/Projects/Android/ConvoySMSGenerator/res/values-sw600dp/dimens.xml -->
-    <eat-comment/>
-    <dimen name="activity_horizontal_margin">64dp</dimen>
-    <dimen name="header_text_size">35sp</dimen>
-    <dimen name="text_size">30sp</dimen>
-</resources>

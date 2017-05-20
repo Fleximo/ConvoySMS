@@ -46,6 +46,8 @@ public class EditTextWatcherInt implements TextWatcher
 			Integer IntegerValue = Integer.parseInt(value);
 			if(IntegerValue > m_maxValue)
 				IntegerValue = m_maxValue;
+			if(IntegerValue < m_minValue)
+				IntegerValue = m_minValue;
 			value = IntegerValue.toString();
 			
 			if(m_seekBar != null)

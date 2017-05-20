@@ -32,4 +32,12 @@ public class QueryConfigurationStateHolder
 	public void setCbUserSystSettingsChecked(boolean checked) { cb_QueryConfigurations_UserSystSettings_checked = checked; }
 	public boolean getCbUserSystSettingsEnabled() { return cb_QueryConfigurations_UserSystSettings_enabled; }
 	public boolean getCbUserSystSettingsChecked() { return cb_QueryConfigurations_UserSystSettings_checked; }
+
+	//4. Monitoring mode settings
+	private boolean cb_QueryConfigurations_MonitoringModeSettings_enabled = true;
+	private boolean cb_QueryConfigurations_MonitoringModeSettings_checked = false;
+	public void setCbMonitoringModeSettingsEnabled(boolean enabled) { cb_QueryConfigurations_MonitoringModeSettings_enabled = enabled; }
+	public void setCbMonitoringModeSettingsChecked(boolean checked) { cb_QueryConfigurations_MonitoringModeSettings_checked = checked; }
+	public boolean getCbMonitoringModeSettingsEnabled() { return cb_QueryConfigurations_MonitoringModeSettings_enabled; }
+	public boolean getCbMonitoringModeSettingsChecked() { return cb_QueryConfigurations_MonitoringModeSettings_checked; }
 }

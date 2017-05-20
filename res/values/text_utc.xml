@@ -57,4 +57,10 @@
     <string  name="tv_UTC_PauseTimeBetwImpulses14" >Pause time between impulses</string>
     <string  name="tv_UTC_SecondImpulsLongtime14" >Second impuls longtime</string>
 
+    <!-- Starttimer -->
+    <string  name="cb_UTC_Starttimer" >Time to check the fact of starting the engine</string>
+
+    <!-- Armtimer -->
+    <string  name="cb_UTC_Armtimer" >Time delay for polling limit switches</string>
+
 </resources>

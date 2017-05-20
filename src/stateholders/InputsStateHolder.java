@@ -11,7 +11,7 @@ public class InputsStateHolder
 	public boolean getCbInputsIn1Checked() { return cb_Inputs_IN1_checked; }
 	
 	private boolean spin_Inputs_InputFunctionsIN1_enabled = false;
-	private int spin_Inputs_InputFunctionsIN1_value = 1;
+	private int spin_Inputs_InputFunctionsIN1_value = 0;
 	public void setSpinInputFunctionsIN1Enabled(boolean enabled) { spin_Inputs_InputFunctionsIN1_enabled = enabled; }
 	public void setSpinInputFunctionsIN1Value(int value) { spin_Inputs_InputFunctionsIN1_value = value; }
 	public boolean getSpinInputFunctionsIN1Enabled() { return spin_Inputs_InputFunctionsIN1_enabled; }
@@ -54,7 +54,7 @@ public class InputsStateHolder
 	public boolean getCbInputsIn2Checked() { return cb_Inputs_IN2_checked; }
 		
 	private boolean spin_Inputs_InputFunctionsIN2_enabled = false;
-	private int spin_Inputs_InputFunctionsIN2_value = 2;
+	private int spin_Inputs_InputFunctionsIN2_value = 1;
 	public void setSpinInputFunctionsIN2Enabled(boolean enabled) { spin_Inputs_InputFunctionsIN2_enabled = enabled; }
 	public void setSpinInputFunctionsIN2Value(int value) { spin_Inputs_InputFunctionsIN2_value = value; }
 	public boolean getSpinInputFunctionsIN2Enabled() { return spin_Inputs_InputFunctionsIN2_enabled; }
@@ -97,7 +97,7 @@ public class InputsStateHolder
 	public boolean getCbInputsIn3Checked() { return cb_Inputs_IN3_checked; }
 				
 	private boolean spin_Inputs_InputFunctionsIN3_enabled = false;
-	private int spin_Inputs_InputFunctionsIN3_value = 3;
+	private int spin_Inputs_InputFunctionsIN3_value = 0;
 	public void setSpinInputFunctionsIN3Enabled(boolean enabled) { spin_Inputs_InputFunctionsIN3_enabled = enabled; }
 	public void setSpinInputFunctionsIN3Value(int value) { spin_Inputs_InputFunctionsIN3_value = value; }
 	public boolean getSpinInputFunctionsIN3Enabled() { return spin_Inputs_InputFunctionsIN3_enabled; }
@@ -140,7 +140,7 @@ public class InputsStateHolder
 	public boolean getCbInputsIn4Checked() { return cb_Inputs_IN4_checked; }
 					
 	private boolean spin_Inputs_InputFunctionsIN4_enabled = false;
-	private int spin_Inputs_InputFunctionsIN4_value = 0;
+	private int spin_Inputs_InputFunctionsIN4_value = 3;
 	public void setSpinInputFunctionsIN4Enabled(boolean enabled) { spin_Inputs_InputFunctionsIN4_enabled = enabled; }
 	public void setSpinInputFunctionsIN4Value(int value) { spin_Inputs_InputFunctionsIN4_value = value; }
 	public boolean getSpinInputFunctionsIN4Enabled() { return spin_Inputs_InputFunctionsIN4_enabled; }
@@ -183,7 +183,7 @@ public class InputsStateHolder
 	public boolean getCbInputsIn5Checked() { return cb_Inputs_IN5_checked; }
 						
 	private boolean spin_Inputs_InputFunctionsIN5_enabled = false;
-	private int spin_Inputs_InputFunctionsIN5_value = 5;
+	private int spin_Inputs_InputFunctionsIN5_value = 4;
 	public void setSpinInputFunctionsIN5Enabled(boolean enabled) { spin_Inputs_InputFunctionsIN5_enabled = enabled; }
 	public void setSpinInputFunctionsIN5Value(int value) { spin_Inputs_InputFunctionsIN5_value = value; }
 	public boolean getSpinInputFunctionsIN5Enabled() { return spin_Inputs_InputFunctionsIN5_enabled; }
@@ -269,7 +269,7 @@ public class InputsStateHolder
 	public boolean getCbInputsIn7Checked() { return cb_Inputs_IN7_checked; }
 								
 	private boolean spin_Inputs_InputFunctionsIN7_enabled = false;
-	private int spin_Inputs_InputFunctionsIN7_value = 7;
+	private int spin_Inputs_InputFunctionsIN7_value = 0;
 	public void setSpinInputFunctionsIN7Enabled(boolean enabled) { spin_Inputs_InputFunctionsIN7_enabled = enabled; }
 	public void setSpinInputFunctionsIN7Value(int value) { spin_Inputs_InputFunctionsIN7_value = value; }
 	public boolean getSpinInputFunctionsIN7Enabled() { return spin_Inputs_InputFunctionsIN7_enabled; }
@@ -312,7 +312,7 @@ public class InputsStateHolder
 	public boolean getCbInputsIn8Checked() { return cb_Inputs_IN8_checked; }
 									
 	private boolean spin_Inputs_InputFunctionsIN8_enabled = false;
-	private int spin_Inputs_InputFunctionsIN8_value = 8;
+	private int spin_Inputs_InputFunctionsIN8_value = 0;
 	public void setSpinInputFunctionsIN8Enabled(boolean enabled) { spin_Inputs_InputFunctionsIN8_enabled = enabled; }
 	public void setSpinInputFunctionsIN8Value(int value) { spin_Inputs_InputFunctionsIN8_value = value; }
 	public boolean getSpinInputFunctionsIN8Enabled() { return spin_Inputs_InputFunctionsIN8_enabled; }

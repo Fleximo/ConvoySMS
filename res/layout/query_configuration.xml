@@ -82,6 +82,20 @@
 	            android:text="@string/cb_QueryConfigurations_UserSystemSettings"
 	            android:textSize="@dimen/header_text_size" />
 	</LinearLayout>
+	<!-- 4.Monitoring mode settings -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="2dp"
+		android:orientation="vertical"
+		android:background="@drawable/border" >
+		<CheckBox
+			android:id="@+id/cb_QueryConfigurations_MonitoringModeSettings"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/cb_QueryConfigurations_MonitoringModeSettigs"
+			android:textSize="@dimen/header_text_size" />
+	</LinearLayout>
 
 </LinearLayout>
 </ScrollView>

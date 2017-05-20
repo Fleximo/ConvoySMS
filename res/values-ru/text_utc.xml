@@ -57,4 +57,10 @@
     <string  name="tv_UTC_FirstImpulsLongtime14" >Длительность первого импульса</string>
     <string  name="tv_UTC_PauseTimeBetwImpulses14" >Время паузы между импульсами</string>
     <string  name="tv_UTC_SecondImpulsLongtime14" >Длительность второго импульса</string>
+
+    <!-- Starttimer -->
+    <string  name="cb_UTC_Starttimer" >Время  проверки факта запуска двигателя</string>
+
+    <!-- Armtimer -->
+    <string  name="cb_UTC_Armtimer" >Время задержки опроса концевых выключателей</string>
 </resources>

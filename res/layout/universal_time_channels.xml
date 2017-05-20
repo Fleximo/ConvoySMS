@@ -496,6 +496,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
+            android:layout_margin="4dp"
             <CheckBox
                 android:id="@+id/cb_UTC_CentralLockTimer13"
                 android:layout_width="wrap_content"
@@ -507,14 +508,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_LockImpulsCloseCL13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
+                android:layout_gravity="center_vertical"
                 android:text="@string/tv_UTC_LockImpulsCloseCL13"
                 android:textSize="@dimen/text_size" />
             <Spinner
@@ -522,20 +523,20 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_FirstImpulsLongtime13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:text="@string/tv_UTC_FirstImpulsLongtime13"
                 android:textSize="@dimen/text_size" />
             <EditText
@@ -543,20 +544,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
+                android:inputType="number"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_PauseTimeBetwImpulses13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:text="@string/tv_UTC_PauseTimeBetwImpulses13"
                 android:textSize="@dimen/text_size" />
             <EditText
@@ -564,20 +566,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
+                android:inputType="number"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_SecondImpulsLongtime13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:text="@string/tv_UTC_SecondImpulsLongtime13"
                 android:textSize="@dimen/text_size" />
             <EditText
@@ -585,20 +588,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
+                android:inputType="number"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_PauseTimeAfterIngAndImpStart13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:text="@string/tv_UTC_PauseTimeAfterIngAndImpStart13"
                 android:textSize="@dimen/text_size" />
             <EditText
@@ -606,7 +610,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
+                android:inputType="number"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
     </LinearLayout>
@@ -620,7 +626,8 @@
         android:background="@drawable/border">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
             <CheckBox
                 android:id="@+id/cb_UTC_CentralLockTimer14"
                 android:layout_width="wrap_content"
@@ -632,14 +639,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_LockImpulsCloseCL14"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
+                android:layout_gravity="center_vertical"
                 android:text="@string/tv_UTC_LockImpulsCloseCL14"
                 android:textSize="@dimen/text_size" />
             <Spinner
@@ -647,20 +654,20 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_FirstImpulsLongtime14"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:text="@string/tv_UTC_FirstImpulsLongtime14"
                 android:textSize="@dimen/text_size" />
             <EditText
@@ -668,20 +675,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
+                android:inputType="number"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_PauseTimeBetwImpulses14"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:text="@string/tv_UTC_PauseTimeBetwImpulses14"
                 android:textSize="@dimen/text_size" />
             <EditText
@@ -689,20 +697,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
+                android:inputType="number"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
             <TextView
                 android:id="@+id/tv_UTC_SecondImpulsLongtime14"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:text="@string/tv_UTC_SecondImpulsLongtime14"
                 android:textSize="@dimen/text_size" />
             <EditText
@@ -710,7 +719,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:gravity="center_horizontal"
+                android:inputType="number"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
     </LinearLayout>
@@ -746,7 +757,7 @@
     </LinearLayout> -->
 
     <!-- Turbotimer settings -->
-    <!-- <LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
@@ -822,10 +833,10 @@
                 android:text="@string/tv_UTC_Seconds"
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
-    </LinearLayout> -->
+    </LinearLayout>
     
-    <!-- Delay time engine start -->
-    <!-- <LinearLayout
+    <!-- Starttimer -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
@@ -837,10 +848,10 @@
 	        android:layout_margin="4dp"
 	        android:orientation="horizontal" >
 	        <CheckBox
-	            android:id="@+id/cb_UTC_DelayTimeEngineStart"
+	            android:id="@+id/cb_UTC_Starttimer"
 	            android:layout_width="match_parent"
 	            android:layout_height="match_parent"
-	            android:text="@string/cb_UTC_DelayTimeEngineStart"
+	            android:text="@string/cb_UTC_Starttimer"
 	            android:textSize="@dimen/header_text_size" />
 	    </LinearLayout>
 	    <LinearLayout
@@ -848,16 +859,16 @@
 	        android:layout_height="wrap_content"
 	        android:layout_margin="4dp"
 	        android:orientation="horizontal" >
-	        <TextView
+	        <!-- <TextView
                 android:id="@+id/tv_UTC_DelayTimeEngineStart"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_gravity="center"
                 android:text="@string/tv_UTC_Time"
-                android:textSize="@dimen/text_size" />
+                android:textSize="@dimen/text_size" /> -->
 	        <EditText
-	            android:id="@+id/et_UTC_DelayTimeEngineStart"
+	            android:id="@+id/et_UTC_Starttimer"
 	            android:layout_width="0dp"
 	            android:layout_height="match_parent"
 	            android:layout_weight="1"
@@ -868,7 +879,7 @@
 	            android:textSize="@dimen/text_size" >
 	        </EditText>
 	        <TextView
-                android:id="@+id/tv_UTC_DelayTimeEngineStartSeconds"
+                android:id="@+id/tv_UTC_StarttimerSeconds"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -877,54 +888,53 @@
                 android:text="@string/tv_UTC_Seconds"
                 android:textSize="@dimen/text_size" />
 	    </LinearLayout> 
-	</LinearLayout> -->
-	
-    <!-- Delay time switch survey -->
-    <!-- <LinearLayout
+	</LinearLayout>
+
+    <!-- Armtimer -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
         android:orientation="vertical"
         android:background="@drawable/border" >
-	    <LinearLayout
-	        android:layout_width="match_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_margin="4dp"
-	        android:orientation="horizontal" >
-	        <CheckBox
-	            android:id="@+id/cb_UTC_DelayTimeLimitSwitchesSurvey"
-	            android:layout_width="match_parent"
-	            android:layout_height="match_parent"
-	            android:text="@string/cb_UTC_DelayTimeLimitSwitchesSurvey"
-	            android:textSize="@dimen/header_text_size" />
-	        
-	    </LinearLayout>
-	    <LinearLayout
-	        android:layout_width="match_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_margin="4dp"
-	        android:orientation="horizontal" >
-	        <TextView
-                android:id="@+id/tv_UTC_DelayTimeLimitSwitchesSurvey"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal" >
+            <CheckBox
+                android:id="@+id/cb_UTC_Armtimer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cb_UTC_Armtimer"
+                android:textSize="@dimen/header_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal" >
+            <!-- <TextView
+                android:id="@+id/tv_UTC_DelayTimeEngineStart"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_gravity="center"
                 android:text="@string/tv_UTC_Time"
-                android:textSize="@dimen/text_size" />
-	        <EditText
-	            android:id="@+id/et_UTC_DelayTimeLimitSwitchesSurvey"
-	            android:layout_width="0dp"
-	            android:layout_height="match_parent"
-	            android:layout_weight="1"
-	            android:gravity="center_horizontal|bottom"
-	            android:text="15"
-	            android:ems="10"
-	            android:inputType="number"
-	            android:textSize="@dimen/text_size" >
-	        </EditText>
-	        <TextView
-                android:id="@+id/tv_UTC_DelayTimeLimitSwitchesSurveySeconds"
+                android:textSize="@dimen/text_size" /> -->
+            <EditText
+                android:id="@+id/et_UTC_Armtimer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|bottom"
+                android:text="15"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="@dimen/text_size" >
+            </EditText>
+            <TextView
+                android:id="@+id/tv_UTC_ArmtimerSeconds"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -932,8 +942,8 @@
                 android:gravity="center_horizontal|bottom"
                 android:text="@string/tv_UTC_Seconds"
                 android:textSize="@dimen/text_size" />
-	    </LinearLayout>
-	</LinearLayout> -->
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
 </ScrollView>

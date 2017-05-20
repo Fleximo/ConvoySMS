@@ -15,7 +15,7 @@
     <string name="output_functions_minus_univers_time_channel1">\"-\"универсального таймерного канала №1</string>
     <string name="output_functions_minus_univers_time_channel2">\"-\"универсального таймерного канала №2</string>
     <string name="output_functions_minus_light_indication">\"-\"световой индикации</string>
-    <string name="output_functions_minus_NR_lock">\"-\"НР блокировки (\"-\" при снятой охране)</string>
+    <string name="output_functions_minus_NR_lock">НР блокировка (\"-\" при снятой охране)</string>
     <string name="output_functions_minus_siren_klaxon">\"-\"сирены/клаксона</string>
     <string name="output_functions_minus_startup_activation">\"-\"активации автозапуска (СТАРТ)</string>
     <string name="output_functions_minus_startup_disactivation">\"-\"деактивации автозапуска (СТОП)/\"-\" стоп-сигналов в режиме тревоги</string>
@@ -25,8 +25,8 @@
     <string name="output_functions_minus_prog_imp_on_arm">\"-\"программируемого импульса при постановке на охрану</string>
     <string name="output_functions_minus_prog_imp_arming">\"-\"импульса 1 сек при постановке на охрану (закрытие ЦЗ)</string>
     <string name="output_functions_minus_prog_imp_disarm">\"-\"импульса 1 сек при снятии с охраны (открытие ЦЗ)</string>
-    <string name="output_functions_minus_prog_imp_ign_switch_on">\"-\" импульса закрытия ЦЗ при постановке на охрану и  включении зажигания</string>
-    <string name="output_functions_minus_prog_imp_ign_switch_off">\"-\" импульса открытия ЦЗ при снятии с охраны и  выключении зажигания</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_on">(\"-\") импульс 1 сек при постановке на охрану (закрытие ЦЗ)</string>
+    <string name="output_functions_minus_prog_imp_ign_switch_off">(\"-\") импульс 1 сек при снятии с охраны (открытие ЦЗ)</string>
     
     <string name="output_functions_plus_NZ_lock">\"+\"НЗ блокировки (\"+\" на охране)</string>
     <string name="output_functions_plus_univers_time_channel1">\"+\"универсального таймерного канала №1</string>

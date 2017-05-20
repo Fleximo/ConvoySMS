@@ -134,6 +134,13 @@ public class UserSettingsStateHolder
 	public void setSpinAlarmModeValue(int value) { spinAlarmMode_value = value; }
 	public boolean getSpinAlarmModeEnabled() { return spinAlarmMode_enabled; }
 	public int getSpinAlarmModeValue() { return spinAlarmMode_value; }
+
+	private boolean spinSignalsNumberWarningZone_enabled = false;
+	private int spinSignalsNumberWarningZone_value = 3;
+	public void setSpinSignalsNumberWarningZoneEnabled(boolean enabled) { spinSignalsNumberWarningZone_enabled = enabled; }
+	public void setSpinSignalsNumberWarningZoneValue(int value) { spinSignalsNumberWarningZone_value = value; }
+	public boolean getSpinSignalsNumberWarningZoneEnabled() { return spinSignalsNumberWarningZone_enabled; }
+	public int getSpinSignalsNumberWarningZoneValue() { return spinSignalsNumberWarningZone_value; }
 	
 	//7) ALL SYSTEM SENSORS
 	private boolean cb_UserSettings_AllSensorsDisabled_enabled = true;
@@ -272,6 +279,21 @@ public class UserSettingsStateHolder
 	public void setTiltSensorInArmModeChecked(boolean checked) { cbTiltSensorInArmMode_value = checked; }
 	public boolean getCbTiltSensorInArmModeEnabled() { return cbTiltSensorInArmMode_enabled; }
 	public boolean getTiltSensorInArmModeChecked() { return cbTiltSensorInArmMode_value; }
+
+	//SMS MONITORING ARMING
+	private boolean cbSMSReportingArming_enabled = true;
+	private boolean cbSMSReportingArming_checked = false;
+	public void setCbSMSReportingArmingEnabled(boolean enabled) { cbSMSReportingArming_enabled = enabled; }
+	public void setCbSMSReportingArmingChecked(boolean checked) { cbSMSReportingArming_checked = checked; }
+	public boolean getCbSMSReportingArmingEnabled() { return cbSMSReportingArming_enabled; }
+	public boolean getCbSMSReportingArmingChecked() { return cbSMSReportingArming_checked; }
+
+	private boolean spinSMSReportingArming_enabled = false;
+	private int spinSMSReportingArming_value = 1;
+	public void setSMSReportingArmingEnabled(boolean enabled) { spinSMSReportingArming_enabled = enabled; }
+	public void setSMSReportingArmingValue(int value) { spinSMSReportingArming_value = value; }
+	public boolean getSMSReportingArmingEnabled() { return spinSMSReportingArming_enabled; }
+	public int getSMSReportingArmingValue() { return spinSMSReportingArming_value; }
 	
 	//7) MONITORING SETTINGS
 	private boolean cbMonitoringSettings_enabled = true;
@@ -360,4 +382,54 @@ public class UserSettingsStateHolder
 	public void setEtSpeakerVolumeValue(String value) { etSpeakerVolume_value = value; }
 	public boolean getEtSpeakerVolumeEnabled() { return etSpeakerVolume_enabled; }
 	public String getEtSpeakerVolumeValue() { return etSpeakerVolume_value; }
+
+	//12) LABEL SETTINGS
+	private boolean cbLabelSettings_enabled = true;
+	private boolean cbLabelSettings_checked = false;
+	public void setCbLabelSettingsEnabled(boolean enabled) { cbLabelSettings_enabled = enabled; }
+	public void setCbLabelSettingsChecked(boolean checked) { cbLabelSettings_checked = checked; }
+	public boolean getCbLabelSettingsEnabled() { return cbLabelSettings_enabled; }
+	public boolean getCbLabelSettingsChecked() { return cbLabelSettings_checked; }
+
+	private boolean cbLabelSettingsDisabled_enabled = false;
+	private boolean cbLabelSettingsDisabled_checked = false;
+	public void setCbLabelSettingsDisabledEnabled(boolean enabled) { cbLabelSettingsDisabled_enabled = enabled; }
+	public void setCbLabelSettingsDisabledChecked(boolean checked) { cbLabelSettingsDisabled_checked = checked; }
+	public boolean getCbLabelSettingsDisabledEnabled() { return cbLabelSettingsDisabled_enabled; }
+	public boolean getCbLabelSettingsDisabledChecked() { return cbLabelSettingsDisabled_checked; }
+
+	private boolean sbLabelSettings_enabled = false;
+	private int sbLabelSettings_value = 4;
+	public void setSbLabelSettingsEnabled(boolean enabled) { sbLabelSettings_enabled = enabled; }
+	public void setSbLabelSettingsValue(int value) { sbLabelSettings_value = value; }
+	public boolean getSbLabelSettingsEnabled() { return sbLabelSettings_enabled; }
+	public int getSbLabelSettingsValue() { return sbLabelSettings_value; }
+
+	private boolean etLabelSettings_enabled = false;
+	private String etLabelSettings_value = "5";
+	public void setEtLabelSettingsEnabled(boolean enabled) { etLabelSettings_enabled = enabled; }
+	public void setEtLabelSettingsValue(String value) { etLabelSettings_value = value; }
+	public boolean getEtLabelSettingsEnabled() { return etLabelSettings_enabled; }
+	public String getEtLabelSettingsValue() { return etLabelSettings_value; }
+
+	private boolean spinLabelEnter_enabled = false;
+	private int spinLabelEnter_value = 1;
+	public void setLabelEnterEnabled(boolean enabled) { spinLabelEnter_enabled = enabled; }
+	public void setLabelEnterValue(int value) { spinLabelEnter_value = value; }
+	public boolean getLabelEnterEnabled() { return spinLabelEnter_enabled; }
+	public int getLabelEnterValue() { return spinLabelEnter_value; }
+
+	private boolean spinLabelExit_enabled = false;
+	private int spinLabelExit_value = 1;
+	public void setLabelExitEnabled(boolean enabled) { spinLabelExit_enabled = enabled; }
+	public void setLabelExitValue(int value) { spinLabelExit_value = value; }
+	public boolean getLabelExitEnabled() { return spinLabelExit_enabled; }
+	public int getLabelExitValue() { return spinLabelExit_value; }
+
+	private boolean spinLabelConfirmFuncDisarming_enabled = false;
+	private int spinLabelConfirmFuncDisarming_value = 1;
+	public void setLabelConfirmFuncDisarmingEnabled(boolean enabled) { spinLabelConfirmFuncDisarming_enabled = enabled; }
+	public void setLabelConfirmFuncDisarmingValue(int value) { spinLabelConfirmFuncDisarming_value = value; }
+	public boolean getLabelConfirmFuncDisarmingEnabled() { return spinLabelConfirmFuncDisarming_enabled; }
+	public int getLabelConfirmFuncDisarmingValue() { return spinLabelConfirmFuncDisarming_value; }
 }
