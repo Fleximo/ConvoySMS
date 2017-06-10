@@ -142,6 +142,9 @@
     <string name="str_LabelEnter_DisarmingWithoutCL">Disarming without CL</string>
     <string name="str_LabelEnter_DisarmingWithCL">Disarming with CL</string>
 
+    <string name="str_LabelExit_Enabled">Enabled</string>
+    <string name="str_LabelExit_Disabled">Disabled</string>
+
     <string name="str_LabelExit_NoAction">No action</string>
     <string name="str_LabelExit_DisarmingWithoutCL">Arming without CL</string>
     <string name="str_LabelExit_DisarmingWithCL">Arming with CL</string>

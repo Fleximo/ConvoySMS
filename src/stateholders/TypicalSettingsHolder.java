@@ -168,7 +168,7 @@ public class TypicalSettingsHolder
 			"<spin_Inputs_InputFunctionsIN1_enabled>true</spin_Inputs_InputFunctionsIN1_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN1_value>0</spin_Inputs_InputFunctionsIN1_value>\n" +
 			"<spin_Inputs_PolarityIN1_enabled>true</spin_Inputs_PolarityIN1_enabled>\n" +
-			"<spin_Inputs_PolarityIN1_value>1</spin_Inputs_PolarityIN1_value>\n" +
+			"<spin_Inputs_PolarityIN1_value>0</spin_Inputs_PolarityIN1_value>\n" +
 			"<spin_Inputs_InputIsActiveIN1_enabled>true</spin_Inputs_InputIsActiveIN1_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN1_value>0</spin_Inputs_InputIsActiveIN1_value>\n" +
 			"<et_Inputs_MinClosingTimeIN1_enabled>true</et_Inputs_MinClosingTimeIN1_enabled>\n" +
@@ -192,7 +192,7 @@ public class TypicalSettingsHolder
 			"<spin_Inputs_InputFunctionsIN3_enabled>true</spin_Inputs_InputFunctionsIN3_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN3_value>0</spin_Inputs_InputFunctionsIN3_value>\n" +
 			"<spin_Inputs_PolarityIN3_enabled>true</spin_Inputs_PolarityIN3_enabled>\n" +
-			"<spin_Inputs_PolarityIN3_value>1</spin_Inputs_PolarityIN3_value>\n" +
+			"<spin_Inputs_PolarityIN3_value>0</spin_Inputs_PolarityIN3_value>\n" +
 			"<spin_Inputs_InputIsActiveIN3_enabled>true</spin_Inputs_InputIsActiveIN3_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN3_value>0</spin_Inputs_InputIsActiveIN3_value>\n" +
 			"<et_Inputs_MinClosingTimeIN3_enabled>true</et_Inputs_MinClosingTimeIN3_enabled>\n" +
@@ -252,7 +252,7 @@ public class TypicalSettingsHolder
 			"<spin_Inputs_InputFunctionsIN8_enabled>true</spin_Inputs_InputFunctionsIN8_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN8_value>0</spin_Inputs_InputFunctionsIN8_value>\n" +
 			"<spin_Inputs_PolarityIN8_enabled>true</spin_Inputs_PolarityIN8_enabled>\n" +
-			"<spin_Inputs_PolarityIN8_value>1</spin_Inputs_PolarityIN8_value>\n" +
+			"<spin_Inputs_PolarityIN8_value>0</spin_Inputs_PolarityIN8_value>\n" +
 			"<spin_Inputs_InputIsActiveIN8_enabled>true</spin_Inputs_InputIsActiveIN8_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN8_value>0</spin_Inputs_InputIsActiveIN8_value>\n" +
 			"<et_Inputs_MinClosingTimeIN8_enabled>true</et_Inputs_MinClosingTimeIN8_enabled>\n" +
@@ -370,7 +370,7 @@ public class TypicalSettingsHolder
 			"<cb_UTC_CentralLockTimer13_enabled>true</cb_UTC_CentralLockTimer13_enabled>\n" +
 			"<cb_UTC_CentralLockTimer13_checked>true</cb_UTC_CentralLockTimer13_checked>\n" +
 			"<spin_UTC_LockImpulsCloseCL13_enabled>true</spin_UTC_LockImpulsCloseCL13_enabled>\n" +
-			"<spin_UTC_LockImpulsCloseCL13_value>1</spin_UTC_LockImpulsCloseCL13_value>\n" +
+			"<spin_UTC_LockImpulsCloseCL13_value>0</spin_UTC_LockImpulsCloseCL13_value>\n" +
 			"<et_UTC_FirstImpulsLongtime13_enabled>true</et_UTC_FirstImpulsLongtime13_enabled>\n" +
 			"<et_UTC_FirstImpulsLongtime13_value>1</et_UTC_FirstImpulsLongtime13_value>\n" +
 			"<et_UTC_PauseTimeBetwImpulses13_enabled>true</et_UTC_PauseTimeBetwImpulses13_enabled>\n" +
@@ -382,7 +382,7 @@ public class TypicalSettingsHolder
 			"<cb_UTC_CentralLockTimer14_enabled>true</cb_UTC_CentralLockTimer14_enabled>\n" +
 			"<cb_UTC_CentralLockTimer14_checked>true</cb_UTC_CentralLockTimer14_checked>\n" +
 			"<spin_UTC_LockImpulsCloseCL14_enabled>true</spin_UTC_LockImpulsCloseCL14_enabled>\n" +
-			"<spin_UTC_LockImpulsCloseCL14_value>1</spin_UTC_LockImpulsCloseCL14_value>\n" +
+			"<spin_UTC_LockImpulsCloseCL14_value>0</spin_UTC_LockImpulsCloseCL14_value>\n" +
 			"<et_UTC_FirstImpulsLongtime14_enabled>true</et_UTC_FirstImpulsLongtime14_enabled>\n" +
 			"<et_UTC_FirstImpulsLongtime14_value>1</et_UTC_FirstImpulsLongtime14_value>\n" +
 			"<et_UTC_PauseTimeBetwImpulses14_enabled>true</et_UTC_PauseTimeBetwImpulses14_enabled>\n" +
@@ -632,13 +632,13 @@ public class TypicalSettingsHolder
 			"<et_TextSMS_TextSMS_enabled>false</et_TextSMS_TextSMS_enabled>\n" +
 			"<et_TextSMS_TextSMS_value>PIN:0000 BALANS \"*111#\" AUTOCHECK 1 10 24 CALLCNT 1 SIREN 113 AVFUN 0 SENSOR 1 SHOCK A32 W18 SENSOR 1 0 MIC 5 VOL 50 \n" +
 			"\n" +
-			"PIN:0000 TAGLEVEL 5 TAGENTER 1 TAGEXIT 1 TAGAVFUN 1 REPORT 1 MONITOR 0 APN \"Internet\" REARM 0 IN1 - 1 0 1 1 \n" +
+			"PIN:0000 TAGLEVEL 5 TAGENTER 1 TAGEXIT 1 TAGAVFUN 1 REPORT 1 MONITOR 0 APN \"Internet\" REARM 0 IN1 + 1 0 1 1 \n" +
 			"\n" +
-			"PIN:0000 IN2 - 1 1 1 1 IN3 - 1 0 1 1 IN4 - 1 3 1 1 IN5 - 1 4 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 IN8 - 1 0 1 1 OUT1 1 \n" +
+			"PIN:0000 IN2 - 1 1 1 1 IN3 + 1 0 1 1 IN4 - 1 3 1 1 IN5 - 1 4 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 IN8 + 1 0 1 1 OUT1 1 \n" +
 			"\n" +
 			"PIN:0000 OUT2 13 OUT3 14 OUT4 4 OUT5 5 OUT6 6 TIMER1 M5 P0 T1; TIMER2 M5 P0 T1; LOCKTIMER 30 3 TURBOTIMER 0 0 \n" +
 			"\n" +
-			"PIN:0000 STARTTIMER 240 ARMTIMER 15 OUTLOCK 1 1 0 0 8 OUTUNLOCK 1 1 0 0 CANARM 1 CANIGN 1 CANTRUNK 1 CANWIN 1 \n" +
+			"PIN:0000 STARTTIMER 240 ARMTIMER 15 OUTLOCK 0 1 0 0 8 OUTUNLOCK 0 1 0 0 CANARM 1 CANIGN 1 CANTRUNK 1 CANWIN 1 \n" +
 			"\n" +
 			"PIN:0000 CANCARARM 1 NEWPIN 0000 \n" +
 			"\n" +
@@ -970,26 +970,26 @@ public class TypicalSettingsHolder
 			"<et_UTC_OutputTimerOnArmDelay_enabled>false</et_UTC_OutputTimerOnArmDelay_enabled>\n" +
 			"<et_UTC_OutputTimerOnArmDelay_value>3</et_UTC_OutputTimerOnArmDelay_value>\n" +
 			"<cb_UTC_CentralLockTimer13_enabled>true</cb_UTC_CentralLockTimer13_enabled>\n" +
-			"<cb_UTC_CentralLockTimer13_checked>false</cb_UTC_CentralLockTimer13_checked>\n" +
-			"<spin_UTC_LockImpulsCloseCL13_enabled>false</spin_UTC_LockImpulsCloseCL13_enabled>\n" +
-			"<spin_UTC_LockImpulsCloseCL13_value>1</spin_UTC_LockImpulsCloseCL13_value>\n" +
-			"<et_UTC_FirstImpulsLongtime13_enabled>false</et_UTC_FirstImpulsLongtime13_enabled>\n" +
+			"<cb_UTC_CentralLockTimer13_checked>true</cb_UTC_CentralLockTimer13_checked>\n" +
+			"<spin_UTC_LockImpulsCloseCL13_enabled>true</spin_UTC_LockImpulsCloseCL13_enabled>\n" +
+			"<spin_UTC_LockImpulsCloseCL13_value>0</spin_UTC_LockImpulsCloseCL13_value>\n" +
+			"<et_UTC_FirstImpulsLongtime13_enabled>true</et_UTC_FirstImpulsLongtime13_enabled>\n" +
 			"<et_UTC_FirstImpulsLongtime13_value>1</et_UTC_FirstImpulsLongtime13_value>\n" +
-			"<et_UTC_PauseTimeBetwImpulses13_enabled>false</et_UTC_PauseTimeBetwImpulses13_enabled>\n" +
+			"<et_UTC_PauseTimeBetwImpulses13_enabled>true</et_UTC_PauseTimeBetwImpulses13_enabled>\n" +
 			"<et_UTC_PauseTimeBetwImpulses13_value>0</et_UTC_PauseTimeBetwImpulses13_value>\n" +
-			"<et_UTC_SecondImpulsLongtime13_enabled>false</et_UTC_SecondImpulsLongtime13_enabled>\n" +
+			"<et_UTC_SecondImpulsLongtime13_enabled>true</et_UTC_SecondImpulsLongtime13_enabled>\n" +
 			"<et_UTC_SecondImpulsLongtime13_value>0</et_UTC_SecondImpulsLongtime13_value>\n" +
-			"<et_UTC_PauseTimeAfterIngAndImpStart13_enabled>false</et_UTC_PauseTimeAfterIngAndImpStart13_enabled>\n" +
+			"<et_UTC_PauseTimeAfterIngAndImpStart13_enabled>true</et_UTC_PauseTimeAfterIngAndImpStart13_enabled>\n" +
 			"<et_UTC_PauseTimeAfterIngAndImpStart13_value>8</et_UTC_PauseTimeAfterIngAndImpStart13_value>\n" +
 			"<cb_UTC_CentralLockTimer14_enabled>true</cb_UTC_CentralLockTimer14_enabled>\n" +
-			"<cb_UTC_CentralLockTimer14_checked>false</cb_UTC_CentralLockTimer14_checked>\n" +
-			"<spin_UTC_LockImpulsCloseCL14_enabled>false</spin_UTC_LockImpulsCloseCL14_enabled>\n" +
-			"<spin_UTC_LockImpulsCloseCL14_value>1</spin_UTC_LockImpulsCloseCL14_value>\n" +
-			"<et_UTC_FirstImpulsLongtime14_enabled>false</et_UTC_FirstImpulsLongtime14_enabled>\n" +
+			"<cb_UTC_CentralLockTimer14_checked>true</cb_UTC_CentralLockTimer14_checked>\n" +
+			"<spin_UTC_LockImpulsCloseCL14_enabled>true</spin_UTC_LockImpulsCloseCL14_enabled>\n" +
+			"<spin_UTC_LockImpulsCloseCL14_value>0</spin_UTC_LockImpulsCloseCL14_value>\n" +
+			"<et_UTC_FirstImpulsLongtime14_enabled>true</et_UTC_FirstImpulsLongtime14_enabled>\n" +
 			"<et_UTC_FirstImpulsLongtime14_value>1</et_UTC_FirstImpulsLongtime14_value>\n" +
-			"<et_UTC_PauseTimeBetwImpulses14_enabled>false</et_UTC_PauseTimeBetwImpulses14_enabled>\n" +
+			"<et_UTC_PauseTimeBetwImpulses14_enabled>true</et_UTC_PauseTimeBetwImpulses14_enabled>\n" +
 			"<et_UTC_PauseTimeBetwImpulses14_value>0</et_UTC_PauseTimeBetwImpulses14_value>\n" +
-			"<et_UTC_SecondImpulsLongtime14_enabled>false</et_UTC_SecondImpulsLongtime14_enabled>\n" +
+			"<et_UTC_SecondImpulsLongtime14_enabled>true</et_UTC_SecondImpulsLongtime14_enabled>\n" +
 			"<et_UTC_SecondImpulsLongtime14_value>0</et_UTC_SecondImpulsLongtime14_value>\n" +
 			"<cb_Notifications_User1_enabled>true</cb_Notifications_User1_enabled>\n" +
 			"<cb_Notifications_User1_checked>false</cb_Notifications_User1_checked>\n" +
@@ -1234,7 +1234,7 @@ public class TypicalSettingsHolder
 			"<et_TextSMS_TextSMS_enabled>false</et_TextSMS_TextSMS_enabled>\n" +
 			"<et_TextSMS_TextSMS_value>PIN:0000 IN1 + 1 0 0 5 IN2 - 1 1 1 1 IN3 + 1 0 0 5 IN4 - 1 3 1 1 IN5 - 1 4 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 \n" +
 			"\n" +
-			"PIN:0000 IN8 + 1 0 0 5 OUT1 1 OUT2 13 OUT3 14 OUT4 4 OUT5 5 OUT6 6 \n" +
+			"PIN:0000 IN8 + 1 0 0 5 OUT1 1 OUT2 13 OUT3 14 OUT4 4 OUT5 5 OUT6 6 OUTLOCK 0 1 0 0 8 OUTUNLOCK 0 1 0 0 \n" +
 			"\n" +
 			"</et_TextSMS_TextSMS_value>\n" +
 			"<et_PhoneForSMS_enabled>true</et_PhoneForSMS_enabled>\n" +
@@ -1954,40 +1954,40 @@ public class TypicalSettingsHolder
 			"<spinSMSMonitoringArming_enabled>false</spinSMSMonitoringArming_enabled>\n" +
 			"<spinSMSMonitoringArming_value>1</spinSMSMonitoringArming_value>\n" +
 			"<cb_Inputs_IN1_enabled>true</cb_Inputs_IN1_enabled>\n" +
-			"<cb_Inputs_IN1_checked>true</cb_Inputs_IN1_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN1_enabled>true</spin_Inputs_InputFunctionsIN1_enabled>\n" +
+			"<cb_Inputs_IN1_checked>false</cb_Inputs_IN1_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN1_enabled>false</spin_Inputs_InputFunctionsIN1_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN1_value>0</spin_Inputs_InputFunctionsIN1_value>\n" +
-			"<spin_Inputs_PolarityIN1_enabled>true</spin_Inputs_PolarityIN1_enabled>\n" +
+			"<spin_Inputs_PolarityIN1_enabled>false</spin_Inputs_PolarityIN1_enabled>\n" +
 			"<spin_Inputs_PolarityIN1_value>0</spin_Inputs_PolarityIN1_value>\n" +
-			"<spin_Inputs_InputIsActiveIN1_enabled>true</spin_Inputs_InputIsActiveIN1_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN1_enabled>false</spin_Inputs_InputIsActiveIN1_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN1_value>0</spin_Inputs_InputIsActiveIN1_value>\n" +
-			"<et_Inputs_MinClosingTimeIN1_enabled>true</et_Inputs_MinClosingTimeIN1_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN1_enabled>false</et_Inputs_MinClosingTimeIN1_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN1_value>0</et_Inputs_MinClosingTimeIN1_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN1_enabled>true</et_Inputs_MinOpeningTimeIN1_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN1_enabled>false</et_Inputs_MinOpeningTimeIN1_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN1_value>0.5</et_Inputs_MinOpeningTimeIN1_value>\n" +
 			"<cb_Inputs_IN2_enabled>true</cb_Inputs_IN2_enabled>\n" +
-			"<cb_Inputs_IN2_checked>true</cb_Inputs_IN2_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN2_enabled>true</spin_Inputs_InputFunctionsIN2_enabled>\n" +
+			"<cb_Inputs_IN2_checked>false</cb_Inputs_IN2_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN2_enabled>false</spin_Inputs_InputFunctionsIN2_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN2_value>1</spin_Inputs_InputFunctionsIN2_value>\n" +
-			"<spin_Inputs_PolarityIN2_enabled>true</spin_Inputs_PolarityIN2_enabled>\n" +
+			"<spin_Inputs_PolarityIN2_enabled>false</spin_Inputs_PolarityIN2_enabled>\n" +
 			"<spin_Inputs_PolarityIN2_value>1</spin_Inputs_PolarityIN2_value>\n" +
-			"<spin_Inputs_InputIsActiveIN2_enabled>true</spin_Inputs_InputIsActiveIN2_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN2_enabled>false</spin_Inputs_InputIsActiveIN2_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN2_value>0</spin_Inputs_InputIsActiveIN2_value>\n" +
-			"<et_Inputs_MinClosingTimeIN2_enabled>true</et_Inputs_MinClosingTimeIN2_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN2_enabled>false</et_Inputs_MinClosingTimeIN2_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN2_value>0.1</et_Inputs_MinClosingTimeIN2_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN2_enabled>true</et_Inputs_MinOpeningTimeIN2_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN2_enabled>false</et_Inputs_MinOpeningTimeIN2_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN2_value>0.1</et_Inputs_MinOpeningTimeIN2_value>\n" +
 			"<cb_Inputs_IN3_enabled>true</cb_Inputs_IN3_enabled>\n" +
-			"<cb_Inputs_IN3_checked>true</cb_Inputs_IN3_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN3_enabled>true</spin_Inputs_InputFunctionsIN3_enabled>\n" +
+			"<cb_Inputs_IN3_checked>false</cb_Inputs_IN3_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN3_enabled>false</spin_Inputs_InputFunctionsIN3_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN3_value>0</spin_Inputs_InputFunctionsIN3_value>\n" +
-			"<spin_Inputs_PolarityIN3_enabled>true</spin_Inputs_PolarityIN3_enabled>\n" +
+			"<spin_Inputs_PolarityIN3_enabled>false</spin_Inputs_PolarityIN3_enabled>\n" +
 			"<spin_Inputs_PolarityIN3_value>0</spin_Inputs_PolarityIN3_value>\n" +
-			"<spin_Inputs_InputIsActiveIN3_enabled>true</spin_Inputs_InputIsActiveIN3_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN3_enabled>false</spin_Inputs_InputIsActiveIN3_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN3_value>0</spin_Inputs_InputIsActiveIN3_value>\n" +
-			"<et_Inputs_MinClosingTimeIN3_enabled>true</et_Inputs_MinClosingTimeIN3_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN3_enabled>false</et_Inputs_MinClosingTimeIN3_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN3_value>0</et_Inputs_MinClosingTimeIN3_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN3_enabled>true</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN3_enabled>false</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN3_value>0.5</et_Inputs_MinOpeningTimeIN3_value>\n" +
 			"<cb_Inputs_IN4_enabled>true</cb_Inputs_IN4_enabled>\n" +
 			"<cb_Inputs_IN4_checked>true</cb_Inputs_IN4_checked>\n" +
@@ -2002,16 +2002,16 @@ public class TypicalSettingsHolder
 			"<et_Inputs_MinOpeningTimeIN4_enabled>true</et_Inputs_MinOpeningTimeIN4_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN4_value>0.1</et_Inputs_MinOpeningTimeIN4_value>\n" +
 			"<cb_Inputs_IN5_enabled>true</cb_Inputs_IN5_enabled>\n" +
-			"<cb_Inputs_IN5_checked>true</cb_Inputs_IN5_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN5_enabled>true</spin_Inputs_InputFunctionsIN5_enabled>\n" +
+			"<cb_Inputs_IN5_checked>false</cb_Inputs_IN5_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN5_enabled>false</spin_Inputs_InputFunctionsIN5_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN5_value>4</spin_Inputs_InputFunctionsIN5_value>\n" +
-			"<spin_Inputs_PolarityIN5_enabled>true</spin_Inputs_PolarityIN5_enabled>\n" +
+			"<spin_Inputs_PolarityIN5_enabled>false</spin_Inputs_PolarityIN5_enabled>\n" +
 			"<spin_Inputs_PolarityIN5_value>1</spin_Inputs_PolarityIN5_value>\n" +
-			"<spin_Inputs_InputIsActiveIN5_enabled>true</spin_Inputs_InputIsActiveIN5_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN5_enabled>false</spin_Inputs_InputIsActiveIN5_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN5_value>0</spin_Inputs_InputIsActiveIN5_value>\n" +
-			"<et_Inputs_MinClosingTimeIN5_enabled>true</et_Inputs_MinClosingTimeIN5_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN5_enabled>false</et_Inputs_MinClosingTimeIN5_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN5_value>0.1</et_Inputs_MinClosingTimeIN5_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN5_enabled>true</et_Inputs_MinOpeningTimeIN5_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN5_enabled>false</et_Inputs_MinOpeningTimeIN5_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN5_value>0.1</et_Inputs_MinOpeningTimeIN5_value>\n" +
 			"<cb_Inputs_IN6_enabled>true</cb_Inputs_IN6_enabled>\n" +
 			"<cb_Inputs_IN6_checked>true</cb_Inputs_IN6_checked>\n" +
@@ -2054,24 +2054,24 @@ public class TypicalSettingsHolder
 			"<spin_Outputs_OutputFunctionsOUT1_enabled>true</spin_Outputs_OutputFunctionsOUT1_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT1_value>0</spin_Outputs_OutputFunctionsOUT1_value>\n" +
 			"<cb_Outputs_OUT2_enabled>true</cb_Outputs_OUT2_enabled>\n" +
-			"<cb_Outputs_OUT2_checked>true</cb_Outputs_OUT2_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT2_enabled>true</spin_Outputs_OutputFunctionsOUT2_enabled>\n" +
+			"<cb_Outputs_OUT2_checked>false</cb_Outputs_OUT2_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT2_enabled>false</spin_Outputs_OutputFunctionsOUT2_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT2_value>12</spin_Outputs_OutputFunctionsOUT2_value>\n" +
 			"<cb_Outputs_OUT3_enabled>true</cb_Outputs_OUT3_enabled>\n" +
-			"<cb_Outputs_OUT3_checked>true</cb_Outputs_OUT3_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT3_enabled>true</spin_Outputs_OutputFunctionsOUT3_enabled>\n" +
+			"<cb_Outputs_OUT3_checked>false</cb_Outputs_OUT3_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT3_enabled>false</spin_Outputs_OutputFunctionsOUT3_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT3_value>13</spin_Outputs_OutputFunctionsOUT3_value>\n" +
 			"<cb_Outputs_OUT4_enabled>true</cb_Outputs_OUT4_enabled>\n" +
-			"<cb_Outputs_OUT4_checked>true</cb_Outputs_OUT4_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT4_enabled>true</spin_Outputs_OutputFunctionsOUT4_enabled>\n" +
+			"<cb_Outputs_OUT4_checked>false</cb_Outputs_OUT4_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT4_enabled>false</spin_Outputs_OutputFunctionsOUT4_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT4_value>3</spin_Outputs_OutputFunctionsOUT4_value>\n" +
 			"<cb_Outputs_OUT5_enabled>true</cb_Outputs_OUT5_enabled>\n" +
 			"<cb_Outputs_OUT5_checked>true</cb_Outputs_OUT5_checked>\n" +
 			"<spin_Outputs_OutputFunctionsOUT5_enabled>true</spin_Outputs_OutputFunctionsOUT5_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT5_value>4</spin_Outputs_OutputFunctionsOUT5_value>\n" +
 			"<cb_Outputs_OUT6_enabled>true</cb_Outputs_OUT6_enabled>\n" +
-			"<cb_Outputs_OUT6_checked>true</cb_Outputs_OUT6_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT6_enabled>true</spin_Outputs_OutputFunctionsOUT6_enabled>\n" +
+			"<cb_Outputs_OUT6_checked>false</cb_Outputs_OUT6_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT6_enabled>false</spin_Outputs_OutputFunctionsOUT6_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT6_value>5</spin_Outputs_OutputFunctionsOUT6_value>\n" +
 			"<cb_UTC_UniversalChannel1_enabled>true</cb_UTC_UniversalChannel1_enabled>\n" +
 			"<cb_UTC_UniversalChannel1_checked>false</cb_UTC_UniversalChannel1_checked>\n" +
@@ -2420,9 +2420,7 @@ public class TypicalSettingsHolder
 			"<spin_CAN_ManagingStaffSecuritySystem_enabled>false</spin_CAN_ManagingStaffSecuritySystem_enabled>\n" +
 			"<spin_CAN_ManagingStaffSecuritySystem_value>1</spin_CAN_ManagingStaffSecuritySystem_value>\n" +
 			"<et_TextSMS_TextSMS_enabled>false</et_TextSMS_TextSMS_enabled>\n" +
-			"<et_TextSMS_TextSMS_value>PIN:0000 IN1 + 1 0 0 5 IN2 - 1 1 1 1 IN3 + 1 0 0 5 IN4 - 1 0 1 1 IN5 - 1 4 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 \n" +
-			"\n" +
-			"PIN:0000 IN8 + 1 7,15 1 OUT1 1 OUT2 13 OUT3 14 OUT4 4 OUT5 5 OUT6 6 \n" +
+			"<et_TextSMS_TextSMS_value>PIN:0000 IN4 - 1 0 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 IN8 + 1 7,15,1 OUT1 1 OUT5 5 \n" +
 			"\n" +
 			"</et_TextSMS_TextSMS_value>\n" +
 			"<et_PhoneForSMS_enabled>true</et_PhoneForSMS_enabled>\n" +
@@ -2548,40 +2546,40 @@ public class TypicalSettingsHolder
 			"<spinSMSMonitoringArming_enabled>false</spinSMSMonitoringArming_enabled>\n" +
 			"<spinSMSMonitoringArming_value>1</spinSMSMonitoringArming_value>\n" +
 			"<cb_Inputs_IN1_enabled>true</cb_Inputs_IN1_enabled>\n" +
-			"<cb_Inputs_IN1_checked>true</cb_Inputs_IN1_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN1_enabled>true</spin_Inputs_InputFunctionsIN1_enabled>\n" +
+			"<cb_Inputs_IN1_checked>false</cb_Inputs_IN1_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN1_enabled>false</spin_Inputs_InputFunctionsIN1_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN1_value>0</spin_Inputs_InputFunctionsIN1_value>\n" +
-			"<spin_Inputs_PolarityIN1_enabled>true</spin_Inputs_PolarityIN1_enabled>\n" +
+			"<spin_Inputs_PolarityIN1_enabled>false</spin_Inputs_PolarityIN1_enabled>\n" +
 			"<spin_Inputs_PolarityIN1_value>0</spin_Inputs_PolarityIN1_value>\n" +
-			"<spin_Inputs_InputIsActiveIN1_enabled>true</spin_Inputs_InputIsActiveIN1_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN1_enabled>false</spin_Inputs_InputIsActiveIN1_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN1_value>0</spin_Inputs_InputIsActiveIN1_value>\n" +
-			"<et_Inputs_MinClosingTimeIN1_enabled>true</et_Inputs_MinClosingTimeIN1_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN1_enabled>false</et_Inputs_MinClosingTimeIN1_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN1_value>0</et_Inputs_MinClosingTimeIN1_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN1_enabled>true</et_Inputs_MinOpeningTimeIN1_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN1_enabled>false</et_Inputs_MinOpeningTimeIN1_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN1_value>0.5</et_Inputs_MinOpeningTimeIN1_value>\n" +
 			"<cb_Inputs_IN2_enabled>true</cb_Inputs_IN2_enabled>\n" +
-			"<cb_Inputs_IN2_checked>true</cb_Inputs_IN2_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN2_enabled>true</spin_Inputs_InputFunctionsIN2_enabled>\n" +
+			"<cb_Inputs_IN2_checked>false</cb_Inputs_IN2_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN2_enabled>false</spin_Inputs_InputFunctionsIN2_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN2_value>1</spin_Inputs_InputFunctionsIN2_value>\n" +
-			"<spin_Inputs_PolarityIN2_enabled>true</spin_Inputs_PolarityIN2_enabled>\n" +
+			"<spin_Inputs_PolarityIN2_enabled>false</spin_Inputs_PolarityIN2_enabled>\n" +
 			"<spin_Inputs_PolarityIN2_value>1</spin_Inputs_PolarityIN2_value>\n" +
-			"<spin_Inputs_InputIsActiveIN2_enabled>true</spin_Inputs_InputIsActiveIN2_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN2_enabled>false</spin_Inputs_InputIsActiveIN2_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN2_value>0</spin_Inputs_InputIsActiveIN2_value>\n" +
-			"<et_Inputs_MinClosingTimeIN2_enabled>true</et_Inputs_MinClosingTimeIN2_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN2_enabled>false</et_Inputs_MinClosingTimeIN2_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN2_value>0.1</et_Inputs_MinClosingTimeIN2_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN2_enabled>true</et_Inputs_MinOpeningTimeIN2_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN2_enabled>false</et_Inputs_MinOpeningTimeIN2_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN2_value>0.1</et_Inputs_MinOpeningTimeIN2_value>\n" +
 			"<cb_Inputs_IN3_enabled>true</cb_Inputs_IN3_enabled>\n" +
-			"<cb_Inputs_IN3_checked>true</cb_Inputs_IN3_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN3_enabled>true</spin_Inputs_InputFunctionsIN3_enabled>\n" +
+			"<cb_Inputs_IN3_checked>false</cb_Inputs_IN3_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN3_enabled>false</spin_Inputs_InputFunctionsIN3_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN3_value>0</spin_Inputs_InputFunctionsIN3_value>\n" +
-			"<spin_Inputs_PolarityIN3_enabled>true</spin_Inputs_PolarityIN3_enabled>\n" +
+			"<spin_Inputs_PolarityIN3_enabled>false</spin_Inputs_PolarityIN3_enabled>\n" +
 			"<spin_Inputs_PolarityIN3_value>0</spin_Inputs_PolarityIN3_value>\n" +
-			"<spin_Inputs_InputIsActiveIN3_enabled>true</spin_Inputs_InputIsActiveIN3_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN3_enabled>false</spin_Inputs_InputIsActiveIN3_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN3_value>0</spin_Inputs_InputIsActiveIN3_value>\n" +
-			"<et_Inputs_MinClosingTimeIN3_enabled>true</et_Inputs_MinClosingTimeIN3_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN3_enabled>false</et_Inputs_MinClosingTimeIN3_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN3_value>0</et_Inputs_MinClosingTimeIN3_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN3_enabled>true</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN3_enabled>false</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN3_value>0.5</et_Inputs_MinOpeningTimeIN3_value>\n" +
 			"<cb_Inputs_IN4_enabled>true</cb_Inputs_IN4_enabled>\n" +
 			"<cb_Inputs_IN4_checked>true</cb_Inputs_IN4_checked>\n" +
@@ -2596,16 +2594,16 @@ public class TypicalSettingsHolder
 			"<et_Inputs_MinOpeningTimeIN4_enabled>true</et_Inputs_MinOpeningTimeIN4_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN4_value>0.1</et_Inputs_MinOpeningTimeIN4_value>\n" +
 			"<cb_Inputs_IN5_enabled>true</cb_Inputs_IN5_enabled>\n" +
-			"<cb_Inputs_IN5_checked>true</cb_Inputs_IN5_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN5_enabled>true</spin_Inputs_InputFunctionsIN5_enabled>\n" +
+			"<cb_Inputs_IN5_checked>false</cb_Inputs_IN5_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN5_enabled>false</spin_Inputs_InputFunctionsIN5_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN5_value>0</spin_Inputs_InputFunctionsIN5_value>\n" +
-			"<spin_Inputs_PolarityIN5_enabled>true</spin_Inputs_PolarityIN5_enabled>\n" +
+			"<spin_Inputs_PolarityIN5_enabled>false</spin_Inputs_PolarityIN5_enabled>\n" +
 			"<spin_Inputs_PolarityIN5_value>1</spin_Inputs_PolarityIN5_value>\n" +
-			"<spin_Inputs_InputIsActiveIN5_enabled>true</spin_Inputs_InputIsActiveIN5_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN5_enabled>false</spin_Inputs_InputIsActiveIN5_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN5_value>0</spin_Inputs_InputIsActiveIN5_value>\n" +
-			"<et_Inputs_MinClosingTimeIN5_enabled>true</et_Inputs_MinClosingTimeIN5_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN5_enabled>false</et_Inputs_MinClosingTimeIN5_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN5_value>0.1</et_Inputs_MinClosingTimeIN5_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN5_enabled>true</et_Inputs_MinOpeningTimeIN5_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN5_enabled>false</et_Inputs_MinOpeningTimeIN5_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN5_value>0.1</et_Inputs_MinOpeningTimeIN5_value>\n" +
 			"<cb_Inputs_IN6_enabled>true</cb_Inputs_IN6_enabled>\n" +
 			"<cb_Inputs_IN6_checked>true</cb_Inputs_IN6_checked>\n" +
@@ -2656,8 +2654,8 @@ public class TypicalSettingsHolder
 			"<spin_Outputs_OutputFunctionsOUT3_enabled>true</spin_Outputs_OutputFunctionsOUT3_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT3_value>7</spin_Outputs_OutputFunctionsOUT3_value>\n" +
 			"<cb_Outputs_OUT4_enabled>true</cb_Outputs_OUT4_enabled>\n" +
-			"<cb_Outputs_OUT4_checked>true</cb_Outputs_OUT4_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT4_enabled>true</spin_Outputs_OutputFunctionsOUT4_enabled>\n" +
+			"<cb_Outputs_OUT4_checked>false</cb_Outputs_OUT4_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT4_enabled>false</spin_Outputs_OutputFunctionsOUT4_enabled>\n" +
 			"<spin_Outputs_OutputFunctionsOUT4_value>3</spin_Outputs_OutputFunctionsOUT4_value>\n" +
 			"<cb_Outputs_OUT5_enabled>true</cb_Outputs_OUT5_enabled>\n" +
 			"<cb_Outputs_OUT5_checked>true</cb_Outputs_OUT5_checked>\n" +
@@ -3014,9 +3012,7 @@ public class TypicalSettingsHolder
 			"<spin_CAN_ManagingStaffSecuritySystem_enabled>false</spin_CAN_ManagingStaffSecuritySystem_enabled>\n" +
 			"<spin_CAN_ManagingStaffSecuritySystem_value>1</spin_CAN_ManagingStaffSecuritySystem_value>\n" +
 			"<et_TextSMS_TextSMS_enabled>false</et_TextSMS_TextSMS_enabled>\n" +
-			"<et_TextSMS_TextSMS_value>PIN:0000 IN1 + 1 0 0 5 IN2 - 1 1 1 1 IN3 + 1 0 0 5 IN4 - 1 0 1 1 IN5 - 1 0 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 \n" +
-			"\n" +
-			"PIN:0000 IN8 + 1 7,15 1 OUT1 1 OUT2 7 OUT3 8 OUT4 4 OUT5 5 OUT6 6 \n" +
+			"<et_TextSMS_TextSMS_value>PIN:0000 IN4 - 1 0 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 IN8 + 1 7,15,1 OUT1 1 OUT2 7 OUT3 8 OUT5 5 OUT6 6 \n" +
 			"\n" +
 			"</et_TextSMS_TextSMS_value>\n" +
 			"<et_PhoneForSMS_enabled>true</et_PhoneForSMS_enabled>\n" +
@@ -3166,610 +3162,16 @@ public class TypicalSettingsHolder
 			"<et_Inputs_MinOpeningTimeIN2_enabled>true</et_Inputs_MinOpeningTimeIN2_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN2_value>0.1</et_Inputs_MinOpeningTimeIN2_value>\n" +
 			"<cb_Inputs_IN3_enabled>true</cb_Inputs_IN3_enabled>\n" +
-			"<cb_Inputs_IN3_checked>true</cb_Inputs_IN3_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN3_enabled>true</spin_Inputs_InputFunctionsIN3_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN3_value>4</spin_Inputs_InputFunctionsIN3_value>\n" +
-			"<spin_Inputs_PolarityIN3_enabled>true</spin_Inputs_PolarityIN3_enabled>\n" +
-			"<spin_Inputs_PolarityIN3_value>1</spin_Inputs_PolarityIN3_value>\n" +
-			"<spin_Inputs_InputIsActiveIN3_enabled>true</spin_Inputs_InputIsActiveIN3_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN3_value>0</spin_Inputs_InputIsActiveIN3_value>\n" +
-			"<et_Inputs_MinClosingTimeIN3_enabled>true</et_Inputs_MinClosingTimeIN3_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN3_value>0.1</et_Inputs_MinClosingTimeIN3_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN3_enabled>true</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN3_value>0.1</et_Inputs_MinOpeningTimeIN3_value>\n" +
-			"<cb_Inputs_IN4_enabled>true</cb_Inputs_IN4_enabled>\n" +
-			"<cb_Inputs_IN4_checked>true</cb_Inputs_IN4_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN4_enabled>true</spin_Inputs_InputFunctionsIN4_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN4_value>3</spin_Inputs_InputFunctionsIN4_value>\n" +
-			"<spin_Inputs_PolarityIN4_enabled>true</spin_Inputs_PolarityIN4_enabled>\n" +
-			"<spin_Inputs_PolarityIN4_value>1</spin_Inputs_PolarityIN4_value>\n" +
-			"<spin_Inputs_InputIsActiveIN4_enabled>true</spin_Inputs_InputIsActiveIN4_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN4_value>0</spin_Inputs_InputIsActiveIN4_value>\n" +
-			"<et_Inputs_MinClosingTimeIN4_enabled>true</et_Inputs_MinClosingTimeIN4_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN4_value>0.1</et_Inputs_MinClosingTimeIN4_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN4_enabled>true</et_Inputs_MinOpeningTimeIN4_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN4_value>0.1</et_Inputs_MinOpeningTimeIN4_value>\n" +
-			"<cb_Inputs_IN5_enabled>true</cb_Inputs_IN5_enabled>\n" +
-			"<cb_Inputs_IN5_checked>true</cb_Inputs_IN5_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN5_enabled>true</spin_Inputs_InputFunctionsIN5_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN5_value>4</spin_Inputs_InputFunctionsIN5_value>\n" +
-			"<spin_Inputs_PolarityIN5_enabled>true</spin_Inputs_PolarityIN5_enabled>\n" +
-			"<spin_Inputs_PolarityIN5_value>1</spin_Inputs_PolarityIN5_value>\n" +
-			"<spin_Inputs_InputIsActiveIN5_enabled>true</spin_Inputs_InputIsActiveIN5_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN5_value>0</spin_Inputs_InputIsActiveIN5_value>\n" +
-			"<et_Inputs_MinClosingTimeIN5_enabled>true</et_Inputs_MinClosingTimeIN5_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN5_value>0.1</et_Inputs_MinClosingTimeIN5_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN5_enabled>true</et_Inputs_MinOpeningTimeIN5_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN5_value>0.1</et_Inputs_MinOpeningTimeIN5_value>\n" +
-			"<cb_Inputs_IN6_enabled>true</cb_Inputs_IN6_enabled>\n" +
-			"<cb_Inputs_IN6_checked>true</cb_Inputs_IN6_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN6_enabled>true</spin_Inputs_InputFunctionsIN6_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN6_value>0</spin_Inputs_InputFunctionsIN6_value>\n" +
-			"<spin_Inputs_PolarityIN6_enabled>true</spin_Inputs_PolarityIN6_enabled>\n" +
-			"<spin_Inputs_PolarityIN6_value>0</spin_Inputs_PolarityIN6_value>\n" +
-			"<spin_Inputs_InputIsActiveIN6_enabled>true</spin_Inputs_InputIsActiveIN6_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN6_value>0</spin_Inputs_InputIsActiveIN6_value>\n" +
-			"<et_Inputs_MinClosingTimeIN6_enabled>true</et_Inputs_MinClosingTimeIN6_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN6_value>0.1</et_Inputs_MinClosingTimeIN6_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN6_enabled>true</et_Inputs_MinOpeningTimeIN6_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN6_value>0.1</et_Inputs_MinOpeningTimeIN6_value>\n" +
-			"<cb_Inputs_IN7_enabled>true</cb_Inputs_IN7_enabled>\n" +
-			"<cb_Inputs_IN7_checked>true</cb_Inputs_IN7_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN7_enabled>true</spin_Inputs_InputFunctionsIN7_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN7_value>0</spin_Inputs_InputFunctionsIN7_value>\n" +
-			"<spin_Inputs_PolarityIN7_enabled>true</spin_Inputs_PolarityIN7_enabled>\n" +
-			"<spin_Inputs_PolarityIN7_value>1</spin_Inputs_PolarityIN7_value>\n" +
-			"<spin_Inputs_InputIsActiveIN7_enabled>true</spin_Inputs_InputIsActiveIN7_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN7_value>0</spin_Inputs_InputIsActiveIN7_value>\n" +
-			"<et_Inputs_MinClosingTimeIN7_enabled>true</et_Inputs_MinClosingTimeIN7_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN7_value>0.1</et_Inputs_MinClosingTimeIN7_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN7_enabled>true</et_Inputs_MinOpeningTimeIN7_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN7_value>0.1</et_Inputs_MinOpeningTimeIN7_value>\n" +
-			"<cb_Inputs_IN8_enabled>true</cb_Inputs_IN8_enabled>\n" +
-			"<cb_Inputs_IN8_checked>true</cb_Inputs_IN8_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN8_enabled>true</spin_Inputs_InputFunctionsIN8_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN8_value>0</spin_Inputs_InputFunctionsIN8_value>\n" +
-			"<spin_Inputs_PolarityIN8_enabled>true</spin_Inputs_PolarityIN8_enabled>\n" +
-			"<spin_Inputs_PolarityIN8_value>0</spin_Inputs_PolarityIN8_value>\n" +
-			"<spin_Inputs_InputIsActiveIN8_enabled>true</spin_Inputs_InputIsActiveIN8_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN8_value>0</spin_Inputs_InputIsActiveIN8_value>\n" +
-			"<et_Inputs_MinClosingTimeIN8_enabled>true</et_Inputs_MinClosingTimeIN8_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN8_value>0.1</et_Inputs_MinClosingTimeIN8_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN8_enabled>true</et_Inputs_MinOpeningTimeIN8_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN8_value>0.1</et_Inputs_MinOpeningTimeIN8_value>\n" +
-			"<cb_Outputs_OUT1_enabled>true</cb_Outputs_OUT1_enabled>\n" +
-			"<cb_Outputs_OUT1_checked>true</cb_Outputs_OUT1_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT1_enabled>true</spin_Outputs_OutputFunctionsOUT1_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT1_value>0</spin_Outputs_OutputFunctionsOUT1_value>\n" +
-			"<cb_Outputs_OUT2_enabled>true</cb_Outputs_OUT2_enabled>\n" +
-			"<cb_Outputs_OUT2_checked>true</cb_Outputs_OUT2_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT2_enabled>true</spin_Outputs_OutputFunctionsOUT2_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT2_value>12</spin_Outputs_OutputFunctionsOUT2_value>\n" +
-			"<cb_Outputs_OUT3_enabled>true</cb_Outputs_OUT3_enabled>\n" +
-			"<cb_Outputs_OUT3_checked>true</cb_Outputs_OUT3_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT3_enabled>true</spin_Outputs_OutputFunctionsOUT3_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT3_value>13</spin_Outputs_OutputFunctionsOUT3_value>\n" +
-			"<cb_Outputs_OUT4_enabled>true</cb_Outputs_OUT4_enabled>\n" +
-			"<cb_Outputs_OUT4_checked>true</cb_Outputs_OUT4_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT4_enabled>true</spin_Outputs_OutputFunctionsOUT4_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT4_value>3</spin_Outputs_OutputFunctionsOUT4_value>\n" +
-			"<cb_Outputs_OUT5_enabled>true</cb_Outputs_OUT5_enabled>\n" +
-			"<cb_Outputs_OUT5_checked>true</cb_Outputs_OUT5_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT5_enabled>true</spin_Outputs_OutputFunctionsOUT5_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT5_value>4</spin_Outputs_OutputFunctionsOUT5_value>\n" +
-			"<cb_Outputs_OUT6_enabled>true</cb_Outputs_OUT6_enabled>\n" +
-			"<cb_Outputs_OUT6_checked>true</cb_Outputs_OUT6_checked>\n" +
-			"<spin_Outputs_OutputFunctionsOUT6_enabled>true</spin_Outputs_OutputFunctionsOUT6_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT6_value>5</spin_Outputs_OutputFunctionsOUT6_value>\n" +
-			"<cb_UTC_UniversalChannel1_enabled>true</cb_UTC_UniversalChannel1_enabled>\n" +
-			"<cb_UTC_UniversalChannel1_checked>false</cb_UTC_UniversalChannel1_checked>\n" +
-			"<cb_UTC_ArmingUC1_enabled>false</cb_UTC_ArmingUC1_enabled>\n" +
-			"<cb_UTC_ArmingUC1_chedked>false</cb_UTC_ArmingUC1_chedked>\n" +
-			"<cb_UTC_SysDisarmUC1_enabled>false</cb_UTC_SysDisarmUC1_enabled>\n" +
-			"<cb_UTC_SysDisarmUC1_checked>false</cb_UTC_SysDisarmUC1_checked>\n" +
-			"<cb_UTC_IgnitionSwitchOnUC1_enabled>false</cb_UTC_IgnitionSwitchOnUC1_enabled>\n" +
-			"<cb_UTC_IgnitionSwitchOnUC1_checked>false</cb_UTC_IgnitionSwitchOnUC1_checked>\n" +
-			"<cb_UTC_IgnitiOffSwitchOffUC1_enabled>false</cb_UTC_IgnitiOffSwitchOffUC1_enabled>\n" +
-			"<cb_UTC_IgnitiOffSwitchOffUC1_checked>false</cb_UTC_IgnitiOffSwitchOffUC1_checked>\n" +
-			"<cb_UTC_CommandFromPhoneUC1_enabled>false</cb_UTC_CommandFromPhoneUC1_enabled>\n" +
-			"<cb_UTC_CommandFromPhoneUC1_checked>true</cb_UTC_CommandFromPhoneUC1_checked>\n" +
-			"<et_UTC_Arming_DelayUC1_enabled>false</et_UTC_Arming_DelayUC1_enabled>\n" +
-			"<et_UTC_Arming_DelayUC1_value>0</et_UTC_Arming_DelayUC1_value>\n" +
-			"<et_UTC_Arming_OperationTimeUC1_enabled>false</et_UTC_Arming_OperationTimeUC1_enabled>\n" +
-			"<et_UTC_Arming_OperationTimeUC1_value>1</et_UTC_Arming_OperationTimeUC1_value>\n" +
-			"<et_UTC_SysDisarm_DelayUC1_enabled>false</et_UTC_SysDisarm_DelayUC1_enabled>\n" +
-			"<et_UTC_SysDisarm_DelayUC1_value>0</et_UTC_SysDisarm_DelayUC1_value>\n" +
-			"<et_UTC_SysDisarm_OperationTimeUC1_enabled>false</et_UTC_SysDisarm_OperationTimeUC1_enabled>\n" +
-			"<et_UTC_SysDisarm_OperationTimeUC1_value>1</et_UTC_SysDisarm_OperationTimeUC1_value>\n" +
-			"<et_UTC_IgnitionSwitchOn_DelayUC1_enabled>false</et_UTC_IgnitionSwitchOn_DelayUC1_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOn_DelayUC1_checked>0</et_UTC_IgnitionSwitchOn_DelayUC1_checked>\n" +
-			"<et_UTC_IgnitionSwitchOn_OperationTimeUC1_enabled>false</et_UTC_IgnitionSwitchOn_OperationTimeUC1_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOn_OperationTimeUC1_checked>1</et_UTC_IgnitionSwitchOn_OperationTimeUC1_checked>\n" +
-			"<et_UTC_IgnitionSwitchOff_DelayUC1_enabled>false</et_UTC_IgnitionSwitchOff_DelayUC1_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOff_DelayUC1_checked>0</et_UTC_IgnitionSwitchOff_DelayUC1_checked>\n" +
-			"<et_UTC_IgnitionSwitchOff_OperationTimeUC1_enabled>false</et_UTC_IgnitionSwitchOff_OperationTimeUC1_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOff_OperationTimeUC1_checked>1</et_UTC_IgnitionSwitchOff_OperationTimeUC1_checked>\n" +
-			"<et_UTC_CommandFromPhone_DelayUC1_enabled>false</et_UTC_CommandFromPhone_DelayUC1_enabled>\n" +
-			"<et_UTC_CommandFromPhone_DelayUC1_value>0</et_UTC_CommandFromPhone_DelayUC1_value>\n" +
-			"<et_UTC_CommandFromPhone_OperationTimeUC1_enabled>false</et_UTC_CommandFromPhone_OperationTimeUC1_enabled>\n" +
-			"<et_UTC_CommandFromPhone_OperationTimeUC1_value>1</et_UTC_CommandFromPhone_OperationTimeUC1_value>\n" +
-			"<cb_UTC_UniversalChannel2_enabled>true</cb_UTC_UniversalChannel2_enabled>\n" +
-			"<cb_UTC_UniversalChannel2_checked>false</cb_UTC_UniversalChannel2_checked>\n" +
-			"<cb_UTC_ArmingUC2_enabled>false</cb_UTC_ArmingUC2_enabled>\n" +
-			"<cb_UTC_ArmingUC2_chedked>false</cb_UTC_ArmingUC2_chedked>\n" +
-			"<cb_UTC_SysDisarmUC2_enabled>false</cb_UTC_SysDisarmUC2_enabled>\n" +
-			"<cb_UTC_SysDisarmUC2_checked>false</cb_UTC_SysDisarmUC2_checked>\n" +
-			"<cb_UTC_IgnitionSwitchOnUC2_enabled>false</cb_UTC_IgnitionSwitchOnUC2_enabled>\n" +
-			"<cb_UTC_IgnitionSwitchOnUC2_checked>false</cb_UTC_IgnitionSwitchOnUC2_checked>\n" +
-			"<cb_UTC_IgnitiOffSwitchOffUC2_enabled>false</cb_UTC_IgnitiOffSwitchOffUC2_enabled>\n" +
-			"<cb_UTC_IgnitiOffSwitchOffUC2_checked>false</cb_UTC_IgnitiOffSwitchOffUC2_checked>\n" +
-			"<cb_UTC_CommandFromPhoneUC2_enabled>false</cb_UTC_CommandFromPhoneUC2_enabled>\n" +
-			"<cb_UTC_CommandFromPhoneUC2_checked>true</cb_UTC_CommandFromPhoneUC2_checked>\n" +
-			"<et_UTC_Arming_DelayUC2_enabled>false</et_UTC_Arming_DelayUC2_enabled>\n" +
-			"<et_UTC_Arming_DelayUC2_value>0</et_UTC_Arming_DelayUC2_value>\n" +
-			"<et_UTC_Arming_OperationTimeUC2_enabled>false</et_UTC_Arming_OperationTimeUC2_enabled>\n" +
-			"<et_UTC_Arming_OperationTimeUC2_value>1</et_UTC_Arming_OperationTimeUC2_value>\n" +
-			"<et_UTC_SysDisarm_DelayUC2_enabled>false</et_UTC_SysDisarm_DelayUC2_enabled>\n" +
-			"<et_UTC_SysDisarm_DelayUC2_value>0</et_UTC_SysDisarm_DelayUC2_value>\n" +
-			"<et_UTC_SysDisarm_OperationTimeUC2_enabled>false</et_UTC_SysDisarm_OperationTimeUC2_enabled>\n" +
-			"<et_UTC_SysDisarm_OperationTimeUC2_value>1</et_UTC_SysDisarm_OperationTimeUC2_value>\n" +
-			"<et_UTC_IgnitionSwitchOn_DelayUC2_enabled>false</et_UTC_IgnitionSwitchOn_DelayUC2_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOn_DelayUC2_checked>0</et_UTC_IgnitionSwitchOn_DelayUC2_checked>\n" +
-			"<et_UTC_IgnitionSwitchOn_OperationTimeUC2_enabled>false</et_UTC_IgnitionSwitchOn_OperationTimeUC2_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOn_OperationTimeUC2_checked>1</et_UTC_IgnitionSwitchOn_OperationTimeUC2_checked>\n" +
-			"<et_UTC_IgnitionSwitchOff_DelayUC2_enabled>false</et_UTC_IgnitionSwitchOff_DelayUC2_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOff_DelayUC2_checked>0</et_UTC_IgnitionSwitchOff_DelayUC2_checked>\n" +
-			"<et_UTC_IgnitionSwitchOff_OperationTimeUC2_enabled>false</et_UTC_IgnitionSwitchOff_OperationTimeUC2_enabled>\n" +
-			"<et_UTC_IgnitionSwitchOff_OperationTimeUC2_checked>1</et_UTC_IgnitionSwitchOff_OperationTimeUC2_checked>\n" +
-			"<et_UTC_CommandFromPhone_DelayUC2_enabled>false</et_UTC_CommandFromPhone_DelayUC2_enabled>\n" +
-			"<et_UTC_CommandFromPhone_DelayUC2_value>0</et_UTC_CommandFromPhone_DelayUC2_value>\n" +
-			"<et_UTC_CommandFromPhone_OperationTimeUC2_enabled>false</et_UTC_CommandFromPhone_OperationTimeUC2_enabled>\n" +
-			"<et_UTC_CommandFromPhone_OperationTimeUC2_value>1</et_UTC_CommandFromPhone_OperationTimeUC2_value>\n" +
-			"<cbTurboTimerSettings_enabled>true</cbTurboTimerSettings_enabled>\n" +
-			"<cbTurboTimerSettings_checked>false</cbTurboTimerSettings_checked>\n" +
-			"<et_TurbotimerWorkingTime_enabled>false</et_TurbotimerWorkingTime_enabled>\n" +
-			"<et_TurbotimerWorkingTime_value>0</et_TurbotimerWorkingTime_value>\n" +
-			"<et_IngnTimeLockedEngine_enabled>false</et_IngnTimeLockedEngine_enabled>\n" +
-			"<et_IngnTimeLockedEngine_value>0</et_IngnTimeLockedEngine_value>\n" +
-			"<cbStarttimer_enabled>true</cbStarttimer_enabled>\n" +
-			"<cbStarttimer_checked>false</cbStarttimer_checked>\n" +
-			"<et_Starttimer_enabled>false</et_Starttimer_enabled>\n" +
-			"<et_Starttimer_value>60</et_Starttimer_value>\n" +
-			"<cbArmtimer_enabled>true</cbArmtimer_enabled>\n" +
-			"<cbArmtimer_checked>false</cbArmtimer_checked>\n" +
-			"<et_Armtimer_enabled>false</et_Armtimer_enabled>\n" +
-			"<et_Armtimer_value>15</et_Armtimer_value>\n" +
-			"<cbOutputTimerOnArmDelay_enabled>true</cbOutputTimerOnArmDelay_enabled>\n" +
-			"<cbOutputTimerOnArmDelay_checked>false</cbOutputTimerOnArmDelay_checked>\n" +
-			"<et_UTC_OutputTimerOnArmOperationTime_enabled>false</et_UTC_OutputTimerOnArmOperationTime_enabled>\n" +
-			"<et_UTC_OutputTimerOnArmOperationTime_value>30</et_UTC_OutputTimerOnArmOperationTime_value>\n" +
-			"<et_UTC_OutputTimerOnArmDelay_enabled>false</et_UTC_OutputTimerOnArmDelay_enabled>\n" +
-			"<et_UTC_OutputTimerOnArmDelay_value>3</et_UTC_OutputTimerOnArmDelay_value>\n" +
-			"<cb_UTC_CentralLockTimer13_enabled>true</cb_UTC_CentralLockTimer13_enabled>\n" +
-			"<cb_UTC_CentralLockTimer13_checked>false</cb_UTC_CentralLockTimer13_checked>\n" +
-			"<spin_UTC_LockImpulsCloseCL13_enabled>false</spin_UTC_LockImpulsCloseCL13_enabled>\n" +
-			"<spin_UTC_LockImpulsCloseCL13_value>1</spin_UTC_LockImpulsCloseCL13_value>\n" +
-			"<et_UTC_FirstImpulsLongtime13_enabled>false</et_UTC_FirstImpulsLongtime13_enabled>\n" +
-			"<et_UTC_FirstImpulsLongtime13_value>1</et_UTC_FirstImpulsLongtime13_value>\n" +
-			"<et_UTC_PauseTimeBetwImpulses13_enabled>false</et_UTC_PauseTimeBetwImpulses13_enabled>\n" +
-			"<et_UTC_PauseTimeBetwImpulses13_value>0</et_UTC_PauseTimeBetwImpulses13_value>\n" +
-			"<et_UTC_SecondImpulsLongtime13_enabled>false</et_UTC_SecondImpulsLongtime13_enabled>\n" +
-			"<et_UTC_SecondImpulsLongtime13_value>0</et_UTC_SecondImpulsLongtime13_value>\n" +
-			"<et_UTC_PauseTimeAfterIngAndImpStart13_enabled>false</et_UTC_PauseTimeAfterIngAndImpStart13_enabled>\n" +
-			"<et_UTC_PauseTimeAfterIngAndImpStart13_value>8</et_UTC_PauseTimeAfterIngAndImpStart13_value>\n" +
-			"<cb_UTC_CentralLockTimer14_enabled>true</cb_UTC_CentralLockTimer14_enabled>\n" +
-			"<cb_UTC_CentralLockTimer14_checked>false</cb_UTC_CentralLockTimer14_checked>\n" +
-			"<spin_UTC_LockImpulsCloseCL14_enabled>false</spin_UTC_LockImpulsCloseCL14_enabled>\n" +
-			"<spin_UTC_LockImpulsCloseCL14_value>1</spin_UTC_LockImpulsCloseCL14_value>\n" +
-			"<et_UTC_FirstImpulsLongtime14_enabled>false</et_UTC_FirstImpulsLongtime14_enabled>\n" +
-			"<et_UTC_FirstImpulsLongtime14_value>1</et_UTC_FirstImpulsLongtime14_value>\n" +
-			"<et_UTC_PauseTimeBetwImpulses14_enabled>false</et_UTC_PauseTimeBetwImpulses14_enabled>\n" +
-			"<et_UTC_PauseTimeBetwImpulses14_value>0</et_UTC_PauseTimeBetwImpulses14_value>\n" +
-			"<et_UTC_SecondImpulsLongtime14_enabled>false</et_UTC_SecondImpulsLongtime14_enabled>\n" +
-			"<et_UTC_SecondImpulsLongtime14_value>0</et_UTC_SecondImpulsLongtime14_value>\n" +
-			"<cb_Notifications_User1_enabled>true</cb_Notifications_User1_enabled>\n" +
-			"<cb_Notifications_User1_checked>false</cb_Notifications_User1_checked>\n" +
-			"<cb_Notifications_User2_enabled>true</cb_Notifications_User2_enabled>\n" +
-			"<cb_Notifications_User2_checked>false</cb_Notifications_User2_checked>\n" +
-			"<cb_Notifications_User3_enabled>true</cb_Notifications_User3_enabled>\n" +
-			"<cb_Notifications_User3_checked>false</cb_Notifications_User3_checked>\n" +
-			"<cb_Notifications_User4_enabled>true</cb_Notifications_User4_enabled>\n" +
-			"<cb_Notifications_User4_checked>false</cb_Notifications_User4_checked>\n" +
-			"<cb_Notifications_User5_enabled>true</cb_Notifications_User5_enabled>\n" +
-			"<cb_Notifications_User5_checked>false</cb_Notifications_User5_checked>\n" +
-			"<et_Notifications_PhoneNumberUser1_enabled>false</et_Notifications_PhoneNumberUser1_enabled>\n" +
-			"<et_Notifications_PhoneNumberUser1_value></et_Notifications_PhoneNumberUser1_value>\n" +
-			"<et_Notifications_PhoneNumberUser2_enabled>false</et_Notifications_PhoneNumberUser2_enabled>\n" +
-			"<et_Notifications_PhoneNumberUser2_value></et_Notifications_PhoneNumberUser2_value>\n" +
-			"<et_Notifications_PhoneNumberUser3_enabled>false</et_Notifications_PhoneNumberUser3_enabled>\n" +
-			"<et_Notifications_PhoneNumberUser3_value></et_Notifications_PhoneNumberUser3_value>\n" +
-			"<et_Notifications_PhoneNumberUser4_enabled>false</et_Notifications_PhoneNumberUser4_enabled>\n" +
-			"<et_Notifications_PhoneNumberUser4_value></et_Notifications_PhoneNumberUser4_value>\n" +
-			"<et_Notifications_PhoneNumberUser5_enabled>false</et_Notifications_PhoneNumberUser5_enabled>\n" +
-			"<et_Notifications_PhoneNumberUser5_value></et_Notifications_PhoneNumberUser5_value>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser1_enabled>false</cb_Notidications_AllowNotificationsSMSUser1_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser1_checked>false</cb_Notidications_AllowNotificationsSMSUser1_checked>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser2_enabled>false</cb_Notidications_AllowNotificationsSMSUser2_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser2_checked>false</cb_Notidications_AllowNotificationsSMSUser2_checked>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser3_enabled>false</cb_Notidications_AllowNotificationsSMSUser3_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser3_checked>false</cb_Notidications_AllowNotificationsSMSUser3_checked>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser4_enabled>false</cb_Notidications_AllowNotificationsSMSUser4_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser4_checked>false</cb_Notidications_AllowNotificationsSMSUser4_checked>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser5_enabled>false</cb_Notidications_AllowNotificationsSMSUser5_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsSMSUser5_checked>false</cb_Notidications_AllowNotificationsSMSUser5_checked>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser1_enabled>false</cb_Notidications_AllowNotificationsTELUser1_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser1_checked>false</cb_Notidications_AllowNotificationsTELUser1_checked>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser2_enabled>false</cb_Notidications_AllowNotificationsTELUser2_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser2_checked>false</cb_Notidications_AllowNotificationsTELUser2_checked>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser3_enabled>false</cb_Notidications_AllowNotificationsTELUser3_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser3_checked>false</cb_Notidications_AllowNotificationsTELUser3_checked>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser4_enabled>false</cb_Notidications_AllowNotificationsTELUser4_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser4_checked>false</cb_Notidications_AllowNotificationsTELUser4_checked>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser5_enabled>false</cb_Notidications_AllowNotificationsTELUser5_enabled>\n" +
-			"<cb_Notidications_AllowNotificationsTELUser5_checked>false</cb_Notidications_AllowNotificationsTELUser5_checked>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser1_enabled>false</btn_Notifications_CallBtnPressedSMSUser1_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser1_checked>false</btn_Notifications_CallBtnPressedSMSUser1_checked>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser2_enabled>false</btn_Notifications_CallBtnPressedSMSUser2_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser2_checked>false</btn_Notifications_CallBtnPressedSMSUser2_checked>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser3_enabled>false</btn_Notifications_CallBtnPressedSMSUser3_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser3_checked>false</btn_Notifications_CallBtnPressedSMSUser3_checked>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser4_enabled>false</btn_Notifications_CallBtnPressedSMSUser4_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser4_checked>false</btn_Notifications_CallBtnPressedSMSUser4_checked>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser5_enabled>false</btn_Notifications_CallBtnPressedSMSUser5_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedSMSUser5_checked>false</btn_Notifications_CallBtnPressedSMSUser5_checked>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser1_enabled>false</btn_Notifications_CallBtnPressedTELUser1_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser1_checked>false</btn_Notifications_CallBtnPressedTELUser1_checked>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser2_enabled>false</btn_Notifications_CallBtnPressedTELUser2_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser2_checked>false</btn_Notifications_CallBtnPressedTELUser2_checked>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser3_enabled>false</btn_Notifications_CallBtnPressedTELUser3_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser3_checked>false</btn_Notifications_CallBtnPressedTELUser3_checked>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser4_enabled>false</btn_Notifications_CallBtnPressedTELUser4_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser4_checked>false</btn_Notifications_CallBtnPressedTELUser4_checked>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser5_enabled>false</btn_Notifications_CallBtnPressedTELUser5_enabled>\n" +
-			"<btn_Notifications_CallBtnPressedTELUser5_checked>false</btn_Notifications_CallBtnPressedTELUser5_checked>\n" +
-			"<btn_Notifications_IngineActiveSMSUser1_enabled>false</btn_Notifications_IngineActiveSMSUser1_enabled>\n" +
-			"<btn_Notifications_IngineActiveSMSUser1_checked>false</btn_Notifications_IngineActiveSMSUser1_checked>\n" +
-			"<btn_Notifications_IngineActiveSMSUser2_enabled>false</btn_Notifications_IngineActiveSMSUser2_enabled>\n" +
-			"<btn_Notifications_IngineActiveSMSUser2_checked>false</btn_Notifications_IngineActiveSMSUser2_checked>\n" +
-			"<btn_Notifications_IngineActiveSMSUser3_enabled>false</btn_Notifications_IngineActiveSMSUser3_enabled>\n" +
-			"<btn_Notifications_IngineActiveSMSUser3_checked>false</btn_Notifications_IngineActiveSMSUser3_checked>\n" +
-			"<btn_Notifications_IngineActiveSMSUser4_enabled>false</btn_Notifications_IngineActiveSMSUser4_enabled>\n" +
-			"<btn_Notifications_IngineActiveSMSUser4_checked>false</btn_Notifications_IngineActiveSMSUser4_checked>\n" +
-			"<btn_Notifications_IngineActiveSMSUser5_enabled>false</btn_Notifications_IngineActiveSMSUser5_enabled>\n" +
-			"<btn_Notifications_IngineActiveSMSUser5_checked>false</btn_Notifications_IngineActiveSMSUser5_checked>\n" +
-			"<btn_Notifications_IngineActiveTELUser1_enabled>false</btn_Notifications_IngineActiveTELUser1_enabled>\n" +
-			"<btn_Notifications_IngineActiveTELUser1_checked>false</btn_Notifications_IngineActiveTELUser1_checked>\n" +
-			"<btn_Notifications_IngineActiveTELUser2_enabled>false</btn_Notifications_IngineActiveTELUser2_enabled>\n" +
-			"<btn_Notifications_IngineActiveTELUser2_checked>false</btn_Notifications_IngineActiveTELUser2_checked>\n" +
-			"<btn_Notifications_IngineActiveTELUser3_enabled>false</btn_Notifications_IngineActiveTELUser3_enabled>\n" +
-			"<btn_Notifications_IngineActiveTELUser3_checked>false</btn_Notifications_IngineActiveTELUser3_checked>\n" +
-			"<btn_Notifications_IngineActiveTELUser4_enabled>false</btn_Notifications_IngineActiveTELUser4_enabled>\n" +
-			"<btn_Notifications_IngineActiveTELUser4_checked>false</btn_Notifications_IngineActiveTELUser4_checked>\n" +
-			"<btn_Notifications_IngineActiveTELUser5_enabled>false</btn_Notifications_IngineActiveTELUser5_enabled>\n" +
-			"<btn_Notifications_IngineActiveTELUser5_checked>false</btn_Notifications_IngineActiveTELUser5_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser1_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser1_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser1_checked>false</btn_Notifications_LoadLimitSwitchSMSUser1_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser2_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser2_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser2_checked>false</btn_Notifications_LoadLimitSwitchSMSUser2_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser3_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser3_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser3_checked>false</btn_Notifications_LoadLimitSwitchSMSUser3_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser4_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser4_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser4_checked>false</btn_Notifications_LoadLimitSwitchSMSUser4_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser5_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser5_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchSMSUser5_checked>false</btn_Notifications_LoadLimitSwitchSMSUser5_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser1_enabled>false</btn_Notifications_LoadLimitSwitchTELUser1_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser1_checked>false</btn_Notifications_LoadLimitSwitchTELUser1_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser2_enabled>false</btn_Notifications_LoadLimitSwitchTELUser2_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser2_checked>false</btn_Notifications_LoadLimitSwitchTELUser2_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser3_enabled>false</btn_Notifications_LoadLimitSwitchTELUser3_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser3_checked>false</btn_Notifications_LoadLimitSwitchTELUser3_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser4_enabled>false</btn_Notifications_LoadLimitSwitchTELUser4_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser4_checked>false</btn_Notifications_LoadLimitSwitchTELUser4_checked>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser5_enabled>false</btn_Notifications_LoadLimitSwitchTELUser5_enabled>\n" +
-			"<btn_Notifications_LoadLimitSwitchTELUser5_checked>false</btn_Notifications_LoadLimitSwitchTELUser5_checked>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser1_enabled>false</btn_Notifications_LoadShockSensorSMSUser1_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser1_checked>false</btn_Notifications_LoadShockSensorSMSUser1_checked>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser2_enabled>false</btn_Notifications_LoadShockSensorSMSUser2_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser2_checked>false</btn_Notifications_LoadShockSensorSMSUser2_checked>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser3_enabled>false</btn_Notifications_LoadShockSensorSMSUser3_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser3_checked>false</btn_Notifications_LoadShockSensorSMSUser3_checked>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser4_enabled>false</btn_Notifications_LoadShockSensorSMSUser4_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser4_checked>false</btn_Notifications_LoadShockSensorSMSUser4_checked>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser5_enabled>false</btn_Notifications_LoadShockSensorSMSUser5_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorSMSUser5_checked>false</btn_Notifications_LoadShockSensorSMSUser5_checked>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser1_enabled>false</btn_Notifications_LoadShockSensorTELUser1_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser1_checked>false</btn_Notifications_LoadShockSensorTELUser1_checked>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser2_enabled>false</btn_Notifications_LoadShockSensorTELUser2_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser2_checked>false</btn_Notifications_LoadShockSensorTELUser2_checked>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser3_enabled>false</btn_Notifications_LoadShockSensorTELUser3_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser3_checked>false</btn_Notifications_LoadShockSensorTELUser3_checked>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser4_enabled>false</btn_Notifications_LoadShockSensorTELUser4_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser4_checked>false</btn_Notifications_LoadShockSensorTELUser4_checked>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser5_enabled>false</btn_Notifications_LoadShockSensorTELUser5_enabled>\n" +
-			"<btn_Notifications_LoadShockSensorTELUser5_checked>false</btn_Notifications_LoadShockSensorTELUser5_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser1_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser1_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser1_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser1_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser2_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser2_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser2_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser2_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser3_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser3_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser3_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser3_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser4_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser4_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser4_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser4_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser5_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser5_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser5_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser5_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser1_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser1_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser1_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser1_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser2_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser2_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser2_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser2_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser3_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser3_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser3_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser3_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser4_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser4_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser4_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser4_checked>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser5_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser5_enabled>\n" +
-			"<btn_Notifications_LoadUniversalLimitSwitchTELUser5_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser5_checked>\n" +
-			"<btn_Notifications_LowBatterySMSUser1_enabled>false</btn_Notifications_LowBatterySMSUser1_enabled>\n" +
-			"<btn_Notifications_LowBatterySMSUser1_checked>false</btn_Notifications_LowBatterySMSUser1_checked>\n" +
-			"<btn_Notifications_LowBatterySMSUser2_enabled>false</btn_Notifications_LowBatterySMSUser2_enabled>\n" +
-			"<btn_Notifications_LowBatterySMSUser2_checked>false</btn_Notifications_LowBatterySMSUser2_checked>\n" +
-			"<btn_Notifications_LowBatterySMSUser3_enabled>false</btn_Notifications_LowBatterySMSUser3_enabled>\n" +
-			"<btn_Notifications_LowBatterySMSUser3_checked>false</btn_Notifications_LowBatterySMSUser3_checked>\n" +
-			"<btn_Notifications_LowBatterySMSUser4_enabled>false</btn_Notifications_LowBatterySMSUser4_enabled>\n" +
-			"<btn_Notifications_LowBatterySMSUser4_checked>false</btn_Notifications_LowBatterySMSUser4_checked>\n" +
-			"<btn_Notifications_LowBatterySMSUser5_enabled>false</btn_Notifications_LowBatterySMSUser5_enabled>\n" +
-			"<btn_Notifications_LowBatterySMSUser5_checked>false</btn_Notifications_LowBatterySMSUser5_checked>\n" +
-			"<btn_Notifications_LowBatteryTELUser1_enabled>false</btn_Notifications_LowBatteryTELUser1_enabled>\n" +
-			"<btn_Notifications_LowBatteryTELUser1_checked>false</btn_Notifications_LowBatteryTELUser1_checked>\n" +
-			"<btn_Notifications_LowBatteryTELUser2_enabled>false</btn_Notifications_LowBatteryTELUser2_enabled>\n" +
-			"<btn_Notifications_LowBatteryTELUser2_checked>false</btn_Notifications_LowBatteryTELUser2_checked>\n" +
-			"<btn_Notifications_LowBatteryTELUser3_enabled>false</btn_Notifications_LowBatteryTELUser3_enabled>\n" +
-			"<btn_Notifications_LowBatteryTELUser3_checked>false</btn_Notifications_LowBatteryTELUser3_checked>\n" +
-			"<btn_Notifications_LowBatteryTELUser4_enabled>false</btn_Notifications_LowBatteryTELUser4_enabled>\n" +
-			"<btn_Notifications_LowBatteryTELUser4_checked>false</btn_Notifications_LowBatteryTELUser4_checked>\n" +
-			"<btn_Notifications_LowBatteryTELUser5_enabled>false</btn_Notifications_LowBatteryTELUser5_enabled>\n" +
-			"<btn_Notifications_LowBatteryTELUser5_checked>false</btn_Notifications_LowBatteryTELUser5_checked>\n" +
-			"<btn_Notifications_GSM_SMSUser1_enabled>false</btn_Notifications_GSM_SMSUser1_enabled>\n" +
-			"<btn_Notifications_GSM_SMSUser1_checked>false</btn_Notifications_GSM_SMSUser1_checked>\n" +
-			"<btn_Notifications_GSM_SMSUser2_enabled>false</btn_Notifications_GSM_SMSUser2_enabled>\n" +
-			"<btn_Notifications_GSM_SMSUser2_checked>false</btn_Notifications_GSM_SMSUser2_checked>\n" +
-			"<btn_Notifications_GSM_SMSUser3_enabled>false</btn_Notifications_GSM_SMSUser3_enabled>\n" +
-			"<btn_Notifications_GSM_SMSUser3_checked>false</btn_Notifications_GSM_SMSUser3_checked>\n" +
-			"<btn_Notifications_GSM_SMSUser4_enabled>false</btn_Notifications_GSM_SMSUser4_enabled>\n" +
-			"<btn_Notifications_GSM_SMSUser4_checked>false</btn_Notifications_GSM_SMSUser4_checked>\n" +
-			"<btn_Notifications_GSM_SMSUser5_enabled>false</btn_Notifications_GSM_SMSUser5_enabled>\n" +
-			"<btn_Notifications_GSM_SMSUser5_checked>false</btn_Notifications_GSM_SMSUser5_checked>\n" +
-			"<btn_Notifications_GSM_TELUser1_enabled>false</btn_Notifications_GSM_TELUser1_enabled>\n" +
-			"<btn_Notifications_GSM_TELUser1_checked>false</btn_Notifications_GSM_TELUser1_checked>\n" +
-			"<btn_Notifications_GSM_TELUser2_enabled>false</btn_Notifications_GSM_TELUser2_enabled>\n" +
-			"<btn_Notifications_GSM_TELUser2_checked>false</btn_Notifications_GSM_TELUser2_checked>\n" +
-			"<btn_Notifications_GSM_TELUser3_enabled>false</btn_Notifications_GSM_TELUser3_enabled>\n" +
-			"<btn_Notifications_GSM_TELUser3_checked>false</btn_Notifications_GSM_TELUser3_checked>\n" +
-			"<btn_Notifications_GSM_TELUser4_enabled>false</btn_Notifications_GSM_TELUser4_enabled>\n" +
-			"<btn_Notifications_GSM_TELUser4_checked>false</btn_Notifications_GSM_TELUser4_checked>\n" +
-			"<btn_Notifications_GSM_TELUser5_enabled>false</btn_Notifications_GSM_TELUser5_enabled>\n" +
-			"<btn_Notifications_GSM_TELUser5_checked>false</btn_Notifications_GSM_TELUser5_checked>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser1_enabled>false</btn_Notifications_SystemDisarmSMSUser1_enabled>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser1_checked>false</btn_Notifications_SystemDisarmSMSUser1_checked>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser2_enabled>false</btn_Notifications_SystemDisarmSMSUser2_enabled>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser2_checked>false</btn_Notifications_SystemDisarmSMSUser2_checked>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser3_enabled>false</btn_Notifications_SystemDisarmSMSUser3_enabled>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser3_checked>false</btn_Notifications_SystemDisarmSMSUser3_checked>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser4_enabled>false</btn_Notifications_SystemDisarmSMSUser4_enabled>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser4_checked>false</btn_Notifications_SystemDisarmSMSUser4_checked>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser5_enabled>false</btn_Notifications_SystemDisarmSMSUser5_enabled>\n" +
-			"<btn_Notifications_SystemDisarmSMSUser5_checked>false</btn_Notifications_SystemDisarmSMSUser5_checked>\n" +
-			"<btn_Notifications_SystemDisarmTELUser1_enabled>false</btn_Notifications_SystemDisarmTELUser1_enabled>\n" +
-			"<btn_Notifications_SystemDisarmTELUser1_checked>false</btn_Notifications_SystemDisarmTELUser1_checked>\n" +
-			"<btn_Notifications_SystemDisarmTELUser2_enabled>false</btn_Notifications_SystemDisarmTELUser2_enabled>\n" +
-			"<btn_Notifications_SystemDisarmTELUser2_checked>false</btn_Notifications_SystemDisarmTELUser2_checked>\n" +
-			"<btn_Notifications_SystemDisarmTELUser3_enabled>false</btn_Notifications_SystemDisarmTELUser3_enabled>\n" +
-			"<btn_Notifications_SystemDisarmTELUser3_checked>false</btn_Notifications_SystemDisarmTELUser3_checked>\n" +
-			"<btn_Notifications_SystemDisarmTELUser4_enabled>false</btn_Notifications_SystemDisarmTELUser4_enabled>\n" +
-			"<btn_Notifications_SystemDisarmTELUser4_checked>false</btn_Notifications_SystemDisarmTELUser4_checked>\n" +
-			"<btn_Notifications_SystemDisarmTELUser5_enabled>false</btn_Notifications_SystemDisarmTELUser5_enabled>\n" +
-			"<btn_Notifications_SystemDisarmTELUser5_checked>false</btn_Notifications_SystemDisarmTELUser5_checked>\n" +
-			"<btn_Notifications_SystemArmingSMSUser1_enabled>false</btn_Notifications_SystemArmingSMSUser1_enabled>\n" +
-			"<btn_Notifications_SystemArmingSMSUser1_checked>false</btn_Notifications_SystemArmingSMSUser1_checked>\n" +
-			"<btn_Notifications_SystemArmingSMSUser2_enabled>false</btn_Notifications_SystemArmingSMSUser2_enabled>\n" +
-			"<btn_Notifications_SystemArmingSMSUser2_checked>false</btn_Notifications_SystemArmingSMSUser2_checked>\n" +
-			"<btn_Notifications_SystemArmingSMSUser3_enabled>false</btn_Notifications_SystemArmingSMSUser3_enabled>\n" +
-			"<btn_Notifications_SystemArmingSMSUser3_checked>false</btn_Notifications_SystemArmingSMSUser3_checked>\n" +
-			"<btn_Notifications_SystemArmingSMSUser4_enabled>false</btn_Notifications_SystemArmingSMSUser4_enabled>\n" +
-			"<btn_Notifications_SystemArmingSMSUser4_checked>false</btn_Notifications_SystemArmingSMSUser4_checked>\n" +
-			"<btn_Notifications_SystemArmingSMSUser5_enabled>false</btn_Notifications_SystemArmingSMSUser5_enabled>\n" +
-			"<btn_Notifications_SystemArmingSMSUser5_checked>false</btn_Notifications_SystemArmingSMSUser5_checked>\n" +
-			"<btn_Notifications_SystemArmingTELUser1_enabled>false</btn_Notifications_SystemArmingTELUser1_enabled>\n" +
-			"<btn_Notifications_SystemArmingTELUser1_checked>false</btn_Notifications_SystemArmingTELUser1_checked>\n" +
-			"<btn_Notifications_SystemArmingTELUser2_enabled>false</btn_Notifications_SystemArmingTELUser2_enabled>\n" +
-			"<btn_Notifications_SystemArmingTELUser2_checked>false</btn_Notifications_SystemArmingTELUser2_checked>\n" +
-			"<btn_Notifications_SystemArmingTELUser3_enabled>false</btn_Notifications_SystemArmingTELUser3_enabled>\n" +
-			"<btn_Notifications_SystemArmingTELUser3_checked>false</btn_Notifications_SystemArmingTELUser3_checked>\n" +
-			"<btn_Notifications_SystemArmingTELUser4_enabled>false</btn_Notifications_SystemArmingTELUser4_enabled>\n" +
-			"<btn_Notifications_SystemArmingTELUser4_checked>false</btn_Notifications_SystemArmingTELUser4_checked>\n" +
-			"<btn_Notifications_SystemArmingTELUser5_enabled>false</btn_Notifications_SystemArmingTELUser5_enabled>\n" +
-			"<btn_Notifications_SystemArmingTELUser5_checked>false</btn_Notifications_SystemArmingTELUser5_checked>\n" +
-			"<cb_CAN_SystArmDisarm_enabled>true</cb_CAN_SystArmDisarm_enabled>\n" +
-			"<cb_CAN_SystArmDisarm_checked>false</cb_CAN_SystArmDisarm_checked>\n" +
-			"<spin_CAN_SystArmDisarm_enabled>false</spin_CAN_SystArmDisarm_enabled>\n" +
-			"<spin_CAN_SystArmDisarm_value>1</spin_CAN_SystArmDisarm_value>\n" +
-			"<cb_CAN_Ignition_enabled>true</cb_CAN_Ignition_enabled>\n" +
-			"<cb_CAN_Ignition_checked>false</cb_CAN_Ignition_checked>\n" +
-			"<spin_CAN_Ignition_enabled>false</spin_CAN_Ignition_enabled>\n" +
-			"<spin_CAN_Ignition_value>1</spin_CAN_Ignition_value>\n" +
-			"<cb_CAN_DriveControl_enabled>true</cb_CAN_DriveControl_enabled>\n" +
-			"<cb_CAN_DriveControl_checked>false</cb_CAN_DriveControl_checked>\n" +
-			"<spin_CAN_DriveControl_enabled>false</spin_CAN_DriveControl_enabled>\n" +
-			"<spin_CAN_DriveControl_value>1</spin_CAN_DriveControl_value>\n" +
-			"<cb_CAN_ComfortSignal_enabled>true</cb_CAN_ComfortSignal_enabled>\n" +
-			"<cb_CAN_ComfortSignal_checked>false</cb_CAN_ComfortSignal_checked>\n" +
-			"<spin_CAN_ComfortSignal_enabled>false</spin_CAN_ComfortSignal_enabled>\n" +
-			"<spin_CAN_ComfortSignal_value>1</spin_CAN_ComfortSignal_value>\n" +
-			"<cb_CAN_ManagingStaffSecuritySystem_enabled>true</cb_CAN_ManagingStaffSecuritySystem_enabled>\n" +
-			"<cb_CAN_ManagingStaffSecuritySystem_checked>false</cb_CAN_ManagingStaffSecuritySystem_checked>\n" +
-			"<spin_CAN_ManagingStaffSecuritySystem_enabled>false</spin_CAN_ManagingStaffSecuritySystem_enabled>\n" +
-			"<spin_CAN_ManagingStaffSecuritySystem_value>1</spin_CAN_ManagingStaffSecuritySystem_value>\n" +
-			"<et_TextSMS_TextSMS_enabled>false</et_TextSMS_TextSMS_enabled>\n" +
-			"<et_TextSMS_TextSMS_value>PIN:0000 IN1 - 1 2 1 1 IN2 - 1 1 1 1 IN3 - 1 4 1 1 IN4 - 1 3 1 1 IN5 - 1 4 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 \n" +
-			"\n" +
-			"PIN:0000 IN8 + 1 0 1 1 OUT1 1 OUT2 13 OUT3 14 OUT4 4 OUT5 5 OUT6 6 \n" +
-			"\n" +
-			"</et_TextSMS_TextSMS_value>\n" +
-			"<et_PhoneForSMS_enabled>true</et_PhoneForSMS_enabled>\n" +
-			"<et_PhoneForSMS_value></et_PhoneForSMS_value>";
-	public static final String FUNCTION_306 = "<cb_QueryConfigurations_QueryConfigurations_enabled>true</cb_QueryConfigurations_QueryConfigurations_enabled>\n" +
-			"<cb_QueryConfigurations_QueryConfigurations_checked>false</cb_QueryConfigurations_QueryConfigurations_checked>\n" +
-			"<et_QueryConfigurations_PhoneNumber_enabled>false</et_QueryConfigurations_PhoneNumber_enabled>\n" +
-			"<et_QueryConfigurations_PhoneNumber_value></et_QueryConfigurations_PhoneNumber_value>\n" +
-			"<cb_QueryConfigurations_HardwareConfigSyst_enabled>true</cb_QueryConfigurations_HardwareConfigSyst_enabled>\n" +
-			"<cb_QueryConfigurations_HardwareConfigSyst_checked>false</cb_QueryConfigurations_HardwareConfigSyst_checked>\n" +
-			"<cb_QueryConfigurations_UserSystSettings_enabled>true</cb_QueryConfigurations_UserSystSettings_enabled>\n" +
-			"<cb_QueryConfigurations_UserSystSettings_checked>false</cb_QueryConfigurations_UserSystSettings_checked>\n" +
-			"<cb_QueryConfigurations_MonitoringModeSettings_enabled>true</cb_QueryConfigurations_MonitoringModeSettings_enabled>\n" +
-			"<cb_QueryConfigurations_MonitoringModeSettings_checked>false</cb_QueryConfigurations_MonitoringModeSettings_checked>\n" +
-			"<cb_UserSettings_CurrentPIN_enabled>true</cb_UserSettings_CurrentPIN_enabled>\n" +
-			"<cb_UserSettings_CurrentPIN_checked>false</cb_UserSettings_CurrentPIN_checked>\n" +
-			"<et_UserSettings_CurrentPIN_enabled>false</et_UserSettings_CurrentPIN_enabled>\n" +
-			"<et_UserSettings_CurrentPIN_value>0000</et_UserSettings_CurrentPIN_value>\n" +
-			"<cb_PIN_enabled>true</cb_PIN_enabled>\n" +
-			"<cb_PIN_checked>false</cb_PIN_checked>\n" +
-			"<et_PIN_enabled>false</et_PIN_enabled>\n" +
-			"<et_PIN_value>0000</et_PIN_value>\n" +
-			"<cb_BalanceChecking_enabled>true</cb_BalanceChecking_enabled>\n" +
-			"<cb_BalanceChecking_checked>false</cb_BalanceChecking_checked>\n" +
-			"<spinBalanceChecking_enabled>false</spinBalanceChecking_enabled>\n" +
-			"<spinBalanceChecking_value>0</spinBalanceChecking_value>\n" +
-			"<et_UserSettings_BalanceCheckingAnother_enabled>false</et_UserSettings_BalanceCheckingAnother_enabled>\n" +
-			"<et_UserSettings_BalanceCheckingAnother_value></et_UserSettings_BalanceCheckingAnother_value>\n" +
-			"<cbAccBalance_enabled>true</cbAccBalance_enabled>\n" +
-			"<cbAccBalance_checked>false</cbAccBalance_checked>\n" +
-			"<etNumSumPosition_enabled>false</etNumSumPosition_enabled>\n" +
-			"<etNumSumPosition_value>1</etNumSumPosition_value>\n" +
-			"<etCriticalBalance_enabled>false</etCriticalBalance_enabled>\n" +
-			"<etCriticalBalance_value>10</etCriticalBalance_value>\n" +
-			"<etBalanceCheckingFrequency_enabled>false</etBalanceCheckingFrequency_enabled>\n" +
-			"<etBalanceCheckingFrequency_value>24</etBalanceCheckingFrequency_value>\n" +
-			"<cbNumberCallAttempts_enabled>true</cbNumberCallAttempts_enabled>\n" +
-			"<cbNumberCallAttempts_checked>false</cbNumberCallAttempts_checked>\n" +
-			"<etNumberCallAttempts_enabled>false</etNumberCallAttempts_enabled>\n" +
-			"<etNumberCallAttempts_value>1</etNumberCallAttempts_value>\n" +
-			"<cb_UserSettings_Rearm_enabled>true</cb_UserSettings_Rearm_enabled>\n" +
-			"<cb_UserSettings_Rearm_checked>false</cb_UserSettings_Rearm_checked>\n" +
-			"<spin_UserSettings_Rearm_enabled>false</spin_UserSettings_Rearm_enabled>\n" +
-			"<spin_UserSettings_Rearm_value>0</spin_UserSettings_Rearm_value>\n" +
-			"<cbSiren_enabled>true</cbSiren_enabled>\n" +
-			"<cbSiren_checked>false</cbSiren_checked>\n" +
-			"<spinSystemSetUnset_enabled>false</spinSystemSetUnset_enabled>\n" +
-			"<spinSystemSetUnset_value>1</spinSystemSetUnset_value>\n" +
-			"<spinAlarmMode_enabled>false</spinAlarmMode_enabled>\n" +
-			"<spinAlarmMode_value>1</spinAlarmMode_value>\n" +
-			"<cb_UserSettings_AllSensorsDisabled_enabled>true</cb_UserSettings_AllSensorsDisabled_enabled>\n" +
-			"<cb_UserSettings_AllSensorsDisabled_checked>false</cb_UserSettings_AllSensorsDisabled_checked>\n" +
-			"<spinTiltSensor_enabled>false</spinTiltSensor_enabled>\n" +
-			"<spinTiltSensor_value>1</spinTiltSensor_value>\n" +
-			"<cb_AccessPointNameMobOper_enabled>true</cb_AccessPointNameMobOper_enabled>\n" +
-			"<cb_AccessPointNameMobOper_checked>false</cb_AccessPointNameMobOper_checked>\n" +
-			"<spinAccessPointNameMobOper_enabled>false</spinAccessPointNameMobOper_enabled>\n" +
-			"<spinAccessPointNameMobOper_value>0</spinAccessPointNameMobOper_value>\n" +
-			"<et_UserSettings_AccessPointNameMobOper_enabled>false</et_UserSettings_AccessPointNameMobOper_enabled>\n" +
-			"<et_UserSettings_AccessPointNameMobOper_value></et_UserSettings_AccessPointNameMobOper_value>\n" +
-			"<cbSensInSecurityMode_enabled>false</cbSensInSecurityMode_enabled>\n" +
-			"<cbSensInSecurityMode_checked>false</cbSensInSecurityMode_checked>\n" +
-			"<spinSensInSecurityMode_enabled>false</spinSensInSecurityMode_enabled>\n" +
-			"<spinSensInSecurityMode_value>0</spinSensInSecurityMode_value>\n" +
-			"<cbShockSensSettings_enabled>true</cbShockSensSettings_enabled>\n" +
-			"<cbShockSensSettings_checked>false</cbShockSensSettings_checked>\n" +
-			"<cbWarningZoneDisabled_enabled>false</cbWarningZoneDisabled_enabled>\n" +
-			"<cbWarningZoneDisabled_checked>false</cbWarningZoneDisabled_checked>\n" +
-			"<sbWarningTrashold_enabled>false</sbWarningTrashold_enabled>\n" +
-			"<sbWarningTrashold_value>82</sbWarningTrashold_value>\n" +
-			"<etWarningTrashold_enabled>false</etWarningTrashold_enabled>\n" +
-			"<etWarningTrashold_value>18</etWarningTrashold_value>\n" +
-			"<cbAlarmZoneDisabled_enabled>false</cbAlarmZoneDisabled_enabled>\n" +
-			"<cbAlarmZoneDisabled_checked>false</cbAlarmZoneDisabled_checked>\n" +
-			"<sbAlarmTrashold_enabled>false</sbAlarmTrashold_enabled>\n" +
-			"<sbAlarmTrashold_value>68</sbAlarmTrashold_value>\n" +
-			"<etAlarmTrashold_enabled>false</etAlarmTrashold_enabled>\n" +
-			"<etAlarmTrashold_value>32</etAlarmTrashold_value>\n" +
-			"<cbTiltSensor_enabled>true</cbTiltSensor_enabled>\n" +
-			"<cbTiltSensor_checked>false</cbTiltSensor_checked>\n" +
-			"<cb_UserSettings_TiltSensorDisabled_enabled>false</cb_UserSettings_TiltSensorDisabled_enabled>\n" +
-			"<cb_UserSettings_TiltSensorDisabled_checked>true</cb_UserSettings_TiltSensorDisabled_checked>\n" +
-			"<sbTiltSensor_enabled>false</sbTiltSensor_enabled>\n" +
-			"<sbTiltSensor_value>8</sbTiltSensor_value>\n" +
-			"<etTiltSensor_enabled>false</etTiltSensor_enabled>\n" +
-			"<etTiltSensor_value>1</etTiltSensor_value>\n" +
-			"<cbTiltSensorInArmMode_enabled>false</cbTiltSensorInArmMode_enabled>\n" +
-			"<cbTiltSensorInArmMode_value>false</cbTiltSensorInArmMode_value>\n" +
-			"<cbMonitoringSettings_enabled>true</cbMonitoringSettings_enabled>\n" +
-			"<cbMonitoringSettings_checked>false</cbMonitoringSettings_checked>\n" +
-			"<spinMonitoringSettings_enabled>false</spinMonitoringSettings_enabled>\n" +
-			"<spinMonitoringSettings_value>0</spinMonitoringSettings_value>\n" +
-			"<cbDisarmingSystem_enabled>true</cbDisarmingSystem_enabled>\n" +
-			"<cbDisarmingSystem_checked>false</cbDisarmingSystem_checked>\n" +
-			"<spinDisarmingSystem_enabled>false</spinDisarmingSystem_enabled>\n" +
-			"<spinDisarmingSystem_value>0</spinDisarmingSystem_value>\n" +
-			"<cbPhoneSensitivity_enabled>true</cbPhoneSensitivity_enabled>\n" +
-			"<cbPhoneSensitivity_checked>false</cbPhoneSensitivity_checked>\n" +
-			"<cbPhoneSensitivityDisabled_enabled>false</cbPhoneSensitivityDisabled_enabled>\n" +
-			"<cbPhoneSensitivityDisabled_checked>false</cbPhoneSensitivityDisabled_checked>\n" +
-			"<sbPhoneSensitivity_enabled>false</sbPhoneSensitivity_enabled>\n" +
-			"<sbPhoneSensitivity_value>4</sbPhoneSensitivity_value>\n" +
-			"<etPhoneSensitivity_enabled>false</etPhoneSensitivity_enabled>\n" +
-			"<etPhoneSensitivity_value>5</etPhoneSensitivity_value>\n" +
-			"<cbSpeakerVolume_enabled>true</cbSpeakerVolume_enabled>\n" +
-			"<cbSpeakerVolume_checked>false</cbSpeakerVolume_checked>\n" +
-			"<cbSpeakerVolumeDisabled_enabled>false</cbSpeakerVolumeDisabled_enabled>\n" +
-			"<cbSpeakerVolumeDisabled_checked>false</cbSpeakerVolumeDisabled_checked>\n" +
-			"<sbSpeakerVolume_enabled>false</sbSpeakerVolume_enabled>\n" +
-			"<sbSpeakerVolume_value>49</sbSpeakerVolume_value>\n" +
-			"<etSpeakerVolume_enabled>false</etSpeakerVolume_enabled>\n" +
-			"<etSpeakerVolume_value>50</etSpeakerVolume_value>\n" +
-			"<cbLabelSettings_enabled>true</cbLabelSettings_enabled>\n" +
-			"<cbLabelSettings_checked>false</cbLabelSettings_checked>\n" +
-			"<cbLabelSettingsDisabled_enabled>false</cbLabelSettingsDisabled_enabled>\n" +
-			"<cbLabelSettingsDisabled_checked>false</cbLabelSettingsDisabled_checked>\n" +
-			"<sbLabelSettings_enabled>false</sbLabelSettings_enabled>\n" +
-			"<sbLabelSettings_value>4</sbLabelSettings_value>\n" +
-			"<etLabelSettings_enabled>false</etLabelSettings_enabled>\n" +
-			"<etLabelSettings_value>5</etLabelSettings_value>\n" +
-			"<cbSMSMonitoringArming_enabled>true</cbSMSMonitoringArming_enabled>\n" +
-			"<cbSMSMonitoringArming_checked>false</cbSMSMonitoringArming_checked>\n" +
-			"<spinSMSMonitoringArming_enabled>false</spinSMSMonitoringArming_enabled>\n" +
-			"<spinSMSMonitoringArming_value>1</spinSMSMonitoringArming_value>\n" +
-			"<cb_Inputs_IN1_enabled>true</cb_Inputs_IN1_enabled>\n" +
-			"<cb_Inputs_IN1_checked>true</cb_Inputs_IN1_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN1_enabled>true</spin_Inputs_InputFunctionsIN1_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN1_value>0</spin_Inputs_InputFunctionsIN1_value>\n" +
-			"<spin_Inputs_PolarityIN1_enabled>true</spin_Inputs_PolarityIN1_enabled>\n" +
-			"<spin_Inputs_PolarityIN1_value>0</spin_Inputs_PolarityIN1_value>\n" +
-			"<spin_Inputs_InputIsActiveIN1_enabled>true</spin_Inputs_InputIsActiveIN1_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN1_value>0</spin_Inputs_InputIsActiveIN1_value>\n" +
-			"<et_Inputs_MinClosingTimeIN1_enabled>true</et_Inputs_MinClosingTimeIN1_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN1_value>0</et_Inputs_MinClosingTimeIN1_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN1_enabled>true</et_Inputs_MinOpeningTimeIN1_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN1_value>0.5</et_Inputs_MinOpeningTimeIN1_value>\n" +
-			"<cb_Inputs_IN2_enabled>true</cb_Inputs_IN2_enabled>\n" +
-			"<cb_Inputs_IN2_checked>true</cb_Inputs_IN2_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN2_enabled>true</spin_Inputs_InputFunctionsIN2_enabled>\n" +
-			"<spin_Inputs_InputFunctionsIN2_value>1</spin_Inputs_InputFunctionsIN2_value>\n" +
-			"<spin_Inputs_PolarityIN2_enabled>true</spin_Inputs_PolarityIN2_enabled>\n" +
-			"<spin_Inputs_PolarityIN2_value>1</spin_Inputs_PolarityIN2_value>\n" +
-			"<spin_Inputs_InputIsActiveIN2_enabled>true</spin_Inputs_InputIsActiveIN2_enabled>\n" +
-			"<spin_Inputs_InputIsActiveIN2_value>0</spin_Inputs_InputIsActiveIN2_value>\n" +
-			"<et_Inputs_MinClosingTimeIN2_enabled>true</et_Inputs_MinClosingTimeIN2_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN2_value>0.1</et_Inputs_MinClosingTimeIN2_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN2_enabled>true</et_Inputs_MinOpeningTimeIN2_enabled>\n" +
-			"<et_Inputs_MinOpeningTimeIN2_value>0.1</et_Inputs_MinOpeningTimeIN2_value>\n" +
-			"<cb_Inputs_IN3_enabled>true</cb_Inputs_IN3_enabled>\n" +
-			"<cb_Inputs_IN3_checked>true</cb_Inputs_IN3_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN3_enabled>true</spin_Inputs_InputFunctionsIN3_enabled>\n" +
+			"<cb_Inputs_IN3_checked>false</cb_Inputs_IN3_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN3_enabled>false</spin_Inputs_InputFunctionsIN3_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN3_value>0</spin_Inputs_InputFunctionsIN3_value>\n" +
-			"<spin_Inputs_PolarityIN3_enabled>true</spin_Inputs_PolarityIN3_enabled>\n" +
+			"<spin_Inputs_PolarityIN3_enabled>false</spin_Inputs_PolarityIN3_enabled>\n" +
 			"<spin_Inputs_PolarityIN3_value>0</spin_Inputs_PolarityIN3_value>\n" +
-			"<spin_Inputs_InputIsActiveIN3_enabled>true</spin_Inputs_InputIsActiveIN3_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN3_enabled>false</spin_Inputs_InputIsActiveIN3_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN3_value>0</spin_Inputs_InputIsActiveIN3_value>\n" +
-			"<et_Inputs_MinClosingTimeIN3_enabled>true</et_Inputs_MinClosingTimeIN3_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN3_value>0</et_Inputs_MinClosingTimeIN3_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN3_enabled>true</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN3_enabled>false</et_Inputs_MinClosingTimeIN3_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN3_value>0.0</et_Inputs_MinClosingTimeIN3_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN3_enabled>false</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN3_value>0.5</et_Inputs_MinOpeningTimeIN3_value>\n" +
 			"<cb_Inputs_IN4_enabled>true</cb_Inputs_IN4_enabled>\n" +
 			"<cb_Inputs_IN4_checked>true</cb_Inputs_IN4_checked>\n" +
@@ -3796,16 +3198,16 @@ public class TypicalSettingsHolder
 			"<et_Inputs_MinOpeningTimeIN5_enabled>true</et_Inputs_MinOpeningTimeIN5_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN5_value>0.1</et_Inputs_MinOpeningTimeIN5_value>\n" +
 			"<cb_Inputs_IN6_enabled>true</cb_Inputs_IN6_enabled>\n" +
-			"<cb_Inputs_IN6_checked>true</cb_Inputs_IN6_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN6_enabled>true</spin_Inputs_InputFunctionsIN6_enabled>\n" +
+			"<cb_Inputs_IN6_checked>false</cb_Inputs_IN6_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN6_enabled>false</spin_Inputs_InputFunctionsIN6_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN6_value>0</spin_Inputs_InputFunctionsIN6_value>\n" +
-			"<spin_Inputs_PolarityIN6_enabled>true</spin_Inputs_PolarityIN6_enabled>\n" +
+			"<spin_Inputs_PolarityIN6_enabled>false</spin_Inputs_PolarityIN6_enabled>\n" +
 			"<spin_Inputs_PolarityIN6_value>0</spin_Inputs_PolarityIN6_value>\n" +
-			"<spin_Inputs_InputIsActiveIN6_enabled>true</spin_Inputs_InputIsActiveIN6_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN6_enabled>false</spin_Inputs_InputIsActiveIN6_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN6_value>0</spin_Inputs_InputIsActiveIN6_value>\n" +
-			"<et_Inputs_MinClosingTimeIN6_enabled>true</et_Inputs_MinClosingTimeIN6_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN6_enabled>false</et_Inputs_MinClosingTimeIN6_enabled>\n" +
 			"<et_Inputs_MinClosingTimeIN6_value>0.1</et_Inputs_MinClosingTimeIN6_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN6_enabled>true</et_Inputs_MinOpeningTimeIN6_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN6_enabled>false</et_Inputs_MinOpeningTimeIN6_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN6_value>0.1</et_Inputs_MinOpeningTimeIN6_value>\n" +
 			"<cb_Inputs_IN7_enabled>true</cb_Inputs_IN7_enabled>\n" +
 			"<cb_Inputs_IN7_checked>true</cb_Inputs_IN7_checked>\n" +
@@ -3820,16 +3222,16 @@ public class TypicalSettingsHolder
 			"<et_Inputs_MinOpeningTimeIN7_enabled>true</et_Inputs_MinOpeningTimeIN7_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN7_value>0.1</et_Inputs_MinOpeningTimeIN7_value>\n" +
 			"<cb_Inputs_IN8_enabled>true</cb_Inputs_IN8_enabled>\n" +
-			"<cb_Inputs_IN8_checked>true</cb_Inputs_IN8_checked>\n" +
-			"<spin_Inputs_InputFunctionsIN8_enabled>true</spin_Inputs_InputFunctionsIN8_enabled>\n" +
+			"<cb_Inputs_IN8_checked>false</cb_Inputs_IN8_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN8_enabled>false</spin_Inputs_InputFunctionsIN8_enabled>\n" +
 			"<spin_Inputs_InputFunctionsIN8_value>0</spin_Inputs_InputFunctionsIN8_value>\n" +
-			"<spin_Inputs_PolarityIN8_enabled>true</spin_Inputs_PolarityIN8_enabled>\n" +
+			"<spin_Inputs_PolarityIN8_enabled>false</spin_Inputs_PolarityIN8_enabled>\n" +
 			"<spin_Inputs_PolarityIN8_value>0</spin_Inputs_PolarityIN8_value>\n" +
-			"<spin_Inputs_InputIsActiveIN8_enabled>true</spin_Inputs_InputIsActiveIN8_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN8_enabled>false</spin_Inputs_InputIsActiveIN8_enabled>\n" +
 			"<spin_Inputs_InputIsActiveIN8_value>0</spin_Inputs_InputIsActiveIN8_value>\n" +
-			"<et_Inputs_MinClosingTimeIN8_enabled>true</et_Inputs_MinClosingTimeIN8_enabled>\n" +
-			"<et_Inputs_MinClosingTimeIN8_value>0</et_Inputs_MinClosingTimeIN8_value>\n" +
-			"<et_Inputs_MinOpeningTimeIN8_enabled>true</et_Inputs_MinOpeningTimeIN8_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN8_enabled>false</et_Inputs_MinClosingTimeIN8_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN8_value>0.0</et_Inputs_MinClosingTimeIN8_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN8_enabled>false</et_Inputs_MinOpeningTimeIN8_enabled>\n" +
 			"<et_Inputs_MinOpeningTimeIN8_value>0.5</et_Inputs_MinOpeningTimeIN8_value>\n" +
 			"<cb_Outputs_OUT1_enabled>true</cb_Outputs_OUT1_enabled>\n" +
 			"<cb_Outputs_OUT1_checked>true</cb_Outputs_OUT1_checked>\n" +
@@ -3838,11 +3240,11 @@ public class TypicalSettingsHolder
 			"<cb_Outputs_OUT2_enabled>true</cb_Outputs_OUT2_enabled>\n" +
 			"<cb_Outputs_OUT2_checked>true</cb_Outputs_OUT2_checked>\n" +
 			"<spin_Outputs_OutputFunctionsOUT2_enabled>true</spin_Outputs_OutputFunctionsOUT2_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT2_value>6</spin_Outputs_OutputFunctionsOUT2_value>\n" +
+			"<spin_Outputs_OutputFunctionsOUT2_value>1</spin_Outputs_OutputFunctionsOUT2_value>\n" +
 			"<cb_Outputs_OUT3_enabled>true</cb_Outputs_OUT3_enabled>\n" +
 			"<cb_Outputs_OUT3_checked>true</cb_Outputs_OUT3_checked>\n" +
 			"<spin_Outputs_OutputFunctionsOUT3_enabled>true</spin_Outputs_OutputFunctionsOUT3_enabled>\n" +
-			"<spin_Outputs_OutputFunctionsOUT3_value>13</spin_Outputs_OutputFunctionsOUT3_value>\n" +
+			"<spin_Outputs_OutputFunctionsOUT3_value>2</spin_Outputs_OutputFunctionsOUT3_value>\n" +
 			"<cb_Outputs_OUT4_enabled>true</cb_Outputs_OUT4_enabled>\n" +
 			"<cb_Outputs_OUT4_checked>true</cb_Outputs_OUT4_checked>\n" +
 			"<spin_Outputs_OutputFunctionsOUT4_enabled>true</spin_Outputs_OutputFunctionsOUT4_enabled>\n" +
@@ -3858,7 +3260,7 @@ public class TypicalSettingsHolder
 			"<cb_UTC_UniversalChannel1_enabled>true</cb_UTC_UniversalChannel1_enabled>\n" +
 			"<cb_UTC_UniversalChannel1_checked>true</cb_UTC_UniversalChannel1_checked>\n" +
 			"<cb_UTC_ArmingUC1_enabled>true</cb_UTC_ArmingUC1_enabled>\n" +
-			"<cb_UTC_ArmingUC1_chedked>false</cb_UTC_ArmingUC1_chedked>\n" +
+			"<cb_UTC_ArmingUC1_chedked>true</cb_UTC_ArmingUC1_chedked>\n" +
 			"<cb_UTC_SysDisarmUC1_enabled>true</cb_UTC_SysDisarmUC1_enabled>\n" +
 			"<cb_UTC_SysDisarmUC1_checked>false</cb_UTC_SysDisarmUC1_checked>\n" +
 			"<cb_UTC_IgnitionSwitchOnUC1_enabled>true</cb_UTC_IgnitionSwitchOnUC1_enabled>\n" +
@@ -3866,10 +3268,10 @@ public class TypicalSettingsHolder
 			"<cb_UTC_IgnitiOffSwitchOffUC1_enabled>true</cb_UTC_IgnitiOffSwitchOffUC1_enabled>\n" +
 			"<cb_UTC_IgnitiOffSwitchOffUC1_checked>false</cb_UTC_IgnitiOffSwitchOffUC1_checked>\n" +
 			"<cb_UTC_CommandFromPhoneUC1_enabled>true</cb_UTC_CommandFromPhoneUC1_enabled>\n" +
-			"<cb_UTC_CommandFromPhoneUC1_checked>true</cb_UTC_CommandFromPhoneUC1_checked>\n" +
-			"<et_UTC_Arming_DelayUC1_enabled>false</et_UTC_Arming_DelayUC1_enabled>\n" +
-			"<et_UTC_Arming_DelayUC1_value>0</et_UTC_Arming_DelayUC1_value>\n" +
-			"<et_UTC_Arming_OperationTimeUC1_enabled>false</et_UTC_Arming_OperationTimeUC1_enabled>\n" +
+			"<cb_UTC_CommandFromPhoneUC1_checked>false</cb_UTC_CommandFromPhoneUC1_checked>\n" +
+			"<et_UTC_Arming_DelayUC1_enabled>true</et_UTC_Arming_DelayUC1_enabled>\n" +
+			"<et_UTC_Arming_DelayUC1_value>1</et_UTC_Arming_DelayUC1_value>\n" +
+			"<et_UTC_Arming_OperationTimeUC1_enabled>true</et_UTC_Arming_OperationTimeUC1_enabled>\n" +
 			"<et_UTC_Arming_OperationTimeUC1_value>1</et_UTC_Arming_OperationTimeUC1_value>\n" +
 			"<et_UTC_SysDisarm_DelayUC1_enabled>false</et_UTC_SysDisarm_DelayUC1_enabled>\n" +
 			"<et_UTC_SysDisarm_DelayUC1_value>0</et_UTC_SysDisarm_DelayUC1_value>\n" +
@@ -3883,16 +3285,16 @@ public class TypicalSettingsHolder
 			"<et_UTC_IgnitionSwitchOff_DelayUC1_checked>0</et_UTC_IgnitionSwitchOff_DelayUC1_checked>\n" +
 			"<et_UTC_IgnitionSwitchOff_OperationTimeUC1_enabled>false</et_UTC_IgnitionSwitchOff_OperationTimeUC1_enabled>\n" +
 			"<et_UTC_IgnitionSwitchOff_OperationTimeUC1_checked>1</et_UTC_IgnitionSwitchOff_OperationTimeUC1_checked>\n" +
-			"<et_UTC_CommandFromPhone_DelayUC1_enabled>true</et_UTC_CommandFromPhone_DelayUC1_enabled>\n" +
+			"<et_UTC_CommandFromPhone_DelayUC1_enabled>false</et_UTC_CommandFromPhone_DelayUC1_enabled>\n" +
 			"<et_UTC_CommandFromPhone_DelayUC1_value>0</et_UTC_CommandFromPhone_DelayUC1_value>\n" +
-			"<et_UTC_CommandFromPhone_OperationTimeUC1_enabled>true</et_UTC_CommandFromPhone_OperationTimeUC1_enabled>\n" +
+			"<et_UTC_CommandFromPhone_OperationTimeUC1_enabled>false</et_UTC_CommandFromPhone_OperationTimeUC1_enabled>\n" +
 			"<et_UTC_CommandFromPhone_OperationTimeUC1_value>1</et_UTC_CommandFromPhone_OperationTimeUC1_value>\n" +
 			"<cb_UTC_UniversalChannel2_enabled>true</cb_UTC_UniversalChannel2_enabled>\n" +
 			"<cb_UTC_UniversalChannel2_checked>true</cb_UTC_UniversalChannel2_checked>\n" +
 			"<cb_UTC_ArmingUC2_enabled>true</cb_UTC_ArmingUC2_enabled>\n" +
 			"<cb_UTC_ArmingUC2_chedked>false</cb_UTC_ArmingUC2_chedked>\n" +
 			"<cb_UTC_SysDisarmUC2_enabled>true</cb_UTC_SysDisarmUC2_enabled>\n" +
-			"<cb_UTC_SysDisarmUC2_checked>false</cb_UTC_SysDisarmUC2_checked>\n" +
+			"<cb_UTC_SysDisarmUC2_checked>true</cb_UTC_SysDisarmUC2_checked>\n" +
 			"<cb_UTC_IgnitionSwitchOnUC2_enabled>true</cb_UTC_IgnitionSwitchOnUC2_enabled>\n" +
 			"<cb_UTC_IgnitionSwitchOnUC2_checked>false</cb_UTC_IgnitionSwitchOnUC2_checked>\n" +
 			"<cb_UTC_IgnitiOffSwitchOffUC2_enabled>true</cb_UTC_IgnitiOffSwitchOffUC2_enabled>\n" +
@@ -3903,9 +3305,9 @@ public class TypicalSettingsHolder
 			"<et_UTC_Arming_DelayUC2_value>0</et_UTC_Arming_DelayUC2_value>\n" +
 			"<et_UTC_Arming_OperationTimeUC2_enabled>false</et_UTC_Arming_OperationTimeUC2_enabled>\n" +
 			"<et_UTC_Arming_OperationTimeUC2_value>1</et_UTC_Arming_OperationTimeUC2_value>\n" +
-			"<et_UTC_SysDisarm_DelayUC2_enabled>false</et_UTC_SysDisarm_DelayUC2_enabled>\n" +
+			"<et_UTC_SysDisarm_DelayUC2_enabled>true</et_UTC_SysDisarm_DelayUC2_enabled>\n" +
 			"<et_UTC_SysDisarm_DelayUC2_value>0</et_UTC_SysDisarm_DelayUC2_value>\n" +
-			"<et_UTC_SysDisarm_OperationTimeUC2_enabled>false</et_UTC_SysDisarm_OperationTimeUC2_enabled>\n" +
+			"<et_UTC_SysDisarm_OperationTimeUC2_enabled>true</et_UTC_SysDisarm_OperationTimeUC2_enabled>\n" +
 			"<et_UTC_SysDisarm_OperationTimeUC2_value>1</et_UTC_SysDisarm_OperationTimeUC2_value>\n" +
 			"<et_UTC_IgnitionSwitchOn_DelayUC2_enabled>false</et_UTC_IgnitionSwitchOn_DelayUC2_enabled>\n" +
 			"<et_UTC_IgnitionSwitchOn_DelayUC2_checked>0</et_UTC_IgnitionSwitchOn_DelayUC2_checked>\n" +
@@ -4202,9 +3604,601 @@ public class TypicalSettingsHolder
 			"<spin_CAN_ManagingStaffSecuritySystem_enabled>false</spin_CAN_ManagingStaffSecuritySystem_enabled>\n" +
 			"<spin_CAN_ManagingStaffSecuritySystem_value>1</spin_CAN_ManagingStaffSecuritySystem_value>\n" +
 			"<et_TextSMS_TextSMS_enabled>false</et_TextSMS_TextSMS_enabled>\n" +
-			"<et_TextSMS_TextSMS_value>PIN:0000 IN1 + 1 0 0 5 IN2 - 1 1 1 1 IN3 + 1 0 0 5 IN4 - 1 3 1 1 IN5 - 1 4 1 1 IN6 + 1 0 1 1 IN7 - 1 0 1 1 \n" +
+			"<et_TextSMS_TextSMS_value>PIN:0000 IN1 - 1 2 1 1 IN2 - 1 1 1 1 IN4 - 1 3 1 1 IN5 - 1 4 1 1 IN7 - 1 0 1 1 OUT1 1 OUT2 2 OUT3 3 OUT4 4 OUT5 5 \n" +
 			"\n" +
-			"PIN:0000 IN8 + 1 0 0 5 OUT1 1 OUT2 7 OUT3 14 OUT4 4 OUT5 5 OUT6 6 TIMER1 M5 P0 T1; TIMER2 M5 P0 T1; \n" +
+			"PIN:0000 OUT6 6 TIMER1 M1 P1 T1; TIMER2 M2 P0 T1 M5 P0 T1; \n" +
+			"\n" +
+			"</et_TextSMS_TextSMS_value>\n" +
+			"<et_PhoneForSMS_enabled>true</et_PhoneForSMS_enabled>\n" +
+			"<et_PhoneForSMS_value></et_PhoneForSMS_value>";
+	public static final String FUNCTION_306 = "<cb_QueryConfigurations_QueryConfigurations_enabled>true</cb_QueryConfigurations_QueryConfigurations_enabled>\n" +
+			"<cb_QueryConfigurations_QueryConfigurations_checked>false</cb_QueryConfigurations_QueryConfigurations_checked>\n" +
+			"<et_QueryConfigurations_PhoneNumber_enabled>false</et_QueryConfigurations_PhoneNumber_enabled>\n" +
+			"<et_QueryConfigurations_PhoneNumber_value></et_QueryConfigurations_PhoneNumber_value>\n" +
+			"<cb_QueryConfigurations_HardwareConfigSyst_enabled>true</cb_QueryConfigurations_HardwareConfigSyst_enabled>\n" +
+			"<cb_QueryConfigurations_HardwareConfigSyst_checked>false</cb_QueryConfigurations_HardwareConfigSyst_checked>\n" +
+			"<cb_QueryConfigurations_UserSystSettings_enabled>true</cb_QueryConfigurations_UserSystSettings_enabled>\n" +
+			"<cb_QueryConfigurations_UserSystSettings_checked>false</cb_QueryConfigurations_UserSystSettings_checked>\n" +
+			"<cb_QueryConfigurations_MonitoringModeSettings_enabled>true</cb_QueryConfigurations_MonitoringModeSettings_enabled>\n" +
+			"<cb_QueryConfigurations_MonitoringModeSettings_checked>false</cb_QueryConfigurations_MonitoringModeSettings_checked>\n" +
+			"<cb_UserSettings_CurrentPIN_enabled>true</cb_UserSettings_CurrentPIN_enabled>\n" +
+			"<cb_UserSettings_CurrentPIN_checked>false</cb_UserSettings_CurrentPIN_checked>\n" +
+			"<et_UserSettings_CurrentPIN_enabled>false</et_UserSettings_CurrentPIN_enabled>\n" +
+			"<et_UserSettings_CurrentPIN_value>0000</et_UserSettings_CurrentPIN_value>\n" +
+			"<cb_PIN_enabled>true</cb_PIN_enabled>\n" +
+			"<cb_PIN_checked>false</cb_PIN_checked>\n" +
+			"<et_PIN_enabled>false</et_PIN_enabled>\n" +
+			"<et_PIN_value>0000</et_PIN_value>\n" +
+			"<cb_BalanceChecking_enabled>true</cb_BalanceChecking_enabled>\n" +
+			"<cb_BalanceChecking_checked>false</cb_BalanceChecking_checked>\n" +
+			"<spinBalanceChecking_enabled>false</spinBalanceChecking_enabled>\n" +
+			"<spinBalanceChecking_value>0</spinBalanceChecking_value>\n" +
+			"<et_UserSettings_BalanceCheckingAnother_enabled>false</et_UserSettings_BalanceCheckingAnother_enabled>\n" +
+			"<et_UserSettings_BalanceCheckingAnother_value></et_UserSettings_BalanceCheckingAnother_value>\n" +
+			"<cbAccBalance_enabled>true</cbAccBalance_enabled>\n" +
+			"<cbAccBalance_checked>false</cbAccBalance_checked>\n" +
+			"<etNumSumPosition_enabled>false</etNumSumPosition_enabled>\n" +
+			"<etNumSumPosition_value>1</etNumSumPosition_value>\n" +
+			"<etCriticalBalance_enabled>false</etCriticalBalance_enabled>\n" +
+			"<etCriticalBalance_value>10</etCriticalBalance_value>\n" +
+			"<etBalanceCheckingFrequency_enabled>false</etBalanceCheckingFrequency_enabled>\n" +
+			"<etBalanceCheckingFrequency_value>24</etBalanceCheckingFrequency_value>\n" +
+			"<cbNumberCallAttempts_enabled>true</cbNumberCallAttempts_enabled>\n" +
+			"<cbNumberCallAttempts_checked>false</cbNumberCallAttempts_checked>\n" +
+			"<etNumberCallAttempts_enabled>false</etNumberCallAttempts_enabled>\n" +
+			"<etNumberCallAttempts_value>1</etNumberCallAttempts_value>\n" +
+			"<cb_UserSettings_Rearm_enabled>true</cb_UserSettings_Rearm_enabled>\n" +
+			"<cb_UserSettings_Rearm_checked>false</cb_UserSettings_Rearm_checked>\n" +
+			"<spin_UserSettings_Rearm_enabled>false</spin_UserSettings_Rearm_enabled>\n" +
+			"<spin_UserSettings_Rearm_value>0</spin_UserSettings_Rearm_value>\n" +
+			"<cbSiren_enabled>true</cbSiren_enabled>\n" +
+			"<cbSiren_checked>false</cbSiren_checked>\n" +
+			"<spinSystemSetUnset_enabled>false</spinSystemSetUnset_enabled>\n" +
+			"<spinSystemSetUnset_value>1</spinSystemSetUnset_value>\n" +
+			"<spinAlarmMode_enabled>false</spinAlarmMode_enabled>\n" +
+			"<spinAlarmMode_value>1</spinAlarmMode_value>\n" +
+			"<cb_UserSettings_AllSensorsDisabled_enabled>true</cb_UserSettings_AllSensorsDisabled_enabled>\n" +
+			"<cb_UserSettings_AllSensorsDisabled_checked>false</cb_UserSettings_AllSensorsDisabled_checked>\n" +
+			"<spinTiltSensor_enabled>false</spinTiltSensor_enabled>\n" +
+			"<spinTiltSensor_value>1</spinTiltSensor_value>\n" +
+			"<cb_AccessPointNameMobOper_enabled>true</cb_AccessPointNameMobOper_enabled>\n" +
+			"<cb_AccessPointNameMobOper_checked>false</cb_AccessPointNameMobOper_checked>\n" +
+			"<spinAccessPointNameMobOper_enabled>false</spinAccessPointNameMobOper_enabled>\n" +
+			"<spinAccessPointNameMobOper_value>0</spinAccessPointNameMobOper_value>\n" +
+			"<et_UserSettings_AccessPointNameMobOper_enabled>false</et_UserSettings_AccessPointNameMobOper_enabled>\n" +
+			"<et_UserSettings_AccessPointNameMobOper_value></et_UserSettings_AccessPointNameMobOper_value>\n" +
+			"<cbSensInSecurityMode_enabled>false</cbSensInSecurityMode_enabled>\n" +
+			"<cbSensInSecurityMode_checked>false</cbSensInSecurityMode_checked>\n" +
+			"<spinSensInSecurityMode_enabled>false</spinSensInSecurityMode_enabled>\n" +
+			"<spinSensInSecurityMode_value>0</spinSensInSecurityMode_value>\n" +
+			"<cbShockSensSettings_enabled>true</cbShockSensSettings_enabled>\n" +
+			"<cbShockSensSettings_checked>false</cbShockSensSettings_checked>\n" +
+			"<cbWarningZoneDisabled_enabled>false</cbWarningZoneDisabled_enabled>\n" +
+			"<cbWarningZoneDisabled_checked>false</cbWarningZoneDisabled_checked>\n" +
+			"<sbWarningTrashold_enabled>false</sbWarningTrashold_enabled>\n" +
+			"<sbWarningTrashold_value>82</sbWarningTrashold_value>\n" +
+			"<etWarningTrashold_enabled>false</etWarningTrashold_enabled>\n" +
+			"<etWarningTrashold_value>18</etWarningTrashold_value>\n" +
+			"<cbAlarmZoneDisabled_enabled>false</cbAlarmZoneDisabled_enabled>\n" +
+			"<cbAlarmZoneDisabled_checked>false</cbAlarmZoneDisabled_checked>\n" +
+			"<sbAlarmTrashold_enabled>false</sbAlarmTrashold_enabled>\n" +
+			"<sbAlarmTrashold_value>68</sbAlarmTrashold_value>\n" +
+			"<etAlarmTrashold_enabled>false</etAlarmTrashold_enabled>\n" +
+			"<etAlarmTrashold_value>32</etAlarmTrashold_value>\n" +
+			"<cbTiltSensor_enabled>true</cbTiltSensor_enabled>\n" +
+			"<cbTiltSensor_checked>false</cbTiltSensor_checked>\n" +
+			"<cb_UserSettings_TiltSensorDisabled_enabled>false</cb_UserSettings_TiltSensorDisabled_enabled>\n" +
+			"<cb_UserSettings_TiltSensorDisabled_checked>true</cb_UserSettings_TiltSensorDisabled_checked>\n" +
+			"<sbTiltSensor_enabled>false</sbTiltSensor_enabled>\n" +
+			"<sbTiltSensor_value>8</sbTiltSensor_value>\n" +
+			"<etTiltSensor_enabled>false</etTiltSensor_enabled>\n" +
+			"<etTiltSensor_value>1</etTiltSensor_value>\n" +
+			"<cbTiltSensorInArmMode_enabled>false</cbTiltSensorInArmMode_enabled>\n" +
+			"<cbTiltSensorInArmMode_value>false</cbTiltSensorInArmMode_value>\n" +
+			"<cbMonitoringSettings_enabled>true</cbMonitoringSettings_enabled>\n" +
+			"<cbMonitoringSettings_checked>false</cbMonitoringSettings_checked>\n" +
+			"<spinMonitoringSettings_enabled>false</spinMonitoringSettings_enabled>\n" +
+			"<spinMonitoringSettings_value>0</spinMonitoringSettings_value>\n" +
+			"<cbDisarmingSystem_enabled>true</cbDisarmingSystem_enabled>\n" +
+			"<cbDisarmingSystem_checked>false</cbDisarmingSystem_checked>\n" +
+			"<spinDisarmingSystem_enabled>false</spinDisarmingSystem_enabled>\n" +
+			"<spinDisarmingSystem_value>0</spinDisarmingSystem_value>\n" +
+			"<cbPhoneSensitivity_enabled>true</cbPhoneSensitivity_enabled>\n" +
+			"<cbPhoneSensitivity_checked>false</cbPhoneSensitivity_checked>\n" +
+			"<cbPhoneSensitivityDisabled_enabled>false</cbPhoneSensitivityDisabled_enabled>\n" +
+			"<cbPhoneSensitivityDisabled_checked>false</cbPhoneSensitivityDisabled_checked>\n" +
+			"<sbPhoneSensitivity_enabled>false</sbPhoneSensitivity_enabled>\n" +
+			"<sbPhoneSensitivity_value>4</sbPhoneSensitivity_value>\n" +
+			"<etPhoneSensitivity_enabled>false</etPhoneSensitivity_enabled>\n" +
+			"<etPhoneSensitivity_value>5</etPhoneSensitivity_value>\n" +
+			"<cbSpeakerVolume_enabled>true</cbSpeakerVolume_enabled>\n" +
+			"<cbSpeakerVolume_checked>false</cbSpeakerVolume_checked>\n" +
+			"<cbSpeakerVolumeDisabled_enabled>false</cbSpeakerVolumeDisabled_enabled>\n" +
+			"<cbSpeakerVolumeDisabled_checked>false</cbSpeakerVolumeDisabled_checked>\n" +
+			"<sbSpeakerVolume_enabled>false</sbSpeakerVolume_enabled>\n" +
+			"<sbSpeakerVolume_value>49</sbSpeakerVolume_value>\n" +
+			"<etSpeakerVolume_enabled>false</etSpeakerVolume_enabled>\n" +
+			"<etSpeakerVolume_value>50</etSpeakerVolume_value>\n" +
+			"<cbLabelSettings_enabled>true</cbLabelSettings_enabled>\n" +
+			"<cbLabelSettings_checked>false</cbLabelSettings_checked>\n" +
+			"<cbLabelSettingsDisabled_enabled>false</cbLabelSettingsDisabled_enabled>\n" +
+			"<cbLabelSettingsDisabled_checked>false</cbLabelSettingsDisabled_checked>\n" +
+			"<sbLabelSettings_enabled>false</sbLabelSettings_enabled>\n" +
+			"<sbLabelSettings_value>4</sbLabelSettings_value>\n" +
+			"<etLabelSettings_enabled>false</etLabelSettings_enabled>\n" +
+			"<etLabelSettings_value>5</etLabelSettings_value>\n" +
+			"<cbSMSMonitoringArming_enabled>true</cbSMSMonitoringArming_enabled>\n" +
+			"<cbSMSMonitoringArming_checked>false</cbSMSMonitoringArming_checked>\n" +
+			"<spinSMSMonitoringArming_enabled>false</spinSMSMonitoringArming_enabled>\n" +
+			"<spinSMSMonitoringArming_value>1</spinSMSMonitoringArming_value>\n" +
+			"<cb_Inputs_IN1_enabled>true</cb_Inputs_IN1_enabled>\n" +
+			"<cb_Inputs_IN1_checked>true</cb_Inputs_IN1_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN1_enabled>true</spin_Inputs_InputFunctionsIN1_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN1_value>2</spin_Inputs_InputFunctionsIN1_value>\n" +
+			"<spin_Inputs_PolarityIN1_enabled>true</spin_Inputs_PolarityIN1_enabled>\n" +
+			"<spin_Inputs_PolarityIN1_value>1</spin_Inputs_PolarityIN1_value>\n" +
+			"<spin_Inputs_InputIsActiveIN1_enabled>true</spin_Inputs_InputIsActiveIN1_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN1_value>0</spin_Inputs_InputIsActiveIN1_value>\n" +
+			"<et_Inputs_MinClosingTimeIN1_enabled>true</et_Inputs_MinClosingTimeIN1_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN1_value>0.1</et_Inputs_MinClosingTimeIN1_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN1_enabled>true</et_Inputs_MinOpeningTimeIN1_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN1_value>0.1</et_Inputs_MinOpeningTimeIN1_value>\n" +
+			"<cb_Inputs_IN2_enabled>true</cb_Inputs_IN2_enabled>\n" +
+			"<cb_Inputs_IN2_checked>true</cb_Inputs_IN2_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN2_enabled>true</spin_Inputs_InputFunctionsIN2_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN2_value>1</spin_Inputs_InputFunctionsIN2_value>\n" +
+			"<spin_Inputs_PolarityIN2_enabled>true</spin_Inputs_PolarityIN2_enabled>\n" +
+			"<spin_Inputs_PolarityIN2_value>1</spin_Inputs_PolarityIN2_value>\n" +
+			"<spin_Inputs_InputIsActiveIN2_enabled>true</spin_Inputs_InputIsActiveIN2_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN2_value>0</spin_Inputs_InputIsActiveIN2_value>\n" +
+			"<et_Inputs_MinClosingTimeIN2_enabled>true</et_Inputs_MinClosingTimeIN2_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN2_value>0.1</et_Inputs_MinClosingTimeIN2_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN2_enabled>true</et_Inputs_MinOpeningTimeIN2_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN2_value>0.1</et_Inputs_MinOpeningTimeIN2_value>\n" +
+			"<cb_Inputs_IN3_enabled>true</cb_Inputs_IN3_enabled>\n" +
+			"<cb_Inputs_IN3_checked>false</cb_Inputs_IN3_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN3_enabled>false</spin_Inputs_InputFunctionsIN3_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN3_value>0</spin_Inputs_InputFunctionsIN3_value>\n" +
+			"<spin_Inputs_PolarityIN3_enabled>false</spin_Inputs_PolarityIN3_enabled>\n" +
+			"<spin_Inputs_PolarityIN3_value>0</spin_Inputs_PolarityIN3_value>\n" +
+			"<spin_Inputs_InputIsActiveIN3_enabled>false</spin_Inputs_InputIsActiveIN3_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN3_value>0</spin_Inputs_InputIsActiveIN3_value>\n" +
+			"<et_Inputs_MinClosingTimeIN3_enabled>false</et_Inputs_MinClosingTimeIN3_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN3_value>0</et_Inputs_MinClosingTimeIN3_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN3_enabled>false</et_Inputs_MinOpeningTimeIN3_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN3_value>0.5</et_Inputs_MinOpeningTimeIN3_value>\n" +
+			"<cb_Inputs_IN4_enabled>true</cb_Inputs_IN4_enabled>\n" +
+			"<cb_Inputs_IN4_checked>true</cb_Inputs_IN4_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN4_enabled>true</spin_Inputs_InputFunctionsIN4_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN4_value>3</spin_Inputs_InputFunctionsIN4_value>\n" +
+			"<spin_Inputs_PolarityIN4_enabled>true</spin_Inputs_PolarityIN4_enabled>\n" +
+			"<spin_Inputs_PolarityIN4_value>1</spin_Inputs_PolarityIN4_value>\n" +
+			"<spin_Inputs_InputIsActiveIN4_enabled>true</spin_Inputs_InputIsActiveIN4_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN4_value>0</spin_Inputs_InputIsActiveIN4_value>\n" +
+			"<et_Inputs_MinClosingTimeIN4_enabled>true</et_Inputs_MinClosingTimeIN4_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN4_value>0.1</et_Inputs_MinClosingTimeIN4_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN4_enabled>true</et_Inputs_MinOpeningTimeIN4_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN4_value>0.1</et_Inputs_MinOpeningTimeIN4_value>\n" +
+			"<cb_Inputs_IN5_enabled>true</cb_Inputs_IN5_enabled>\n" +
+			"<cb_Inputs_IN5_checked>true</cb_Inputs_IN5_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN5_enabled>true</spin_Inputs_InputFunctionsIN5_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN5_value>0</spin_Inputs_InputFunctionsIN5_value>\n" +
+			"<spin_Inputs_PolarityIN5_enabled>true</spin_Inputs_PolarityIN5_enabled>\n" +
+			"<spin_Inputs_PolarityIN5_value>1</spin_Inputs_PolarityIN5_value>\n" +
+			"<spin_Inputs_InputIsActiveIN5_enabled>true</spin_Inputs_InputIsActiveIN5_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN5_value>0</spin_Inputs_InputIsActiveIN5_value>\n" +
+			"<et_Inputs_MinClosingTimeIN5_enabled>true</et_Inputs_MinClosingTimeIN5_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN5_value>0.1</et_Inputs_MinClosingTimeIN5_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN5_enabled>true</et_Inputs_MinOpeningTimeIN5_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN5_value>0.1</et_Inputs_MinOpeningTimeIN5_value>\n" +
+			"<cb_Inputs_IN6_enabled>true</cb_Inputs_IN6_enabled>\n" +
+			"<cb_Inputs_IN6_checked>false</cb_Inputs_IN6_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN6_enabled>false</spin_Inputs_InputFunctionsIN6_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN6_value>0</spin_Inputs_InputFunctionsIN6_value>\n" +
+			"<spin_Inputs_PolarityIN6_enabled>false</spin_Inputs_PolarityIN6_enabled>\n" +
+			"<spin_Inputs_PolarityIN6_value>0</spin_Inputs_PolarityIN6_value>\n" +
+			"<spin_Inputs_InputIsActiveIN6_enabled>false</spin_Inputs_InputIsActiveIN6_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN6_value>0</spin_Inputs_InputIsActiveIN6_value>\n" +
+			"<et_Inputs_MinClosingTimeIN6_enabled>false</et_Inputs_MinClosingTimeIN6_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN6_value>0.1</et_Inputs_MinClosingTimeIN6_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN6_enabled>false</et_Inputs_MinOpeningTimeIN6_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN6_value>0.1</et_Inputs_MinOpeningTimeIN6_value>\n" +
+			"<cb_Inputs_IN7_enabled>true</cb_Inputs_IN7_enabled>\n" +
+			"<cb_Inputs_IN7_checked>true</cb_Inputs_IN7_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN7_enabled>true</spin_Inputs_InputFunctionsIN7_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN7_value>0</spin_Inputs_InputFunctionsIN7_value>\n" +
+			"<spin_Inputs_PolarityIN7_enabled>true</spin_Inputs_PolarityIN7_enabled>\n" +
+			"<spin_Inputs_PolarityIN7_value>1</spin_Inputs_PolarityIN7_value>\n" +
+			"<spin_Inputs_InputIsActiveIN7_enabled>true</spin_Inputs_InputIsActiveIN7_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN7_value>0</spin_Inputs_InputIsActiveIN7_value>\n" +
+			"<et_Inputs_MinClosingTimeIN7_enabled>true</et_Inputs_MinClosingTimeIN7_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN7_value>0.1</et_Inputs_MinClosingTimeIN7_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN7_enabled>true</et_Inputs_MinOpeningTimeIN7_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN7_value>0.1</et_Inputs_MinOpeningTimeIN7_value>\n" +
+			"<cb_Inputs_IN8_enabled>true</cb_Inputs_IN8_enabled>\n" +
+			"<cb_Inputs_IN8_checked>false</cb_Inputs_IN8_checked>\n" +
+			"<spin_Inputs_InputFunctionsIN8_enabled>false</spin_Inputs_InputFunctionsIN8_enabled>\n" +
+			"<spin_Inputs_InputFunctionsIN8_value>0</spin_Inputs_InputFunctionsIN8_value>\n" +
+			"<spin_Inputs_PolarityIN8_enabled>false</spin_Inputs_PolarityIN8_enabled>\n" +
+			"<spin_Inputs_PolarityIN8_value>0</spin_Inputs_PolarityIN8_value>\n" +
+			"<spin_Inputs_InputIsActiveIN8_enabled>false</spin_Inputs_InputIsActiveIN8_enabled>\n" +
+			"<spin_Inputs_InputIsActiveIN8_value>0</spin_Inputs_InputIsActiveIN8_value>\n" +
+			"<et_Inputs_MinClosingTimeIN8_enabled>false</et_Inputs_MinClosingTimeIN8_enabled>\n" +
+			"<et_Inputs_MinClosingTimeIN8_value>0</et_Inputs_MinClosingTimeIN8_value>\n" +
+			"<et_Inputs_MinOpeningTimeIN8_enabled>false</et_Inputs_MinOpeningTimeIN8_enabled>\n" +
+			"<et_Inputs_MinOpeningTimeIN8_value>0.5</et_Inputs_MinOpeningTimeIN8_value>\n" +
+			"<cb_Outputs_OUT1_enabled>true</cb_Outputs_OUT1_enabled>\n" +
+			"<cb_Outputs_OUT1_checked>true</cb_Outputs_OUT1_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT1_enabled>true</spin_Outputs_OutputFunctionsOUT1_enabled>\n" +
+			"<spin_Outputs_OutputFunctionsOUT1_value>0</spin_Outputs_OutputFunctionsOUT1_value>\n" +
+			"<cb_Outputs_OUT2_enabled>true</cb_Outputs_OUT2_enabled>\n" +
+			"<cb_Outputs_OUT2_checked>true</cb_Outputs_OUT2_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT2_enabled>true</spin_Outputs_OutputFunctionsOUT2_enabled>\n" +
+			"<spin_Outputs_OutputFunctionsOUT2_value>6</spin_Outputs_OutputFunctionsOUT2_value>\n" +
+			"<cb_Outputs_OUT3_enabled>true</cb_Outputs_OUT3_enabled>\n" +
+			"<cb_Outputs_OUT3_checked>true</cb_Outputs_OUT3_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT3_enabled>true</spin_Outputs_OutputFunctionsOUT3_enabled>\n" +
+			"<spin_Outputs_OutputFunctionsOUT3_value>7</spin_Outputs_OutputFunctionsOUT3_value>\n" +
+			"<cb_Outputs_OUT4_enabled>true</cb_Outputs_OUT4_enabled>\n" +
+			"<cb_Outputs_OUT4_checked>true</cb_Outputs_OUT4_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT4_enabled>true</spin_Outputs_OutputFunctionsOUT4_enabled>\n" +
+			"<spin_Outputs_OutputFunctionsOUT4_value>3</spin_Outputs_OutputFunctionsOUT4_value>\n" +
+			"<cb_Outputs_OUT5_enabled>true</cb_Outputs_OUT5_enabled>\n" +
+			"<cb_Outputs_OUT5_checked>false</cb_Outputs_OUT5_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT5_enabled>false</spin_Outputs_OutputFunctionsOUT5_enabled>\n" +
+			"<spin_Outputs_OutputFunctionsOUT5_value>4</spin_Outputs_OutputFunctionsOUT5_value>\n" +
+			"<cb_Outputs_OUT6_enabled>true</cb_Outputs_OUT6_enabled>\n" +
+			"<cb_Outputs_OUT6_checked>true</cb_Outputs_OUT6_checked>\n" +
+			"<spin_Outputs_OutputFunctionsOUT6_enabled>true</spin_Outputs_OutputFunctionsOUT6_enabled>\n" +
+			"<spin_Outputs_OutputFunctionsOUT6_value>5</spin_Outputs_OutputFunctionsOUT6_value>\n" +
+			"<cb_UTC_UniversalChannel1_enabled>true</cb_UTC_UniversalChannel1_enabled>\n" +
+			"<cb_UTC_UniversalChannel1_checked>false</cb_UTC_UniversalChannel1_checked>\n" +
+			"<cb_UTC_ArmingUC1_enabled>false</cb_UTC_ArmingUC1_enabled>\n" +
+			"<cb_UTC_ArmingUC1_chedked>false</cb_UTC_ArmingUC1_chedked>\n" +
+			"<cb_UTC_SysDisarmUC1_enabled>false</cb_UTC_SysDisarmUC1_enabled>\n" +
+			"<cb_UTC_SysDisarmUC1_checked>false</cb_UTC_SysDisarmUC1_checked>\n" +
+			"<cb_UTC_IgnitionSwitchOnUC1_enabled>false</cb_UTC_IgnitionSwitchOnUC1_enabled>\n" +
+			"<cb_UTC_IgnitionSwitchOnUC1_checked>false</cb_UTC_IgnitionSwitchOnUC1_checked>\n" +
+			"<cb_UTC_IgnitiOffSwitchOffUC1_enabled>false</cb_UTC_IgnitiOffSwitchOffUC1_enabled>\n" +
+			"<cb_UTC_IgnitiOffSwitchOffUC1_checked>false</cb_UTC_IgnitiOffSwitchOffUC1_checked>\n" +
+			"<cb_UTC_CommandFromPhoneUC1_enabled>false</cb_UTC_CommandFromPhoneUC1_enabled>\n" +
+			"<cb_UTC_CommandFromPhoneUC1_checked>true</cb_UTC_CommandFromPhoneUC1_checked>\n" +
+			"<et_UTC_Arming_DelayUC1_enabled>false</et_UTC_Arming_DelayUC1_enabled>\n" +
+			"<et_UTC_Arming_DelayUC1_value>0</et_UTC_Arming_DelayUC1_value>\n" +
+			"<et_UTC_Arming_OperationTimeUC1_enabled>false</et_UTC_Arming_OperationTimeUC1_enabled>\n" +
+			"<et_UTC_Arming_OperationTimeUC1_value>1</et_UTC_Arming_OperationTimeUC1_value>\n" +
+			"<et_UTC_SysDisarm_DelayUC1_enabled>false</et_UTC_SysDisarm_DelayUC1_enabled>\n" +
+			"<et_UTC_SysDisarm_DelayUC1_value>0</et_UTC_SysDisarm_DelayUC1_value>\n" +
+			"<et_UTC_SysDisarm_OperationTimeUC1_enabled>false</et_UTC_SysDisarm_OperationTimeUC1_enabled>\n" +
+			"<et_UTC_SysDisarm_OperationTimeUC1_value>1</et_UTC_SysDisarm_OperationTimeUC1_value>\n" +
+			"<et_UTC_IgnitionSwitchOn_DelayUC1_enabled>false</et_UTC_IgnitionSwitchOn_DelayUC1_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOn_DelayUC1_checked>0</et_UTC_IgnitionSwitchOn_DelayUC1_checked>\n" +
+			"<et_UTC_IgnitionSwitchOn_OperationTimeUC1_enabled>false</et_UTC_IgnitionSwitchOn_OperationTimeUC1_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOn_OperationTimeUC1_checked>1</et_UTC_IgnitionSwitchOn_OperationTimeUC1_checked>\n" +
+			"<et_UTC_IgnitionSwitchOff_DelayUC1_enabled>false</et_UTC_IgnitionSwitchOff_DelayUC1_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOff_DelayUC1_checked>0</et_UTC_IgnitionSwitchOff_DelayUC1_checked>\n" +
+			"<et_UTC_IgnitionSwitchOff_OperationTimeUC1_enabled>false</et_UTC_IgnitionSwitchOff_OperationTimeUC1_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOff_OperationTimeUC1_checked>1</et_UTC_IgnitionSwitchOff_OperationTimeUC1_checked>\n" +
+			"<et_UTC_CommandFromPhone_DelayUC1_enabled>false</et_UTC_CommandFromPhone_DelayUC1_enabled>\n" +
+			"<et_UTC_CommandFromPhone_DelayUC1_value>0</et_UTC_CommandFromPhone_DelayUC1_value>\n" +
+			"<et_UTC_CommandFromPhone_OperationTimeUC1_enabled>false</et_UTC_CommandFromPhone_OperationTimeUC1_enabled>\n" +
+			"<et_UTC_CommandFromPhone_OperationTimeUC1_value>1</et_UTC_CommandFromPhone_OperationTimeUC1_value>\n" +
+			"<cb_UTC_UniversalChannel2_enabled>true</cb_UTC_UniversalChannel2_enabled>\n" +
+			"<cb_UTC_UniversalChannel2_checked>false</cb_UTC_UniversalChannel2_checked>\n" +
+			"<cb_UTC_ArmingUC2_enabled>false</cb_UTC_ArmingUC2_enabled>\n" +
+			"<cb_UTC_ArmingUC2_chedked>false</cb_UTC_ArmingUC2_chedked>\n" +
+			"<cb_UTC_SysDisarmUC2_enabled>false</cb_UTC_SysDisarmUC2_enabled>\n" +
+			"<cb_UTC_SysDisarmUC2_checked>false</cb_UTC_SysDisarmUC2_checked>\n" +
+			"<cb_UTC_IgnitionSwitchOnUC2_enabled>false</cb_UTC_IgnitionSwitchOnUC2_enabled>\n" +
+			"<cb_UTC_IgnitionSwitchOnUC2_checked>false</cb_UTC_IgnitionSwitchOnUC2_checked>\n" +
+			"<cb_UTC_IgnitiOffSwitchOffUC2_enabled>false</cb_UTC_IgnitiOffSwitchOffUC2_enabled>\n" +
+			"<cb_UTC_IgnitiOffSwitchOffUC2_checked>false</cb_UTC_IgnitiOffSwitchOffUC2_checked>\n" +
+			"<cb_UTC_CommandFromPhoneUC2_enabled>false</cb_UTC_CommandFromPhoneUC2_enabled>\n" +
+			"<cb_UTC_CommandFromPhoneUC2_checked>true</cb_UTC_CommandFromPhoneUC2_checked>\n" +
+			"<et_UTC_Arming_DelayUC2_enabled>false</et_UTC_Arming_DelayUC2_enabled>\n" +
+			"<et_UTC_Arming_DelayUC2_value>0</et_UTC_Arming_DelayUC2_value>\n" +
+			"<et_UTC_Arming_OperationTimeUC2_enabled>false</et_UTC_Arming_OperationTimeUC2_enabled>\n" +
+			"<et_UTC_Arming_OperationTimeUC2_value>1</et_UTC_Arming_OperationTimeUC2_value>\n" +
+			"<et_UTC_SysDisarm_DelayUC2_enabled>false</et_UTC_SysDisarm_DelayUC2_enabled>\n" +
+			"<et_UTC_SysDisarm_DelayUC2_value>0</et_UTC_SysDisarm_DelayUC2_value>\n" +
+			"<et_UTC_SysDisarm_OperationTimeUC2_enabled>false</et_UTC_SysDisarm_OperationTimeUC2_enabled>\n" +
+			"<et_UTC_SysDisarm_OperationTimeUC2_value>1</et_UTC_SysDisarm_OperationTimeUC2_value>\n" +
+			"<et_UTC_IgnitionSwitchOn_DelayUC2_enabled>false</et_UTC_IgnitionSwitchOn_DelayUC2_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOn_DelayUC2_checked>0</et_UTC_IgnitionSwitchOn_DelayUC2_checked>\n" +
+			"<et_UTC_IgnitionSwitchOn_OperationTimeUC2_enabled>false</et_UTC_IgnitionSwitchOn_OperationTimeUC2_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOn_OperationTimeUC2_checked>1</et_UTC_IgnitionSwitchOn_OperationTimeUC2_checked>\n" +
+			"<et_UTC_IgnitionSwitchOff_DelayUC2_enabled>false</et_UTC_IgnitionSwitchOff_DelayUC2_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOff_DelayUC2_checked>0</et_UTC_IgnitionSwitchOff_DelayUC2_checked>\n" +
+			"<et_UTC_IgnitionSwitchOff_OperationTimeUC2_enabled>false</et_UTC_IgnitionSwitchOff_OperationTimeUC2_enabled>\n" +
+			"<et_UTC_IgnitionSwitchOff_OperationTimeUC2_checked>1</et_UTC_IgnitionSwitchOff_OperationTimeUC2_checked>\n" +
+			"<et_UTC_CommandFromPhone_DelayUC2_enabled>false</et_UTC_CommandFromPhone_DelayUC2_enabled>\n" +
+			"<et_UTC_CommandFromPhone_DelayUC2_value>0</et_UTC_CommandFromPhone_DelayUC2_value>\n" +
+			"<et_UTC_CommandFromPhone_OperationTimeUC2_enabled>false</et_UTC_CommandFromPhone_OperationTimeUC2_enabled>\n" +
+			"<et_UTC_CommandFromPhone_OperationTimeUC2_value>1</et_UTC_CommandFromPhone_OperationTimeUC2_value>\n" +
+			"<cbTurboTimerSettings_enabled>true</cbTurboTimerSettings_enabled>\n" +
+			"<cbTurboTimerSettings_checked>false</cbTurboTimerSettings_checked>\n" +
+			"<et_TurbotimerWorkingTime_enabled>false</et_TurbotimerWorkingTime_enabled>\n" +
+			"<et_TurbotimerWorkingTime_value>0</et_TurbotimerWorkingTime_value>\n" +
+			"<et_IngnTimeLockedEngine_enabled>false</et_IngnTimeLockedEngine_enabled>\n" +
+			"<et_IngnTimeLockedEngine_value>0</et_IngnTimeLockedEngine_value>\n" +
+			"<cbStarttimer_enabled>true</cbStarttimer_enabled>\n" +
+			"<cbStarttimer_checked>false</cbStarttimer_checked>\n" +
+			"<et_Starttimer_enabled>false</et_Starttimer_enabled>\n" +
+			"<et_Starttimer_value>60</et_Starttimer_value>\n" +
+			"<cbArmtimer_enabled>true</cbArmtimer_enabled>\n" +
+			"<cbArmtimer_checked>false</cbArmtimer_checked>\n" +
+			"<et_Armtimer_enabled>false</et_Armtimer_enabled>\n" +
+			"<et_Armtimer_value>15</et_Armtimer_value>\n" +
+			"<cbOutputTimerOnArmDelay_enabled>true</cbOutputTimerOnArmDelay_enabled>\n" +
+			"<cbOutputTimerOnArmDelay_checked>false</cbOutputTimerOnArmDelay_checked>\n" +
+			"<et_UTC_OutputTimerOnArmOperationTime_enabled>false</et_UTC_OutputTimerOnArmOperationTime_enabled>\n" +
+			"<et_UTC_OutputTimerOnArmOperationTime_value>30</et_UTC_OutputTimerOnArmOperationTime_value>\n" +
+			"<et_UTC_OutputTimerOnArmDelay_enabled>false</et_UTC_OutputTimerOnArmDelay_enabled>\n" +
+			"<et_UTC_OutputTimerOnArmDelay_value>3</et_UTC_OutputTimerOnArmDelay_value>\n" +
+			"<cb_UTC_CentralLockTimer13_enabled>true</cb_UTC_CentralLockTimer13_enabled>\n" +
+			"<cb_UTC_CentralLockTimer13_checked>false</cb_UTC_CentralLockTimer13_checked>\n" +
+			"<spin_UTC_LockImpulsCloseCL13_enabled>false</spin_UTC_LockImpulsCloseCL13_enabled>\n" +
+			"<spin_UTC_LockImpulsCloseCL13_value>1</spin_UTC_LockImpulsCloseCL13_value>\n" +
+			"<et_UTC_FirstImpulsLongtime13_enabled>false</et_UTC_FirstImpulsLongtime13_enabled>\n" +
+			"<et_UTC_FirstImpulsLongtime13_value>1</et_UTC_FirstImpulsLongtime13_value>\n" +
+			"<et_UTC_PauseTimeBetwImpulses13_enabled>false</et_UTC_PauseTimeBetwImpulses13_enabled>\n" +
+			"<et_UTC_PauseTimeBetwImpulses13_value>0</et_UTC_PauseTimeBetwImpulses13_value>\n" +
+			"<et_UTC_SecondImpulsLongtime13_enabled>false</et_UTC_SecondImpulsLongtime13_enabled>\n" +
+			"<et_UTC_SecondImpulsLongtime13_value>0</et_UTC_SecondImpulsLongtime13_value>\n" +
+			"<et_UTC_PauseTimeAfterIngAndImpStart13_enabled>false</et_UTC_PauseTimeAfterIngAndImpStart13_enabled>\n" +
+			"<et_UTC_PauseTimeAfterIngAndImpStart13_value>8</et_UTC_PauseTimeAfterIngAndImpStart13_value>\n" +
+			"<cb_UTC_CentralLockTimer14_enabled>true</cb_UTC_CentralLockTimer14_enabled>\n" +
+			"<cb_UTC_CentralLockTimer14_checked>false</cb_UTC_CentralLockTimer14_checked>\n" +
+			"<spin_UTC_LockImpulsCloseCL14_enabled>false</spin_UTC_LockImpulsCloseCL14_enabled>\n" +
+			"<spin_UTC_LockImpulsCloseCL14_value>1</spin_UTC_LockImpulsCloseCL14_value>\n" +
+			"<et_UTC_FirstImpulsLongtime14_enabled>false</et_UTC_FirstImpulsLongtime14_enabled>\n" +
+			"<et_UTC_FirstImpulsLongtime14_value>1</et_UTC_FirstImpulsLongtime14_value>\n" +
+			"<et_UTC_PauseTimeBetwImpulses14_enabled>false</et_UTC_PauseTimeBetwImpulses14_enabled>\n" +
+			"<et_UTC_PauseTimeBetwImpulses14_value>0</et_UTC_PauseTimeBetwImpulses14_value>\n" +
+			"<et_UTC_SecondImpulsLongtime14_enabled>false</et_UTC_SecondImpulsLongtime14_enabled>\n" +
+			"<et_UTC_SecondImpulsLongtime14_value>0</et_UTC_SecondImpulsLongtime14_value>\n" +
+			"<cb_Notifications_User1_enabled>true</cb_Notifications_User1_enabled>\n" +
+			"<cb_Notifications_User1_checked>false</cb_Notifications_User1_checked>\n" +
+			"<cb_Notifications_User2_enabled>true</cb_Notifications_User2_enabled>\n" +
+			"<cb_Notifications_User2_checked>false</cb_Notifications_User2_checked>\n" +
+			"<cb_Notifications_User3_enabled>true</cb_Notifications_User3_enabled>\n" +
+			"<cb_Notifications_User3_checked>false</cb_Notifications_User3_checked>\n" +
+			"<cb_Notifications_User4_enabled>true</cb_Notifications_User4_enabled>\n" +
+			"<cb_Notifications_User4_checked>false</cb_Notifications_User4_checked>\n" +
+			"<cb_Notifications_User5_enabled>true</cb_Notifications_User5_enabled>\n" +
+			"<cb_Notifications_User5_checked>false</cb_Notifications_User5_checked>\n" +
+			"<et_Notifications_PhoneNumberUser1_enabled>false</et_Notifications_PhoneNumberUser1_enabled>\n" +
+			"<et_Notifications_PhoneNumberUser1_value></et_Notifications_PhoneNumberUser1_value>\n" +
+			"<et_Notifications_PhoneNumberUser2_enabled>false</et_Notifications_PhoneNumberUser2_enabled>\n" +
+			"<et_Notifications_PhoneNumberUser2_value></et_Notifications_PhoneNumberUser2_value>\n" +
+			"<et_Notifications_PhoneNumberUser3_enabled>false</et_Notifications_PhoneNumberUser3_enabled>\n" +
+			"<et_Notifications_PhoneNumberUser3_value></et_Notifications_PhoneNumberUser3_value>\n" +
+			"<et_Notifications_PhoneNumberUser4_enabled>false</et_Notifications_PhoneNumberUser4_enabled>\n" +
+			"<et_Notifications_PhoneNumberUser4_value></et_Notifications_PhoneNumberUser4_value>\n" +
+			"<et_Notifications_PhoneNumberUser5_enabled>false</et_Notifications_PhoneNumberUser5_enabled>\n" +
+			"<et_Notifications_PhoneNumberUser5_value></et_Notifications_PhoneNumberUser5_value>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser1_enabled>false</cb_Notidications_AllowNotificationsSMSUser1_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser1_checked>false</cb_Notidications_AllowNotificationsSMSUser1_checked>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser2_enabled>false</cb_Notidications_AllowNotificationsSMSUser2_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser2_checked>false</cb_Notidications_AllowNotificationsSMSUser2_checked>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser3_enabled>false</cb_Notidications_AllowNotificationsSMSUser3_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser3_checked>false</cb_Notidications_AllowNotificationsSMSUser3_checked>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser4_enabled>false</cb_Notidications_AllowNotificationsSMSUser4_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser4_checked>false</cb_Notidications_AllowNotificationsSMSUser4_checked>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser5_enabled>false</cb_Notidications_AllowNotificationsSMSUser5_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsSMSUser5_checked>false</cb_Notidications_AllowNotificationsSMSUser5_checked>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser1_enabled>false</cb_Notidications_AllowNotificationsTELUser1_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser1_checked>false</cb_Notidications_AllowNotificationsTELUser1_checked>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser2_enabled>false</cb_Notidications_AllowNotificationsTELUser2_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser2_checked>false</cb_Notidications_AllowNotificationsTELUser2_checked>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser3_enabled>false</cb_Notidications_AllowNotificationsTELUser3_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser3_checked>false</cb_Notidications_AllowNotificationsTELUser3_checked>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser4_enabled>false</cb_Notidications_AllowNotificationsTELUser4_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser4_checked>false</cb_Notidications_AllowNotificationsTELUser4_checked>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser5_enabled>false</cb_Notidications_AllowNotificationsTELUser5_enabled>\n" +
+			"<cb_Notidications_AllowNotificationsTELUser5_checked>false</cb_Notidications_AllowNotificationsTELUser5_checked>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser1_enabled>false</btn_Notifications_CallBtnPressedSMSUser1_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser1_checked>false</btn_Notifications_CallBtnPressedSMSUser1_checked>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser2_enabled>false</btn_Notifications_CallBtnPressedSMSUser2_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser2_checked>false</btn_Notifications_CallBtnPressedSMSUser2_checked>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser3_enabled>false</btn_Notifications_CallBtnPressedSMSUser3_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser3_checked>false</btn_Notifications_CallBtnPressedSMSUser3_checked>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser4_enabled>false</btn_Notifications_CallBtnPressedSMSUser4_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser4_checked>false</btn_Notifications_CallBtnPressedSMSUser4_checked>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser5_enabled>false</btn_Notifications_CallBtnPressedSMSUser5_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedSMSUser5_checked>false</btn_Notifications_CallBtnPressedSMSUser5_checked>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser1_enabled>false</btn_Notifications_CallBtnPressedTELUser1_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser1_checked>false</btn_Notifications_CallBtnPressedTELUser1_checked>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser2_enabled>false</btn_Notifications_CallBtnPressedTELUser2_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser2_checked>false</btn_Notifications_CallBtnPressedTELUser2_checked>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser3_enabled>false</btn_Notifications_CallBtnPressedTELUser3_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser3_checked>false</btn_Notifications_CallBtnPressedTELUser3_checked>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser4_enabled>false</btn_Notifications_CallBtnPressedTELUser4_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser4_checked>false</btn_Notifications_CallBtnPressedTELUser4_checked>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser5_enabled>false</btn_Notifications_CallBtnPressedTELUser5_enabled>\n" +
+			"<btn_Notifications_CallBtnPressedTELUser5_checked>false</btn_Notifications_CallBtnPressedTELUser5_checked>\n" +
+			"<btn_Notifications_IngineActiveSMSUser1_enabled>false</btn_Notifications_IngineActiveSMSUser1_enabled>\n" +
+			"<btn_Notifications_IngineActiveSMSUser1_checked>false</btn_Notifications_IngineActiveSMSUser1_checked>\n" +
+			"<btn_Notifications_IngineActiveSMSUser2_enabled>false</btn_Notifications_IngineActiveSMSUser2_enabled>\n" +
+			"<btn_Notifications_IngineActiveSMSUser2_checked>false</btn_Notifications_IngineActiveSMSUser2_checked>\n" +
+			"<btn_Notifications_IngineActiveSMSUser3_enabled>false</btn_Notifications_IngineActiveSMSUser3_enabled>\n" +
+			"<btn_Notifications_IngineActiveSMSUser3_checked>false</btn_Notifications_IngineActiveSMSUser3_checked>\n" +
+			"<btn_Notifications_IngineActiveSMSUser4_enabled>false</btn_Notifications_IngineActiveSMSUser4_enabled>\n" +
+			"<btn_Notifications_IngineActiveSMSUser4_checked>false</btn_Notifications_IngineActiveSMSUser4_checked>\n" +
+			"<btn_Notifications_IngineActiveSMSUser5_enabled>false</btn_Notifications_IngineActiveSMSUser5_enabled>\n" +
+			"<btn_Notifications_IngineActiveSMSUser5_checked>false</btn_Notifications_IngineActiveSMSUser5_checked>\n" +
+			"<btn_Notifications_IngineActiveTELUser1_enabled>false</btn_Notifications_IngineActiveTELUser1_enabled>\n" +
+			"<btn_Notifications_IngineActiveTELUser1_checked>false</btn_Notifications_IngineActiveTELUser1_checked>\n" +
+			"<btn_Notifications_IngineActiveTELUser2_enabled>false</btn_Notifications_IngineActiveTELUser2_enabled>\n" +
+			"<btn_Notifications_IngineActiveTELUser2_checked>false</btn_Notifications_IngineActiveTELUser2_checked>\n" +
+			"<btn_Notifications_IngineActiveTELUser3_enabled>false</btn_Notifications_IngineActiveTELUser3_enabled>\n" +
+			"<btn_Notifications_IngineActiveTELUser3_checked>false</btn_Notifications_IngineActiveTELUser3_checked>\n" +
+			"<btn_Notifications_IngineActiveTELUser4_enabled>false</btn_Notifications_IngineActiveTELUser4_enabled>\n" +
+			"<btn_Notifications_IngineActiveTELUser4_checked>false</btn_Notifications_IngineActiveTELUser4_checked>\n" +
+			"<btn_Notifications_IngineActiveTELUser5_enabled>false</btn_Notifications_IngineActiveTELUser5_enabled>\n" +
+			"<btn_Notifications_IngineActiveTELUser5_checked>false</btn_Notifications_IngineActiveTELUser5_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser1_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser1_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser1_checked>false</btn_Notifications_LoadLimitSwitchSMSUser1_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser2_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser2_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser2_checked>false</btn_Notifications_LoadLimitSwitchSMSUser2_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser3_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser3_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser3_checked>false</btn_Notifications_LoadLimitSwitchSMSUser3_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser4_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser4_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser4_checked>false</btn_Notifications_LoadLimitSwitchSMSUser4_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser5_enabled>false</btn_Notifications_LoadLimitSwitchSMSUser5_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchSMSUser5_checked>false</btn_Notifications_LoadLimitSwitchSMSUser5_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser1_enabled>false</btn_Notifications_LoadLimitSwitchTELUser1_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser1_checked>false</btn_Notifications_LoadLimitSwitchTELUser1_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser2_enabled>false</btn_Notifications_LoadLimitSwitchTELUser2_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser2_checked>false</btn_Notifications_LoadLimitSwitchTELUser2_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser3_enabled>false</btn_Notifications_LoadLimitSwitchTELUser3_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser3_checked>false</btn_Notifications_LoadLimitSwitchTELUser3_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser4_enabled>false</btn_Notifications_LoadLimitSwitchTELUser4_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser4_checked>false</btn_Notifications_LoadLimitSwitchTELUser4_checked>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser5_enabled>false</btn_Notifications_LoadLimitSwitchTELUser5_enabled>\n" +
+			"<btn_Notifications_LoadLimitSwitchTELUser5_checked>false</btn_Notifications_LoadLimitSwitchTELUser5_checked>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser1_enabled>false</btn_Notifications_LoadShockSensorSMSUser1_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser1_checked>false</btn_Notifications_LoadShockSensorSMSUser1_checked>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser2_enabled>false</btn_Notifications_LoadShockSensorSMSUser2_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser2_checked>false</btn_Notifications_LoadShockSensorSMSUser2_checked>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser3_enabled>false</btn_Notifications_LoadShockSensorSMSUser3_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser3_checked>false</btn_Notifications_LoadShockSensorSMSUser3_checked>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser4_enabled>false</btn_Notifications_LoadShockSensorSMSUser4_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser4_checked>false</btn_Notifications_LoadShockSensorSMSUser4_checked>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser5_enabled>false</btn_Notifications_LoadShockSensorSMSUser5_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorSMSUser5_checked>false</btn_Notifications_LoadShockSensorSMSUser5_checked>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser1_enabled>false</btn_Notifications_LoadShockSensorTELUser1_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser1_checked>false</btn_Notifications_LoadShockSensorTELUser1_checked>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser2_enabled>false</btn_Notifications_LoadShockSensorTELUser2_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser2_checked>false</btn_Notifications_LoadShockSensorTELUser2_checked>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser3_enabled>false</btn_Notifications_LoadShockSensorTELUser3_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser3_checked>false</btn_Notifications_LoadShockSensorTELUser3_checked>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser4_enabled>false</btn_Notifications_LoadShockSensorTELUser4_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser4_checked>false</btn_Notifications_LoadShockSensorTELUser4_checked>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser5_enabled>false</btn_Notifications_LoadShockSensorTELUser5_enabled>\n" +
+			"<btn_Notifications_LoadShockSensorTELUser5_checked>false</btn_Notifications_LoadShockSensorTELUser5_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser1_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser1_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser1_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser1_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser2_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser2_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser2_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser2_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser3_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser3_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser3_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser3_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser4_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser4_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser4_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser4_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser5_enabled>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser5_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchSMSUser5_checked>false</btn_Notifications_LoadUniversalLimitSwitchSMSUser5_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser1_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser1_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser1_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser1_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser2_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser2_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser2_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser2_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser3_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser3_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser3_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser3_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser4_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser4_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser4_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser4_checked>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser5_enabled>false</btn_Notifications_LoadUniversalLimitSwitchTELUser5_enabled>\n" +
+			"<btn_Notifications_LoadUniversalLimitSwitchTELUser5_checked>false</btn_Notifications_LoadUniversalLimitSwitchTELUser5_checked>\n" +
+			"<btn_Notifications_LowBatterySMSUser1_enabled>false</btn_Notifications_LowBatterySMSUser1_enabled>\n" +
+			"<btn_Notifications_LowBatterySMSUser1_checked>false</btn_Notifications_LowBatterySMSUser1_checked>\n" +
+			"<btn_Notifications_LowBatterySMSUser2_enabled>false</btn_Notifications_LowBatterySMSUser2_enabled>\n" +
+			"<btn_Notifications_LowBatterySMSUser2_checked>false</btn_Notifications_LowBatterySMSUser2_checked>\n" +
+			"<btn_Notifications_LowBatterySMSUser3_enabled>false</btn_Notifications_LowBatterySMSUser3_enabled>\n" +
+			"<btn_Notifications_LowBatterySMSUser3_checked>false</btn_Notifications_LowBatterySMSUser3_checked>\n" +
+			"<btn_Notifications_LowBatterySMSUser4_enabled>false</btn_Notifications_LowBatterySMSUser4_enabled>\n" +
+			"<btn_Notifications_LowBatterySMSUser4_checked>false</btn_Notifications_LowBatterySMSUser4_checked>\n" +
+			"<btn_Notifications_LowBatterySMSUser5_enabled>false</btn_Notifications_LowBatterySMSUser5_enabled>\n" +
+			"<btn_Notifications_LowBatterySMSUser5_checked>false</btn_Notifications_LowBatterySMSUser5_checked>\n" +
+			"<btn_Notifications_LowBatteryTELUser1_enabled>false</btn_Notifications_LowBatteryTELUser1_enabled>\n" +
+			"<btn_Notifications_LowBatteryTELUser1_checked>false</btn_Notifications_LowBatteryTELUser1_checked>\n" +
+			"<btn_Notifications_LowBatteryTELUser2_enabled>false</btn_Notifications_LowBatteryTELUser2_enabled>\n" +
+			"<btn_Notifications_LowBatteryTELUser2_checked>false</btn_Notifications_LowBatteryTELUser2_checked>\n" +
+			"<btn_Notifications_LowBatteryTELUser3_enabled>false</btn_Notifications_LowBatteryTELUser3_enabled>\n" +
+			"<btn_Notifications_LowBatteryTELUser3_checked>false</btn_Notifications_LowBatteryTELUser3_checked>\n" +
+			"<btn_Notifications_LowBatteryTELUser4_enabled>false</btn_Notifications_LowBatteryTELUser4_enabled>\n" +
+			"<btn_Notifications_LowBatteryTELUser4_checked>false</btn_Notifications_LowBatteryTELUser4_checked>\n" +
+			"<btn_Notifications_LowBatteryTELUser5_enabled>false</btn_Notifications_LowBatteryTELUser5_enabled>\n" +
+			"<btn_Notifications_LowBatteryTELUser5_checked>false</btn_Notifications_LowBatteryTELUser5_checked>\n" +
+			"<btn_Notifications_GSM_SMSUser1_enabled>false</btn_Notifications_GSM_SMSUser1_enabled>\n" +
+			"<btn_Notifications_GSM_SMSUser1_checked>false</btn_Notifications_GSM_SMSUser1_checked>\n" +
+			"<btn_Notifications_GSM_SMSUser2_enabled>false</btn_Notifications_GSM_SMSUser2_enabled>\n" +
+			"<btn_Notifications_GSM_SMSUser2_checked>false</btn_Notifications_GSM_SMSUser2_checked>\n" +
+			"<btn_Notifications_GSM_SMSUser3_enabled>false</btn_Notifications_GSM_SMSUser3_enabled>\n" +
+			"<btn_Notifications_GSM_SMSUser3_checked>false</btn_Notifications_GSM_SMSUser3_checked>\n" +
+			"<btn_Notifications_GSM_SMSUser4_enabled>false</btn_Notifications_GSM_SMSUser4_enabled>\n" +
+			"<btn_Notifications_GSM_SMSUser4_checked>false</btn_Notifications_GSM_SMSUser4_checked>\n" +
+			"<btn_Notifications_GSM_SMSUser5_enabled>false</btn_Notifications_GSM_SMSUser5_enabled>\n" +
+			"<btn_Notifications_GSM_SMSUser5_checked>false</btn_Notifications_GSM_SMSUser5_checked>\n" +
+			"<btn_Notifications_GSM_TELUser1_enabled>false</btn_Notifications_GSM_TELUser1_enabled>\n" +
+			"<btn_Notifications_GSM_TELUser1_checked>false</btn_Notifications_GSM_TELUser1_checked>\n" +
+			"<btn_Notifications_GSM_TELUser2_enabled>false</btn_Notifications_GSM_TELUser2_enabled>\n" +
+			"<btn_Notifications_GSM_TELUser2_checked>false</btn_Notifications_GSM_TELUser2_checked>\n" +
+			"<btn_Notifications_GSM_TELUser3_enabled>false</btn_Notifications_GSM_TELUser3_enabled>\n" +
+			"<btn_Notifications_GSM_TELUser3_checked>false</btn_Notifications_GSM_TELUser3_checked>\n" +
+			"<btn_Notifications_GSM_TELUser4_enabled>false</btn_Notifications_GSM_TELUser4_enabled>\n" +
+			"<btn_Notifications_GSM_TELUser4_checked>false</btn_Notifications_GSM_TELUser4_checked>\n" +
+			"<btn_Notifications_GSM_TELUser5_enabled>false</btn_Notifications_GSM_TELUser5_enabled>\n" +
+			"<btn_Notifications_GSM_TELUser5_checked>false</btn_Notifications_GSM_TELUser5_checked>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser1_enabled>false</btn_Notifications_SystemDisarmSMSUser1_enabled>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser1_checked>false</btn_Notifications_SystemDisarmSMSUser1_checked>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser2_enabled>false</btn_Notifications_SystemDisarmSMSUser2_enabled>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser2_checked>false</btn_Notifications_SystemDisarmSMSUser2_checked>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser3_enabled>false</btn_Notifications_SystemDisarmSMSUser3_enabled>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser3_checked>false</btn_Notifications_SystemDisarmSMSUser3_checked>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser4_enabled>false</btn_Notifications_SystemDisarmSMSUser4_enabled>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser4_checked>false</btn_Notifications_SystemDisarmSMSUser4_checked>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser5_enabled>false</btn_Notifications_SystemDisarmSMSUser5_enabled>\n" +
+			"<btn_Notifications_SystemDisarmSMSUser5_checked>false</btn_Notifications_SystemDisarmSMSUser5_checked>\n" +
+			"<btn_Notifications_SystemDisarmTELUser1_enabled>false</btn_Notifications_SystemDisarmTELUser1_enabled>\n" +
+			"<btn_Notifications_SystemDisarmTELUser1_checked>false</btn_Notifications_SystemDisarmTELUser1_checked>\n" +
+			"<btn_Notifications_SystemDisarmTELUser2_enabled>false</btn_Notifications_SystemDisarmTELUser2_enabled>\n" +
+			"<btn_Notifications_SystemDisarmTELUser2_checked>false</btn_Notifications_SystemDisarmTELUser2_checked>\n" +
+			"<btn_Notifications_SystemDisarmTELUser3_enabled>false</btn_Notifications_SystemDisarmTELUser3_enabled>\n" +
+			"<btn_Notifications_SystemDisarmTELUser3_checked>false</btn_Notifications_SystemDisarmTELUser3_checked>\n" +
+			"<btn_Notifications_SystemDisarmTELUser4_enabled>false</btn_Notifications_SystemDisarmTELUser4_enabled>\n" +
+			"<btn_Notifications_SystemDisarmTELUser4_checked>false</btn_Notifications_SystemDisarmTELUser4_checked>\n" +
+			"<btn_Notifications_SystemDisarmTELUser5_enabled>false</btn_Notifications_SystemDisarmTELUser5_enabled>\n" +
+			"<btn_Notifications_SystemDisarmTELUser5_checked>false</btn_Notifications_SystemDisarmTELUser5_checked>\n" +
+			"<btn_Notifications_SystemArmingSMSUser1_enabled>false</btn_Notifications_SystemArmingSMSUser1_enabled>\n" +
+			"<btn_Notifications_SystemArmingSMSUser1_checked>false</btn_Notifications_SystemArmingSMSUser1_checked>\n" +
+			"<btn_Notifications_SystemArmingSMSUser2_enabled>false</btn_Notifications_SystemArmingSMSUser2_enabled>\n" +
+			"<btn_Notifications_SystemArmingSMSUser2_checked>false</btn_Notifications_SystemArmingSMSUser2_checked>\n" +
+			"<btn_Notifications_SystemArmingSMSUser3_enabled>false</btn_Notifications_SystemArmingSMSUser3_enabled>\n" +
+			"<btn_Notifications_SystemArmingSMSUser3_checked>false</btn_Notifications_SystemArmingSMSUser3_checked>\n" +
+			"<btn_Notifications_SystemArmingSMSUser4_enabled>false</btn_Notifications_SystemArmingSMSUser4_enabled>\n" +
+			"<btn_Notifications_SystemArmingSMSUser4_checked>false</btn_Notifications_SystemArmingSMSUser4_checked>\n" +
+			"<btn_Notifications_SystemArmingSMSUser5_enabled>false</btn_Notifications_SystemArmingSMSUser5_enabled>\n" +
+			"<btn_Notifications_SystemArmingSMSUser5_checked>false</btn_Notifications_SystemArmingSMSUser5_checked>\n" +
+			"<btn_Notifications_SystemArmingTELUser1_enabled>false</btn_Notifications_SystemArmingTELUser1_enabled>\n" +
+			"<btn_Notifications_SystemArmingTELUser1_checked>false</btn_Notifications_SystemArmingTELUser1_checked>\n" +
+			"<btn_Notifications_SystemArmingTELUser2_enabled>false</btn_Notifications_SystemArmingTELUser2_enabled>\n" +
+			"<btn_Notifications_SystemArmingTELUser2_checked>false</btn_Notifications_SystemArmingTELUser2_checked>\n" +
+			"<btn_Notifications_SystemArmingTELUser3_enabled>false</btn_Notifications_SystemArmingTELUser3_enabled>\n" +
+			"<btn_Notifications_SystemArmingTELUser3_checked>false</btn_Notifications_SystemArmingTELUser3_checked>\n" +
+			"<btn_Notifications_SystemArmingTELUser4_enabled>false</btn_Notifications_SystemArmingTELUser4_enabled>\n" +
+			"<btn_Notifications_SystemArmingTELUser4_checked>false</btn_Notifications_SystemArmingTELUser4_checked>\n" +
+			"<btn_Notifications_SystemArmingTELUser5_enabled>false</btn_Notifications_SystemArmingTELUser5_enabled>\n" +
+			"<btn_Notifications_SystemArmingTELUser5_checked>false</btn_Notifications_SystemArmingTELUser5_checked>\n" +
+			"<cb_CAN_SystArmDisarm_enabled>true</cb_CAN_SystArmDisarm_enabled>\n" +
+			"<cb_CAN_SystArmDisarm_checked>false</cb_CAN_SystArmDisarm_checked>\n" +
+			"<spin_CAN_SystArmDisarm_enabled>false</spin_CAN_SystArmDisarm_enabled>\n" +
+			"<spin_CAN_SystArmDisarm_value>1</spin_CAN_SystArmDisarm_value>\n" +
+			"<cb_CAN_Ignition_enabled>true</cb_CAN_Ignition_enabled>\n" +
+			"<cb_CAN_Ignition_checked>false</cb_CAN_Ignition_checked>\n" +
+			"<spin_CAN_Ignition_enabled>false</spin_CAN_Ignition_enabled>\n" +
+			"<spin_CAN_Ignition_value>1</spin_CAN_Ignition_value>\n" +
+			"<cb_CAN_DriveControl_enabled>true</cb_CAN_DriveControl_enabled>\n" +
+			"<cb_CAN_DriveControl_checked>false</cb_CAN_DriveControl_checked>\n" +
+			"<spin_CAN_DriveControl_enabled>false</spin_CAN_DriveControl_enabled>\n" +
+			"<spin_CAN_DriveControl_value>1</spin_CAN_DriveControl_value>\n" +
+			"<cb_CAN_ComfortSignal_enabled>true</cb_CAN_ComfortSignal_enabled>\n" +
+			"<cb_CAN_ComfortSignal_checked>false</cb_CAN_ComfortSignal_checked>\n" +
+			"<spin_CAN_ComfortSignal_enabled>false</spin_CAN_ComfortSignal_enabled>\n" +
+			"<spin_CAN_ComfortSignal_value>1</spin_CAN_ComfortSignal_value>\n" +
+			"<cb_CAN_ManagingStaffSecuritySystem_enabled>true</cb_CAN_ManagingStaffSecuritySystem_enabled>\n" +
+			"<cb_CAN_ManagingStaffSecuritySystem_checked>false</cb_CAN_ManagingStaffSecuritySystem_checked>\n" +
+			"<spin_CAN_ManagingStaffSecuritySystem_enabled>false</spin_CAN_ManagingStaffSecuritySystem_enabled>\n" +
+			"<spin_CAN_ManagingStaffSecuritySystem_value>1</spin_CAN_ManagingStaffSecuritySystem_value>\n" +
+			"<et_TextSMS_TextSMS_enabled>false</et_TextSMS_TextSMS_enabled>\n" +
+			"<et_TextSMS_TextSMS_value>PIN:0000 IN1 - 1 2 1 1 IN2 - 1 1 1 1 IN4 - 1 3 1 1 IN5 - 1 0 1 1 IN7 - 1 0 1 1 OUT1 1 OUT2 7 OUT3 8 OUT4 4 OUT6 6 \n" +
 			"\n" +
 			"</et_TextSMS_TextSMS_value>\n" +
 			"<et_PhoneForSMS_enabled>true</et_PhoneForSMS_enabled>\n" +

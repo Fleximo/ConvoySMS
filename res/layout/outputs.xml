@@ -42,7 +42,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Outputs_OutputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Outputs_OutputFunctionsOUT1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Outputs_OutputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Outputs_OutputFunctionsOUT2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Outputs_OutputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Outputs_OutputFunctionsOUT3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Outputs_OutputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Outputs_OutputFunctionsOUT4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -205,7 +205,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Outputs_OutputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Outputs_OutputFunctionsOUT5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -246,7 +246,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Outputs_OutputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Outputs_OutputFunctionsOUT6"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

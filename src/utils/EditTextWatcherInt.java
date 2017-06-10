@@ -53,7 +53,7 @@ public class EditTextWatcherInt implements TextWatcher
 			if(m_seekBar != null)
 				m_seekBar.setProgress(m_maxValue - IntegerValue);
 	    } 
-		catch (NumberFormatException e) 
+		catch (NumberFormatException e)
 	    {
 			value = "";
 			if(m_seekBar != null)

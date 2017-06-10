@@ -1,8 +1,5 @@
 package com.international.group.bat;
 
-import java.util.ArrayList;
-import java.util.Locale;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -13,15 +10,24 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.LinearLayout.LayoutParams;
+import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
 
 
 public class CustomSpinnerPopup extends Activity implements OnClickListener
 {
+	public static final String CUSTOM_SPINNER_POPUP_ACTIVE_ITEM = "com.international.group.bat.CUSTOM_SPINNER_POPUP_ACTIVE_ITEM";
+	public static final String CUSTOM_SPINNER_POPUP_ITEM_VIEW_MAP = "com.international.group.bat.CUSTOM_SPINNER_POPUP_ITEM_VIEW_MAP";
+
+	long m_selected_item_id = 0;
 	ArrayList<String> m_stringList = null;
 	ArrayList<TextView> m_textViews = null;
+	HashMap<Long, Long> mListIdToViewIdMap = null;
 	LinearLayout m_itemsList = null;
 	
 	@Override
@@ -31,9 +37,9 @@ public class CustomSpinnerPopup extends Activity implements OnClickListener
 		setContentView(R.layout.custom_spinner);
 		
 		init();
-		setListeners();
 		setDisplayMetrics();
 
+		//Get String List
 		ArrayList<String> arrayListOutput = getIntent().getStringArrayListExtra(Outputs.SPINNER_OUTPUT);
 		if(arrayListOutput != null)
 			m_stringList = arrayListOutput;
@@ -43,20 +49,35 @@ public class CustomSpinnerPopup extends Activity implements OnClickListener
 		else if (getIntent().getStringArrayListExtra(UniversalTimeChannels.SPINNER_UTC) != null) {
 			m_stringList = getIntent().getStringArrayListExtra(UniversalTimeChannels.SPINNER_UTC);
 		}
+		//Get Item View Map
+		mListIdToViewIdMap = (HashMap<Long, Long>)getIntent().getSerializableExtra(CUSTOM_SPINNER_POPUP_ITEM_VIEW_MAP);
+		//Get Selected Item Id
+		//if(mListIdToViewIdMap != null)
+			//m_selected_item_id = getKeyByValue((int) getIntent().getLongExtra(CUSTOM_SPINNER_POPUP_ACTIVE_ITEM, 0));
+		//else
+			m_selected_item_id = getIntent().getLongExtra(CUSTOM_SPINNER_POPUP_ACTIVE_ITEM, 0);
+
 
 		setLanguage();
 		loadFilesToTheList();
 	}
 	
-	void init()
-	{
+	void init() {
 		m_itemsList = (LinearLayout) findViewById(R.id.m_itemsList);
 		m_textViews = new ArrayList<TextView>();
 	}
-	
-	void setListeners()
-	{
-		
+
+	private int getKeyByValue(int value) {
+		long key =  0;
+
+		for(Map.Entry entry: mListIdToViewIdMap.entrySet()){
+			if(value == (Long) entry.getValue()) {
+				key = (Long) entry.getKey();
+				break;
+			}
+		}
+
+		return (int)key;
 	}
 	
 	private void setDisplayMetrics()
@@ -87,7 +108,10 @@ public class CustomSpinnerPopup extends Activity implements OnClickListener
 			//params.setMargins(myMarginPx, myMarginPx, myMarginPx, myMarginPx);
 			textView.setLayoutParams(params);
 			textView.setTextColor(getResources().getColor(R.color.button_text));
-			textView.setBackgroundColor(getResources().getColor(R.color.background_menu));
+			if(i == m_selected_item_id)
+				textView.setBackgroundColor(getResources().getColor(R.color.selected_background_menu));
+			else
+				textView.setBackgroundColor(getResources().getColor(R.color.background_menu));
 			textView.setPadding(myMarginPx, myMarginPx, myMarginPx, myMarginPx);
 			//textView.setGravity(Gravity.CENTER);
 			textView.setOnClickListener(this);

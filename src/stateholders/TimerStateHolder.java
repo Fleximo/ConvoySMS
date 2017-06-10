@@ -311,7 +311,7 @@ public class TimerStateHolder
 	public boolean getCbCentralLockTimer13Checked() { return cb_UTC_CentralLockTimer13_checked; }
 
 	private boolean spin_UTC_LockImpulsCloseCL13_enabled = false;
-	private int spin_UTC_LockImpulsCloseCL13_value = 1;
+	private int spin_UTC_LockImpulsCloseCL13_value = 0;
 	public void setSpinLockImpulsCloseCL13Enabled(boolean enabled) { spin_UTC_LockImpulsCloseCL13_enabled = enabled; }
 	public void setSpinLockImpulsCloseCL13Value(int value) { spin_UTC_LockImpulsCloseCL13_value = value; }
 	public boolean getSpinLockImpulsCloseCL13Enabled() { return spin_UTC_LockImpulsCloseCL13_enabled; }
@@ -354,7 +354,7 @@ public class TimerStateHolder
 	public boolean getCbCentralLockTimer14Checked() { return cb_UTC_CentralLockTimer14_checked; }
 
 	private boolean spin_UTC_LockImpulsCloseCL14_enabled = false;
-	private int spin_UTC_LockImpulsCloseCL14_value = 1;
+	private int spin_UTC_LockImpulsCloseCL14_value = 0;
 	public void setSpinLockImpulsCloseCL14Enabled(boolean enabled) { spin_UTC_LockImpulsCloseCL14_enabled = enabled; }
 	public void setSpinLockImpulsCloseCL14Value(int value) { spin_UTC_LockImpulsCloseCL14_value = value; }
 	public boolean getSpinLockImpulsCloseCL14Enabled() { return spin_UTC_LockImpulsCloseCL14_enabled; }

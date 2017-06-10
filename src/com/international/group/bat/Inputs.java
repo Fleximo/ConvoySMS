@@ -14,10 +14,10 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 
 import stateholders.InputsStateHolder;
@@ -27,64 +27,64 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 {
 	
 	public static Inputs instance = null;
-	private static Spinner m_activeSpinner = null;
+	private static widgets.CustomSpinner m_activeSpinner = null;
 	public static final String SPINNER_INPUTS = "com.international.group.bat.SPINNER_INPUTS";
 	public static final int RESULT_CODE_SPINNER = 12335;
 	
 	//1) IN1
 	CheckBox cb_Inputs_IN1 = null;
-	Spinner spin_Inputs_InputFunctionsIN1 = null;
-	Spinner spin_Inputs_PolarityIN1 = null;
-	Spinner spin_Inputs_InputIsActiveIN1 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN1 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN1 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN1 = null;
 	EditText et_Inputs_MinClosingTimeIN1 = null;
 	EditText et_Inputs_MinOpeningTimeIN1 = null;
 	//2) IN2
 	CheckBox cb_Inputs_IN2 = null;
-	Spinner spin_Inputs_InputFunctionsIN2 = null;
-	Spinner spin_Inputs_PolarityIN2 = null;
-	Spinner spin_Inputs_InputIsActiveIN2 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN2 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN2 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN2 = null;
 	EditText et_Inputs_MinClosingTimeIN2 = null;
 	EditText et_Inputs_MinOpeningTimeIN2 = null;
 	//3) IN3
 	CheckBox cb_Inputs_IN3 = null;
-	Spinner spin_Inputs_InputFunctionsIN3 = null;
-	Spinner spin_Inputs_PolarityIN3 = null;
-	Spinner spin_Inputs_InputIsActiveIN3 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN3 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN3 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN3 = null;
 	EditText et_Inputs_MinClosingTimeIN3 = null;
 	EditText et_Inputs_MinOpeningTimeIN3 = null;
 	//4) IN4
 	CheckBox cb_Inputs_IN4 = null;
-	Spinner spin_Inputs_InputFunctionsIN4 = null;
-	Spinner spin_Inputs_PolarityIN4 = null;
-	Spinner spin_Inputs_InputIsActiveIN4 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN4 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN4 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN4 = null;
 	EditText et_Inputs_MinClosingTimeIN4 = null;
 	EditText et_Inputs_MinOpeningTimeIN4 = null;
 	//5) IN5
 	CheckBox cb_Inputs_IN5 = null;
-	Spinner spin_Inputs_InputFunctionsIN5 = null;
-	Spinner spin_Inputs_PolarityIN5 = null;
-	Spinner spin_Inputs_InputIsActiveIN5 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN5 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN5 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN5 = null;
 	EditText et_Inputs_MinClosingTimeIN5 = null;
 	EditText et_Inputs_MinOpeningTimeIN5 = null;
 	//6) IN6
 	CheckBox cb_Inputs_IN6 = null;
-	Spinner spin_Inputs_InputFunctionsIN6 = null;
-	Spinner spin_Inputs_PolarityIN6 = null;
-	Spinner spin_Inputs_InputIsActiveIN6 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN6 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN6 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN6 = null;
 	EditText et_Inputs_MinClosingTimeIN6 = null;
 	EditText et_Inputs_MinOpeningTimeIN6 = null;
 	//7) IN7
 	CheckBox cb_Inputs_IN7 = null;
-	Spinner spin_Inputs_InputFunctionsIN7 = null;
-	Spinner spin_Inputs_PolarityIN7 = null;
-	Spinner spin_Inputs_InputIsActiveIN7 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN7 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN7 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN7 = null;
 	EditText et_Inputs_MinClosingTimeIN7 = null;
 	EditText et_Inputs_MinOpeningTimeIN7 = null;
 	//8) IN8
 	CheckBox cb_Inputs_IN8 = null;
-	Spinner spin_Inputs_InputFunctionsIN8 = null;
-	Spinner spin_Inputs_PolarityIN8 = null;
-	Spinner spin_Inputs_InputIsActiveIN8 = null;
+	widgets.CustomSpinner spin_Inputs_InputFunctionsIN8 = null;
+	widgets.CustomSpinner spin_Inputs_PolarityIN8 = null;
+	widgets.CustomSpinner spin_Inputs_InputIsActiveIN8 = null;
 	EditText et_Inputs_MinClosingTimeIN8 = null;
 	EditText et_Inputs_MinOpeningTimeIN8 = null;
 	
@@ -120,6 +120,8 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		restoreState();
 		//Listeners set
 		setListeners();
+		//Set item id to view id map
+		setItemIdToViewIdMap();
 		//update UI
 		updateUI();
 	}
@@ -157,9 +159,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N1 members initialization
 		cb_Inputs_IN1 = (CheckBox) findViewById(R.id.cb_Inputs_IN1);
-		spin_Inputs_InputFunctionsIN1 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN1);
-		spin_Inputs_PolarityIN1 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN1);
-		spin_Inputs_InputIsActiveIN1 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN1);
+		spin_Inputs_InputFunctionsIN1 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN1);
+		spin_Inputs_PolarityIN1 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN1);
+		spin_Inputs_InputIsActiveIN1 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN1);
 		et_Inputs_MinClosingTimeIN1 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN1);
 		et_Inputs_MinOpeningTimeIN1 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN1);
 		
@@ -187,9 +189,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N2 members initialization
 		cb_Inputs_IN2 = (CheckBox) findViewById(R.id.cb_Inputs_IN2);
-		spin_Inputs_InputFunctionsIN2 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN2);
-		spin_Inputs_PolarityIN2 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN2);
-		spin_Inputs_InputIsActiveIN2 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN2);
+		spin_Inputs_InputFunctionsIN2 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN2);
+		spin_Inputs_PolarityIN2 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN2);
+		spin_Inputs_InputIsActiveIN2 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN2);
 		et_Inputs_MinClosingTimeIN2 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN2);
 		et_Inputs_MinOpeningTimeIN2 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN2);
 		
@@ -216,9 +218,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N3 members initialization
 		cb_Inputs_IN3 = (CheckBox) findViewById(R.id.cb_Inputs_IN3);
-		spin_Inputs_InputFunctionsIN3 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN3);
-		spin_Inputs_PolarityIN3 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN3);
-		spin_Inputs_InputIsActiveIN3 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN3);
+		spin_Inputs_InputFunctionsIN3 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN3);
+		spin_Inputs_PolarityIN3 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN3);
+		spin_Inputs_InputIsActiveIN3 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN3);
 		et_Inputs_MinClosingTimeIN3 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN3);
 		et_Inputs_MinOpeningTimeIN3 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN3);
 		
@@ -245,9 +247,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N4 members initialization
 		cb_Inputs_IN4 = (CheckBox) findViewById(R.id.cb_Inputs_IN4);
-		spin_Inputs_InputFunctionsIN4 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN4);
-		spin_Inputs_PolarityIN4 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN4);
-		spin_Inputs_InputIsActiveIN4 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN4);
+		spin_Inputs_InputFunctionsIN4 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN4);
+		spin_Inputs_PolarityIN4 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN4);
+		spin_Inputs_InputIsActiveIN4 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN4);
 		et_Inputs_MinClosingTimeIN4 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN4);
 		et_Inputs_MinOpeningTimeIN4 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN4);
 		
@@ -274,9 +276,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N5 members initialization
 		cb_Inputs_IN5 = (CheckBox) findViewById(R.id.cb_Inputs_IN5);
-		spin_Inputs_InputFunctionsIN5 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN5);
-		spin_Inputs_PolarityIN5 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN5);
-		spin_Inputs_InputIsActiveIN5 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN5);
+		spin_Inputs_InputFunctionsIN5 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN5);
+		spin_Inputs_PolarityIN5 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN5);
+		spin_Inputs_InputIsActiveIN5 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN5);
 		et_Inputs_MinClosingTimeIN5 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN5);
 		et_Inputs_MinOpeningTimeIN5 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN5);
 		
@@ -303,9 +305,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N6 members initialization
 		cb_Inputs_IN6 = (CheckBox) findViewById(R.id.cb_Inputs_IN6);
-		spin_Inputs_InputFunctionsIN6 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN6);
-		spin_Inputs_PolarityIN6 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN6);
-		spin_Inputs_InputIsActiveIN6 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN6);
+		spin_Inputs_InputFunctionsIN6 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN6);
+		spin_Inputs_PolarityIN6 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN6);
+		spin_Inputs_InputIsActiveIN6 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN6);
 		et_Inputs_MinClosingTimeIN6 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN6);
 		et_Inputs_MinOpeningTimeIN6 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN6);
 		
@@ -332,9 +334,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N7 members initialization
 		cb_Inputs_IN7 = (CheckBox) findViewById(R.id.cb_Inputs_IN7);
-		spin_Inputs_InputFunctionsIN7 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN7);
-		spin_Inputs_PolarityIN7 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN7);
-		spin_Inputs_InputIsActiveIN7 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN7);
+		spin_Inputs_InputFunctionsIN7 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN7);
+		spin_Inputs_PolarityIN7 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN7);
+		spin_Inputs_InputIsActiveIN7 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN7);
 		et_Inputs_MinClosingTimeIN7 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN7);
 		et_Inputs_MinOpeningTimeIN7 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN7);
 		
@@ -361,9 +363,9 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//---------------------------------------- INITIALIZATION ------------------------------------
 		//N8 members initialization
 		cb_Inputs_IN8 = (CheckBox) findViewById(R.id.cb_Inputs_IN8);
-		spin_Inputs_InputFunctionsIN8 = (Spinner) findViewById(R.id.spin_Inputs_InputFunctionsIN8);
-		spin_Inputs_PolarityIN8 = (Spinner) findViewById(R.id.spin_Inputs_PolarityIN8);
-		spin_Inputs_InputIsActiveIN8 = (Spinner) findViewById(R.id.spin_Inputs_InputIsActiveIN8);
+		spin_Inputs_InputFunctionsIN8 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputFunctionsIN8);
+		spin_Inputs_PolarityIN8 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_PolarityIN8);
+		spin_Inputs_InputIsActiveIN8 = (widgets.CustomSpinner) findViewById(R.id.spin_Inputs_InputIsActiveIN8);
 		et_Inputs_MinClosingTimeIN8 = (EditText) findViewById(R.id.et_Inputs_MinClosingTimeIN8);
 		et_Inputs_MinOpeningTimeIN8 = (EditText) findViewById(R.id.et_Inputs_MinOpeningTimeIN8);
 		
@@ -478,6 +480,64 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		spin_Inputs_InputFunctionsIN8.setOnTouchListener(this);
 		spin_Inputs_PolarityIN8.setOnTouchListener(this);
 		spin_Inputs_InputIsActiveIN8.setOnTouchListener(this);
+	}
+
+	private void setItemIdToViewIdMap() {
+		//IN2
+		HashMap<Long, Long> mListIdToViewIdMap2 = new HashMap<Long, Long>();
+		mListIdToViewIdMap2.put(0L, 1L);
+		mListIdToViewIdMap2.put(1L, 0L);
+		mListIdToViewIdMap2.put(2L, 2L);
+		mListIdToViewIdMap2.put(3L, 3L);
+		mListIdToViewIdMap2.put(4L, 4L);
+		mListIdToViewIdMap2.put(5L, 5L);
+		mListIdToViewIdMap2.put(6L, 6L);
+		mListIdToViewIdMap2.put(7L, 7L);
+		mListIdToViewIdMap2.put(8L, 8L);
+		mListIdToViewIdMap2.put(9L, 9L);
+		mListIdToViewIdMap2.put(10L, 10L);
+		mListIdToViewIdMap2.put(11L, 11L);
+		mListIdToViewIdMap2.put(12L, 12L);
+		spin_Inputs_InputFunctionsIN2.SetListIdToViewIdMap(mListIdToViewIdMap2);
+		//IN4
+		HashMap<Long, Long> mListIdToViewIdMap4 = new HashMap<Long, Long>();
+		mListIdToViewIdMap4.put(0L, 1L);
+		mListIdToViewIdMap4.put(1L, 2L);
+		mListIdToViewIdMap4.put(2L, 3L);
+		mListIdToViewIdMap4.put(3L, 0L);
+		mListIdToViewIdMap4.put(4L, 4L);
+		mListIdToViewIdMap4.put(5L, 5L);
+		mListIdToViewIdMap4.put(6L, 6L);
+		mListIdToViewIdMap4.put(7L, 7L);
+		mListIdToViewIdMap4.put(8L, 8L);
+		mListIdToViewIdMap4.put(9L, 9L);
+		mListIdToViewIdMap4.put(10L, 10L);
+		mListIdToViewIdMap4.put(11L, 11L);
+		mListIdToViewIdMap4.put(12L, 12L);
+		spin_Inputs_InputFunctionsIN4.SetListIdToViewIdMap(mListIdToViewIdMap4);
+		//IN5
+		HashMap<Long, Long> mListIdToViewIdMap5 = new HashMap<Long, Long>();
+		mListIdToViewIdMap5.put(0L, 1L);
+		mListIdToViewIdMap5.put(1L, 2L);
+		mListIdToViewIdMap5.put(2L, 3L);
+		mListIdToViewIdMap5.put(3L, 4L);
+		mListIdToViewIdMap5.put(4L, 0L);
+		mListIdToViewIdMap5.put(5L, 5L);
+		mListIdToViewIdMap5.put(6L, 6L);
+		mListIdToViewIdMap5.put(7L, 7L);
+		mListIdToViewIdMap5.put(8L, 8L);
+		mListIdToViewIdMap5.put(9L, 9L);
+		mListIdToViewIdMap5.put(10L, 10L);
+		mListIdToViewIdMap5.put(11L, 11L);
+		mListIdToViewIdMap5.put(12L, 12L);
+		spin_Inputs_InputFunctionsIN5.SetListIdToViewIdMap(mListIdToViewIdMap5);
+
+	}
+
+	private void clearIdViewMap() {
+		spin_Inputs_InputFunctionsIN2.SetListIdToViewIdMap(null);
+		spin_Inputs_InputFunctionsIN4.SetListIdToViewIdMap(null);
+		spin_Inputs_InputFunctionsIN5.SetListIdToViewIdMap(null);
 	}
 	
 	private void saveState()
@@ -1154,11 +1214,16 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 		//Save Activity State
 		saveState();
 	}
-	
+
 	@Override
-	protected void onDestroy() 
-	{
+	protected void onDestroy() {
 		super.onDestroy();
+
+		//Clear Id View Map
+		clearIdViewMap();
+
+		//Save Activity State
+		saveState();
 	}
 	
 	@Override
@@ -1571,7 +1636,7 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 
 	@Override
 	public boolean onTouch(View view, MotionEvent motionEvent) {
-		Spinner spinner = (Spinner) view;
+		widgets.CustomSpinner spinner = (widgets.CustomSpinner) view;
 		if (spinner != null && motionEvent.getAction() == MotionEvent.ACTION_UP) {
 			m_activeSpinner = spinner;
 
@@ -1584,6 +1649,8 @@ public class Inputs extends Activity implements OnCheckedChangeListener, OnFocus
 
 			Intent intent = new Intent(this, CustomSpinnerPopup.class);
 			intent.putExtra(SPINNER_INPUTS, listOfItems);
+			intent.putExtra(CustomSpinnerPopup.CUSTOM_SPINNER_POPUP_ACTIVE_ITEM, m_activeSpinner.getSelectedItemId());
+			intent.putExtra(CustomSpinnerPopup.CUSTOM_SPINNER_POPUP_ITEM_VIEW_MAP, m_activeSpinner.GetListIdToViewIdMap());
 			startActivityForResult(intent, RESULT_CODE_SPINNER);
 		}
 

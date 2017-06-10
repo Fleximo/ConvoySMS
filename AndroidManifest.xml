@@ -136,7 +136,7 @@
             android:windowSoftInputMode="stateHidden"
             android:configChanges="locale"> 
         </activity>
-        
+
     </application>
 
 </manifest>

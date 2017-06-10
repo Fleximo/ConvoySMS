@@ -141,6 +141,9 @@
     <string name="str_LabelExit_DisarmingWithoutCL">Постановка на охорону без ЦЗ</string>
     <string name="str_LabelExit_DisarmingWithCL">Постановка на охорону з ЦЗ</string>
 
+    <string name="str_LabelExit_Enabled">Включена</string>
+    <string name="str_LabelExit_Disabled">Виключена</string>
+
     <!-- 4. Rearm -->
     <string name="cb_UserSettings_Rearm">Функція автоматичного повернення на охорону</string>
     <string name="str_UserSettings_Enabled">Виключена</string>

@@ -18,7 +18,7 @@ public class InputsStateHolder
 	public int getSpinInputFunctionsIN1Value() { return spin_Inputs_InputFunctionsIN1_value; }
 	
 	private boolean spin_Inputs_PolarityIN1_enabled = false;
-	private int spin_Inputs_PolarityIN1_value = 1;
+	private int spin_Inputs_PolarityIN1_value = 0;
 	public void setSpinPolarityIN1Enabled(boolean enabled) { spin_Inputs_PolarityIN1_enabled = enabled; }
 	public void setSpinPolarityIN1Value(int value) { spin_Inputs_PolarityIN1_value = value; }
 	public boolean getSpinPolarityIN1Enabled() { return spin_Inputs_PolarityIN1_enabled; }
@@ -104,7 +104,7 @@ public class InputsStateHolder
 	public int getSpinInputFunctionsIN3Value() { return spin_Inputs_InputFunctionsIN3_value; }
 				
 	private boolean spin_Inputs_PolarityIN3_enabled = false;
-	private int spin_Inputs_PolarityIN3_value = 1;
+	private int spin_Inputs_PolarityIN3_value = 0;
 	public void setSpinPolarityIN3Enabled(boolean enabled) { spin_Inputs_PolarityIN3_enabled = enabled; }
 	public void setSpinPolarityIN3Value(int value) { spin_Inputs_PolarityIN3_value = value; }
 	public boolean getSpinPolarityIN3Enabled() { return spin_Inputs_PolarityIN3_enabled; }
@@ -319,7 +319,7 @@ public class InputsStateHolder
 	public int getSpinInputFunctionsIN8Value() { return spin_Inputs_InputFunctionsIN8_value; }
 									
 	private boolean spin_Inputs_PolarityIN8_enabled = false;
-	private int spin_Inputs_PolarityIN8_value = 1;
+	private int spin_Inputs_PolarityIN8_value = 0;
 	public void setSpinPolarityIN8Enabled(boolean enabled) { spin_Inputs_PolarityIN8_enabled = enabled; }
 	public void setSpinPolarityIN8Value(int value) { spin_Inputs_PolarityIN8_value = value; }
 	public boolean getSpinPolarityIN8Enabled() { return spin_Inputs_PolarityIN8_enabled; }

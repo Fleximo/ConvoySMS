@@ -35,8 +35,8 @@
         <item>@string/str_LabelExit_DisarmingWithCL</item>
     </string-array>
     <string-array name = "UserSettings_LabelConfirmFuncDisarming">
-        <item>@string/str_disabled</item>
-        <item>@string/str_enabled</item>
+        <item>@string/str_LabelExit_Disabled</item>
+        <item>@string/str_LabelExit_Enabled</item>
     </string-array>
      <string-array name = "UserSettings_TiltSensor">
         <item>@string/str_UserSettings_TiltSens_AllSensEnabled2</item>

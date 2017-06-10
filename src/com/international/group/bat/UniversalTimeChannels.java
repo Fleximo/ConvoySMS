@@ -487,7 +487,7 @@ public class UniversalTimeChannels extends Activity implements OnCheckedChangeLi
 		//4) STARTTIMER
 		cb_UTC_Starttimer.setOnCheckedChangeListener(this);
 
-		EditTextWatcherInt et_UTC_StarttimerWatcher = new EditTextWatcherInt(et_UTC_Starttimer, null, "60", "0", "255");
+		EditTextWatcherInt et_UTC_StarttimerWatcher = new EditTextWatcherInt(et_UTC_Starttimer, null, "60", "0", "250");
 		et_UTC_Starttimer.addTextChangedListener(et_UTC_StarttimerWatcher);
 		et_UTC_Starttimer.setOnFocusChangeListener(this);
 
@@ -1825,6 +1825,7 @@ public class UniversalTimeChannels extends Activity implements OnCheckedChangeLi
 
 			Intent intent = new Intent(this, CustomSpinnerPopup.class);
 			intent.putExtra(SPINNER_UTC, listOfItems);
+			intent.putExtra(CustomSpinnerPopup.CUSTOM_SPINNER_POPUP_ACTIVE_ITEM, m_activeSpinner.getSelectedItemId());
 			startActivityForResult(intent, RESULT_CODE_SPINNER);
 		}
 

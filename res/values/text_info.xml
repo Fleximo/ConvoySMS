@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="header_Info_text">Convoy SMS-generator v.1.16</string>
+    <string name="header_Info_text">Convoy SMS-generator v.1.21</string>
     <string name="description_Info_text">This software application allows you to configure and program the user settings and hardware security GSM-system CONVOY</string>
 </resources>

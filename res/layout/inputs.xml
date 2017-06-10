@@ -43,7 +43,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -83,7 +83,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -184,7 +184,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -204,7 +204,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -224,7 +224,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -325,7 +325,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -345,7 +345,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -365,7 +365,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -466,7 +466,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -486,7 +486,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -506,7 +506,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -607,7 +607,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -627,7 +627,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -647,7 +647,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -748,7 +748,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -768,7 +768,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -788,7 +788,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -889,7 +889,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -909,7 +909,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -929,7 +929,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -1030,7 +1030,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputFunction"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputFunctionsIN8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -1050,7 +1050,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_Polarity"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_PolarityIN8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -1070,7 +1070,7 @@
                 android:layout_weight="1"
                 android:text="@string/tv_Inputs_InputIsActive"
                 android:textSize="@dimen/text_size" />
-            <Spinner
+            <widgets.CustomSpinner
                 android:id="@+id/spin_Inputs_InputIsActiveIN8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
