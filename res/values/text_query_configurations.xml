@@ -3,6 +3,7 @@
     <string  name="cb_QueryConfigurations_HardwareConfigSystem">Hardware configuration system</string>
     <string  name="cb_QueryConfigurations_UserSystemSettings">User system settings</string>
     <string  name="cb_QueryConfigurations_MonitoringModeSettigs">Monitoring mode settings</string>
+    <string  name="cb_QueryConfigurations_SubscriberNotificationSettings">Subscriber notification settings</string>
     <string  name="tv_QueryConfigurations_Phone">Number for a return SMS: </string>
     
     <string  name="string_QueryConfigurations_HintPhone">+380</string>

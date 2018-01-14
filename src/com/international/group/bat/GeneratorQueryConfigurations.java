@@ -23,6 +23,7 @@ public class GeneratorQueryConfigurations
 		m_generatedMap.put(TextSMS.QUERYCONFIGURATIONS_HARDWARECONFIGSYST, getHardwareConfigSyst());
 		m_generatedMap.put(TextSMS.QUERYCONFIGURATIONS_USERSYSTEMSETTINGS, getUserSystemSettings());
 		m_generatedMap.put(TextSMS.QUERYCONFIGURATIONS_MONITORINGMODESETTINGS, getMonitoringModeSettings());
+		m_generatedMap.put(TextSMS.QUERYCONFIGURATIONS_SUBSCRIBERNOTIFICATIONSETTINGS, getSubscriberNotificationSettings());
 		
 		//return generated map
 		return m_generatedMap;
@@ -67,6 +68,17 @@ public class GeneratorQueryConfigurations
 		if(m_stateholder.getCbMonitoringModeSettingsChecked())
 		{
 			String code = "GPRS? ";
+			return code;
+		}
+		else
+			return "";
+	}
+
+	private String getSubscriberNotificationSettings()
+	{
+		if(m_stateholder.getCbSubscriberNotificationSettingsChecked())
+		{
+			String code = "USER? ";
 			return code;
 		}
 		else

@@ -40,4 +40,12 @@ public class QueryConfigurationStateHolder
 	public void setCbMonitoringModeSettingsChecked(boolean checked) { cb_QueryConfigurations_MonitoringModeSettings_checked = checked; }
 	public boolean getCbMonitoringModeSettingsEnabled() { return cb_QueryConfigurations_MonitoringModeSettings_enabled; }
 	public boolean getCbMonitoringModeSettingsChecked() { return cb_QueryConfigurations_MonitoringModeSettings_checked; }
+
+	//5. Subscriber notification settings
+	private boolean cb_QueryConfigurations_SubscriberNotificationSettings_enabled = true;
+	private boolean cb_QueryConfigurations_SubscriberNotificationSettings_checked = false;
+	public void setCbSubscriberNotificationSettingsEnabled(boolean enabled) { cb_QueryConfigurations_SubscriberNotificationSettings_enabled = enabled; }
+	public void setCbSubscriberNotificationSettingsChecked(boolean checked) { cb_QueryConfigurations_SubscriberNotificationSettings_checked = checked; }
+	public boolean getCbSubscriberNotificationSettingsEnabled() { return cb_QueryConfigurations_SubscriberNotificationSettings_enabled; }
+	public boolean getCbSubscriberNotificationSettingsChecked() { return cb_QueryConfigurations_SubscriberNotificationSettings_checked; }
 }

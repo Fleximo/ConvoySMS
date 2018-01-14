@@ -23,6 +23,7 @@ public class QueryConfiguration extends Activity implements OnCheckedChangeListe
 	private CheckBox cb_QueryConfigurations_HardwareConfigSystem = null;
 	private CheckBox cb_QueryConfigurations_UserSystemSettings = null;
 	private CheckBox cb_QueryConfigurations_MonitoringModeSettings = null;
+	private CheckBox cb_QueryConfigurations_SubscriberNotificationSettings = null;
 	private EditText et_QueryConfigurations_Phone = null;
 	
 	//State holder
@@ -94,6 +95,8 @@ public class QueryConfiguration extends Activity implements OnCheckedChangeListe
 		cb_QueryConfigurations_UserSystemSettings = (CheckBox) findViewById(R.id.cb_QueryConfigurations_UserSystemSettings);
 		//4.Monitoring mode settings
 		cb_QueryConfigurations_MonitoringModeSettings = (CheckBox) findViewById(R.id.cb_QueryConfigurations_MonitoringModeSettings);
+		//5.Subscriber notification settings -->
+		cb_QueryConfigurations_SubscriberNotificationSettings  = (CheckBox) findViewById(R.id.cb_QueryConfigurations_SubscriberNotificationSettings);
 	}
 	
 	private void setListeners()
@@ -123,6 +126,10 @@ public class QueryConfiguration extends Activity implements OnCheckedChangeListe
 		//4. Monitoring mode settings
 		m_stateholder.setCbMonitoringModeSettingsEnabled(cb_QueryConfigurations_MonitoringModeSettings.isEnabled());
 		m_stateholder.setCbMonitoringModeSettingsChecked(cb_QueryConfigurations_MonitoringModeSettings.isChecked());
+
+		//5.Subscriber notification settings
+		m_stateholder.setCbSubscriberNotificationSettingsEnabled(cb_QueryConfigurations_SubscriberNotificationSettings.isEnabled());
+		m_stateholder.setCbSubscriberNotificationSettingsChecked(cb_QueryConfigurations_SubscriberNotificationSettings.isChecked());
 	}
 	
 	private void restoreState()
@@ -146,6 +153,10 @@ public class QueryConfiguration extends Activity implements OnCheckedChangeListe
 			//4. Monitoring mode settings
 			cb_QueryConfigurations_MonitoringModeSettings.setEnabled(m_stateholder.getCbMonitoringModeSettingsEnabled());
 			cb_QueryConfigurations_MonitoringModeSettings.setChecked(m_stateholder.getCbMonitoringModeSettingsChecked());
+
+			//5.Subscriber notification settings
+			cb_QueryConfigurations_SubscriberNotificationSettings.setEnabled(m_stateholder.getCbSubscriberNotificationSettingsEnabled());
+			cb_QueryConfigurations_SubscriberNotificationSettings.setChecked(m_stateholder.getCbSubscriberNotificationSettingsChecked());
 		}
 	}
 	
@@ -168,6 +179,7 @@ public class QueryConfiguration extends Activity implements OnCheckedChangeListe
 		cb_QueryConfigurations_HardwareConfigSystem.setText(R.string.cb_QueryConfigurations_HardwareConfigSystem);
 		cb_QueryConfigurations_UserSystemSettings.setText(R.string.cb_QueryConfigurations_UserSystemSettings);
 		cb_QueryConfigurations_MonitoringModeSettings.setText(R.string.cb_QueryConfigurations_MonitoringModeSettigs);
+		cb_QueryConfigurations_SubscriberNotificationSettings.setText(R.string.cb_QueryConfigurations_SubscriberNotificationSettings);
 	}
 	
 	@Override
