@@ -1,9 +1,10 @@
 buildscript {
     repositories {
         mavenCentral()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 apply plugin: 'com.android.application'
@@ -14,8 +15,16 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 26
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+    }
 
     sourceSets {
         main {
